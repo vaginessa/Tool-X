@@ -1,10 +1,17 @@
-# Tool-X
-Tool-X for termux
+# Introduction
 
+Tool-x is only for termux. In Tool-X almost 40 hacking tools available for termux app
 
-# Install Tool-X in termux
+# installation in termux
+
+apt update
+
 pkg install python
 
 pkg install git
 
-git clone 
+git clone https://github.com/Rajkumrdusad/Tool-X.git
+
+python Tool-X.py
+
+
