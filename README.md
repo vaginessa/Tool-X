@@ -1,11 +1,19 @@
+
+</br>
+
 # Introduction
 
 Tool-x is only for termux. In the Tool-X there are almost 40 hacking tools available for termux app. you can install any tool just a single click. Tool-X is a simple python script. with the help of this script you can install best tools in termux app in android.
 
+</br>
+</br>
 
 # Features
 
 Install any tool in termux by just a single click.
+
+</br>
+</br>
 
 __________________________________________
 __________________________________________
@@ -74,6 +82,8 @@ __________________________________________
 =>
 
 
+</br>
+</br>
 
 
 
@@ -81,6 +91,9 @@ You can install almost 50 tools just a single click.
 
 
 
+</br>
+</br>
+</br>
 
 
 
@@ -106,6 +119,9 @@ cd Tool-X
 python Tool-X.py
 
 
+</br>
+</br>
+</br>
 
 
 
