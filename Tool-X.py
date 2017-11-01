@@ -152,7 +152,7 @@ _________________________________________________
 					elif repo == "y":
 						cmd1 = os.system("chmod +x all.sh")
 						cmd1 = os.system("./all.sh")
-						print ("\033[1;31m\nAll Tools installed !!!\n\033[1;m")
+						print ("\033[1;32m\nAll Tools installed !!!\n\033[1;m")
 
 					else:
 						print ("\033[1;31mSorry, invalid command !!!\033[1;m")
