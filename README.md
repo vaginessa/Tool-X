@@ -38,7 +38,26 @@ Now Tool-X is installed successfully. To run Tool-X Type
 
 cd Tool-X
 
+# To run Tool-X
+
 python2 Tool-X.py
+
+
+
+# Installation in GNURoot Debian
+
+apt update
+apt upgrade
+apt install git
+apt install python
+git clone https://github.com/Rajkumrdusad/Tool-X.git
+
+# To run Tool-X
+
+python Tool-X.py
+
+
+
 
 
 </br>
