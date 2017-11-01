@@ -1,5 +1,0 @@
-apt-get update
-apt-get upgrade
-apt-get install nano
-apt-get install python
-apt-get install python2
