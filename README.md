@@ -3,7 +3,7 @@
 
 # Introduction
 
-Tool-x is only for termux. In the Tool-X there are almost 40 hacking tools available for termux app. you can install any tool just a single click. Tool-X is a simple python script. with the help of this script you can install best tools in termux app in android.
+Tool-x is only for termux and GNURoot Debian Terminal. Tool-X is a automatic tool installer for termux and GNURoot Debian terminal. In the Tool-X there are almost 40 hacking tools available for termux app. you can install any tool just a single click. with the help of this script you can install best tools in termux app in android.
 
 </br>
 </br>
@@ -63,7 +63,9 @@ apt install python
 
 git clone https://github.com/Rajkumrdusad/Tool-X.git
 
+
 </br>
+
 # To run Tool-X
 
 python Tool-X.py
