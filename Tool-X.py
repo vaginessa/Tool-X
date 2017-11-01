@@ -150,8 +150,8 @@ _________________________________________________
 					elif repo == "n":
 						inicio1()
 					elif repo == "y":
-						cmd1 = os.system("chmod +x all.Aex")
-						cmd1 = os.system("./all.Aex")
+						cmd1 = os.system("chmod +x all.sh")
+						cmd1 = os.system("./all.sh")
 						print ("\033[1;31m\nAll Tools installed !!!\n\033[1;m")
 
 					else:
