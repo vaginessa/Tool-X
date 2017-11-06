@@ -22,12 +22,11 @@ cd && cd Gloom-Framework && chmod 777 gloom.py
 cd && cd Gloom-Framework && python2 install.py
 cd && cd Gloom-Framework && pip2 install bs4
 cd && cd Gloom-Framework && pip2 install beautifulsoup
+cd && cd Gloom-Framework && pip install pythonwhois
 cd && cd Gloom-Framework && pip install python whois
 cd && cd Gloom-Framework && yum install sudo
 cd && cd Gloom-Framework && pip install requests
 cd && cd Gloom-Framework && pip install mechanize
-cd && cd Gloom-Framework && chmod gloom.py gloom.py
-cd && cd Gloom-Framework && chmod install.py install.py
 echo "_________________________________________________"
 echo "_________________________________________________"
 echo " "
@@ -36,7 +35,7 @@ echo " [ + ]  Installed successfully !!! "
 echo " [ + ]  To run Gloom-Framework."
 echo " [ + ]  Go to 'Gloom-Framework' folder."
 echo " [ + ]  And type 'python2 gloom.py' "
-echo " [ + ]  Gloom need root access or tsu "
+echo " [ + ]  Gloom need root access or tsu to run."
 echo " "
 echo " "
 echo "_________________________________________________"
