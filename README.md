@@ -9,7 +9,7 @@ Tool-X is a automatic tool installer. In the Tool-X there are almost 70 hacking 
 
 Install any tools by single click. You can install almost 70 tools in termux and GNURoot Debian Terminal.
 
-![Tool-X]( )
+![Tool-X](https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Screenshot_2017-11-06-18-58-11.png)
 
 ![Tool-X]()
 
