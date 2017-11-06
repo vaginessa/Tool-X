@@ -126,8 +126,6 @@ cd && cd Gloom-Framework && pip install python whois
 cd && cd Gloom-Framework && yum install sudo
 cd && cd Gloom-Framework && pip install requests
 cd && cd Gloom-Framework && pip install mechanize
-cd && cd Gloom-Framework && chmod gloom.py gloom.py
-cd && cd Gloom-Framework && chmod install.py install.py
 
 cd && git clone https://github.com/4shadoww/hakkuframework.git
 cd && cd hakkuframework && chmod +x hakku
