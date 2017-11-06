@@ -1,0 +1,30 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt update -y && apt-get update -y
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && pkg install -y python2
+cd && apt-get install -y python2
+cd && git clone https://github.com/ihebski/angryFuzzer.git
+cd && cd angryFuzzer && pip2 install -r requirements.txt
+cd && cd angryFuzzer && pip2 install requests
+cd && cd angryFuzzer && chmod u+x angryFuzzer.py && chmod 777 angryFuzzer.py && chmod +x angryFuzzer.py
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run AngryFuzzer."
+echo " [ + ]  Go to 'angryFuzzer' folder."
+echo " [ + ]  And type 'python2 angryFuzzer.py' "
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue "
+read Enter
+echo " "
