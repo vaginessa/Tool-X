@@ -34,22 +34,21 @@ echo "-------------------------------------------"
 echo "Are You Sure Want To Install Tool-X ?"
 echo "-------------------------------------------"
 echo ""
-echo "Press Enter if you Agree / Continue Install"
-echo "Press CTRL + C if you Disagree / Cancel Install"
+echo "Press Enter if you Agree / And Continue Install"
+echo "Press CTRL + C if you Disagree / And Cancel Install"
 read ENTER
 echo ""
 echo ""
 cd
-git clone https://github.com/Rajkumrdusad/Tool-X.git
 echo "get in Tool-X directory"
 cd ~/Too-X
 echo "giving permission to Tool-X directory"
 chmod 777 Tool-X Tool-X/.tools
 echo "giving permission to files in Tool-X directory"
-chmod 777 Tool-X/Tool-X Tool-X/.Update.aex Tool-X/.install.aex Tool-X/Tool-X.aex
+chmod 777 Tool-X/Tool-X Tool-X/.Update.aex Tool-X/install.aex Tool-X/.Tool-X.aex
 echo "creating bash command"
 cp Tool-X/Tool-X /data/data/com.termux/files/usr/bin/
-echo "giving access level for enabling Tool-X execute from terminal"
+echo "giving permissiom level for enabling Tool-X execute from terminal"
 chmod 777 /data/data/com.termux/files/usr/bin/Tool-X
 cd && mv Tool-X .Tool-X
 cd && cd .Tool-X && rm -rf Tool-X
@@ -76,5 +75,6 @@ echo "_________________________________________________"
 echo ""
 echo ""
 echo "press ENTER to continue."
-echo ""
+cd
+exit
 
