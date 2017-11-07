@@ -55,14 +55,18 @@ ________________ Updating Tool-X _______________ \033[1;m
 					Toolo = raw_input("\033[1;33m Do you want to update your Tool-X ? [y/n] =>  \033[1;m")
 
 					if Toolo == "y":
-						cmd1 = os.system("rm -rf .tools")
-						cmd2 = os.system("rm -rf README.md")
-						cmd1 = os.system("pkg install git && apt-get install git")
-						cmd3 = os.system("git clone https://github.com/Rajkumrdusad/Tool-X.git")
-						cmd2 = os.system("cd Tool-X && mv .tools cd ..")
-						cmd2 = os.system("cd Tool-X && mv README.md cd ..")
-						cmd2 = os.system("cd Tool-X && mv Tool-X.aex cd ..")
-						cmd2 = os.system("rm -rf Tool-X")
+						cmd1 = os.system("rm -rf .tools && rm -rf .Tool-X.aex")
+						cmd2 = os.system("rm -rf README.md && rm -rf install.aex")
+						cmd3 = os.system("pkg install git && apt-get install git")
+						cmd4 = os.system("git clone https://github.com/Rajkumrdusad/Tool-X.git")
+						cmd5 = os.system("cd Tool-X && mv .tools cd ..")
+						cmd6 = os.system("cd Tool-X && mv README.md cd ..")
+						cmd7 = os.system("cd Tool-X && mv .Tool-X.aex cd ..")
+						cmd8 = os.system("cd Tool-X && mv install.aex cd ..")
+						cmd9 = os.system("cd Tool-X && mv .Update.aex cd ..")
+						cmd10 = os.system("rm -rf Update.aex")
+						cmd11 = os.system("rm -rf Tool-X")
+						cmd12 = os.system("sh install.aex")
 						print ('''\033[1;32m
 _________________________________________________
 *************************************************
