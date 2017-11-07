@@ -1,0 +1,80 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+echo ""
+echo "_________________________________________________"
+echo "================================================="
+echo "_________________________________________________"
+echo ""
+echo ""
+echo "          _____           _     __  __"
+echo "         |_   _|__   ___ | |    \ \/ /"
+echo "           | |/ _ \ / _ \| |_____\  /"
+echo "           | | (_) | (_) | |_____/  \     "
+echo "           |_|\___/ \___/|_|    /_/\_\ v1.0"
+echo ""
+echo ""
+echo "_________________________________________________"
+echo ""
+echo "            Install Best Hacking Tool"
+echo "_________________________________________________"
+echo ""
+echo "---------------------------"
+echo "Notic for You from Tool-X."
+echo "---------------------------"
+echo ""
+echo "Using And Installing This Tools That Mean You Ready For"
+echo ""
+echo "[1] Use At Your Own Risk"
+echo "[2] No Warranty"
+echo "[3] If it violates the law with this tool the risk is borne by the user"
+echo ""
+echo "-------------------------------------------"
+echo "Are You Sure Want To Install Tool-X ?"
+echo "-------------------------------------------"
+echo ""
+echo "Press Enter if you Agree / Continue Install"
+echo "Press CTRL + C if you Disagree / Cancel Install"
+read ENTER
+echo ""
+echo ""
+cd
+git clone https://github.com/Rajkumrdusad/Tool-X.git
+echo "get in Tool-X directory"
+cd ~/Too-X
+echo "giving permission to Tool-X directory"
+chmod 777 Tool-X Tool-X/.tools
+echo "giving permission to files in Tool-X directory"
+chmod 777 Tool-X/Tool-X Tool-X/.Update.aex Tool-X/.install.aex Tool-X/Tool-X.aex
+echo "creating bash command"
+cp Tool-X/Tool-X /data/data/com.termux/files/usr/bin/
+echo "giving access level for enabling Tool-X execute from terminal"
+chmod 777 /data/data/com.termux/files/usr/bin/Tool-X
+cd && mv Tool-X .Tool-X
+cd && cd .Tool-X && rm -rf Tool-X
+echo ""
+echo ""
+echo "_________________________________________________"
+echo "================================================="
+echo "_________________________________________________"
+echo ""
+echo ""
+echo "          _____           _     __  __"
+echo "         |_   _|__   ___ | |    \ \/ /"
+echo "           | |/ _ \ / _ \| |_____\  /"
+echo "           | | (_) | (_) | |_____/  \     "
+echo "           |_|\___/ \___/|_|    /_/\_\ v1.0"
+echo ""
+echo ""
+echo "_________________________________________________"
+echo ""
+echo "[ + ] Tool-X installed successfully."
+echo "[ + ] To run Tool-X."
+echo "[ + ] Type Tool-X in your terminal from anywhare."
+echo "_________________________________________________"
+echo ""
+echo ""
+echo "press ENTER to continue."
+echo ""
+
