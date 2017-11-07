@@ -1338,6 +1338,16 @@ Tool-X :-\033[1;m
 
 ''')
 			
+				while Tool == "Unistall Tool-X":
+					Toolo = raw_input("\033[1;36m Do you want to uninstall Tool-X ? [y/n] >  \033[1;m")
+					if Toolo == "n":
+						Toolx()
+					elif Toolo == "y":
+					   os.system("cd && rm -rf /bin/Tool-X")
+					   os.system("cd && rm -rf /data/data/com.termux/files/usr/bin/Tool-X")
+					   os.system("cd && rm -rf .Tool-X")
+					   sys.exit(0)
+			
 				while Tool == "unistall Tool-X":
 					Toolo = raw_input("\033[1;36m Do you want to uninstall Tool-X ? [y/n] >  \033[1;m")
 					if Toolo == "n":
@@ -1346,6 +1356,7 @@ Tool-X :-\033[1;m
 					   os.system("cd && rm -rf /bin/Tool-X")
 					   os.system("cd && rm -rf /data/data/com.termux/files/usr/bin/Tool-X")
 					   os.system("cd && rm -rf .Tool-X")
+					   sys.exit(0)
 
 					else:
 						print ('''\033[1;31m
