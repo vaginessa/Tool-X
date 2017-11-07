@@ -1,0 +1,8 @@
+# Tool Name :- Tool-X
+# Developer Name :- Rajkumar Dusad
+# Date :- 1/11/2017
+
+echo "Starting Tool-X..........."
+echo "Please wait..............."
+cd && cd Tool-X && python2 Tool-X.aex
+exit
