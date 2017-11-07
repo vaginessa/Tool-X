@@ -1,0 +1,36 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt -y update && apt-get -y update
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && git clone https://github.com/bytezcrew/wfdroid-termux.git
+cd && cd wfdroid-termux && chmod +x wfdinstall
+cd && cd wfdroid-termux && chmod u+x wfdinstall
+cd && cd wfdroid-termux && chmod 777 wfdinstall
+cd && cd wfdroid-termux && ./wfdinstall
+cd && cd wfdroid-termux && sh wfdinstall
+cd && cd wfdroid-termux && chmod +x master.1
+cd && cd wfdroid-termux && chmod u+x master.1
+cd && cd wfdroid-termux && chmod 777 master.1
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run wfdroid-termux."
+echo " [ + ]  Go to 'wfdroid-termux' folder."
+echo " [ + ]  And type './master.1' "
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue."
+read Enter
+echo " "
+
+exit $?
+break;

@@ -1,0 +1,38 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt -y update && apt-get -y update
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && pkg install -y python2
+cd && apt-get install -y python2
+cd && pkg install -y python
+cd && apt-get install -y python
+cd && git clone https://github.com/trustedsec/social-engineer-toolkit.git
+cd && cd social-engineer-toolkit && chmod +x setoolkit
+cd && cd social-engineer-toolkit && chmod u+x setoolkit
+cd && cd social-engineer-toolkit && chmod 777 setoolkit 
+cd && cd social-engineer-toolkit && python setup.py install
+cd && cd social-engineer-toolkit && python2 setup.py install
+cd && cd social-engineer-toolkit && pip install -r requirements.txt
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run social-engineer-toolkit."
+echo " [ + ]  Go to 'social-engineer-toolkit' folder."
+echo " [ + ]  And type 'python2 setoolkit' "
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue."
+read Enter
+echo " "
+
+exit $?
+break;

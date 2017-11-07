@@ -1,0 +1,33 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt -y update && apt-get -y update
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && apt install curl
+cd && apt-get install curl
+cd && curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+cd && chmod +x metasploit.sh
+cd && chmod u+x metasploit.sh
+cd && chmod 777 metasploit.sh
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run Metasploit."
+echo " [ + ]  Go to 'Metasploit' folder."
+echo " [ + ]  And type './metasploit.sh' "
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue."
+read Enter
+echo " "
+
+exit $?
+break;

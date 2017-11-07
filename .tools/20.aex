@@ -1,0 +1,27 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt -y update && apt-get -y update
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y hydra
+cd && apt-get install -y hydra
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run hydra."
+echo " [ + ]  Go to 'hydra' folder."
+echo " [ + ]  And type 'hydra' "
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue."
+read Enter
+echo " "
+
+exit $?
+break;

@@ -1,0 +1,28 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt -y update && apt-get -y update
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && git clone https://github.com/Screetsec/Brutal.git
+cd && cd Brutal&& chmod +x Brutal.sh
+cd && cd Brutal && chmod u+x Brutal.sh
+cd && cd Brutal && chmod 777 Brutal.sh
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run Brutal."
+echo " [ + ]  Go to 'Brutal' folder."
+echo " [ + ]  And type 'sudo ./Brutal.sh' "
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue "
+read Enter
+echo " "

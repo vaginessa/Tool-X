@@ -1,0 +1,38 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt -y update && apt-get -y update
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && pkg install -y python
+cd && apt-get install -y python
+cd && pkg install -y nano
+cd && apt-get install -y nano
+cd && git clone https://github.com/avramit/instahack.git
+cd && cd instahack && chmod +x hackinsta.py
+cd && cd instahack && chmod u+x hackinsta.py
+cd && cd instahack && chmod 777 hackinsta.py
+cd && cd instahack && > pass.txt
+cd && cd instahack && pip install requests
+cd && cd instahack && pip install beautifulsoup4
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run instahack."
+echo " [ + ]  Go to 'instahack' folder."
+echo " [ + ]  And type 'python hackinsta.py' "
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue."
+read Enter
+echo " "
+
+exit $?
+break;

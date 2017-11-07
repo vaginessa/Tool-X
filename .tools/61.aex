@@ -1,0 +1,32 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt -y update && apt-get -y update
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && git clone https://github.com/esc0rtd3w/wifi-hacker.git
+cd && cd wifi-hacker && chmod +x wifi-hacker.sh
+cd && cd wifi-hacker && chmod u+x wifi-hacker.sh
+cd && cd wifi-hacker && chmod 777 wifi-hacker.sh
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run wifi-hacker."
+echo " [ + ]  Go to 'wifi-hacker' folder."
+echo " [ + ]  And type './wifi-hacker.sh' "
+echo " [ + ]  To run wifi-hacker you need root access."
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue."
+read Enter
+echo " "
+
+exit $?
+break;

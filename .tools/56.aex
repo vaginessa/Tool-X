@@ -1,0 +1,34 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && apt -y update && apt-get -y update
+cd && apt -y upgrade && apt-get -y upgrade
+cd && pkg install -y wget
+cd && apt-get install -y wget
+cd && pkg install -y python2
+cd && apt-get install -y python2
+cd && wget http://download1935.mediafire.com/xl524uo3wtsg/fbfyn2dyrb47ruw/Facebook_Brute.zip
+cd && unzip Facebook_Brute.zip && rm Facebook_Brute.zip
+cd && cd Facebook_Brute && chmod +x facebook.py
+cd && cd Facebook_Brute && chmod u+x facebook.py
+cd && cd Facebook_Brute && chmod 777 facebook.py
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo " "
+echo " [ + ]  Installed successfully !!! "
+echo " [ + ]  To run Facebook Brute."
+echo " [ + ]  Go to 'Facebook_Brute' folder."
+echo " [ + ]  And type 'python2 facebook.py' "
+echo " "
+echo " "
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo " "
+echo "Press Enter to continue."
+read Enter
+echo " "
+
+exit $?
+break;
