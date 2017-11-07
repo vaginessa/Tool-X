@@ -1,53 +1,83 @@
 
-</br>
-
 # Introduction
 
-Tool-x is only for termux. In the Tool-X there are almost 40 hacking tools available for termux app. you can install any tool just a single click. Tool-X is a simple python script. with the help of this script you can install best tools in termux app in android.
+## What is Tool-X ?
 
-</br>
-</br>
+Tool-X is a automatic tool installer for termux and GNURoot Debian Root terminal. In the Tool-X there are almost 70 hacking tools available for termux app and GNURoot Debian terminal. you can install any tool by single click. Tool-X is Specially made for Termux and GNURoot Debian Terminal. Tool-X is Developed By Rajkumar Dusad. with the help of Tool-X you can install best tools in termux app on android.
+<br/><br/><br/>
 
 # Features
 
-Install any tool in termux by just a single click.
-You can install almost 50 tools just a single click.
+Install any tools by single click. You can install almost 70 tools in termux and GNURoot Debian Terminal.
 
+        ![Tool-X](https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Screenshot_2017-11-06-18-58-11.png)
 
+<br/><br/><br/>
 
-</br>
-</br>
+# How to use ?
 
+- Type 0 : To install all tools.
+- Type 1 : to sow all available tools and type the number of a tool which you want to install.
+- Type 2 : if you know About us.
+- Type 3 : if you want to update Tool-X.
+- Type x : for exit.
 
+<br/><br/><br/>
 
-# installation in termux
+# Warning
 
+## I am not expert so use this tool at your own risk.
+
+<br/><br/><br/>
+
+# How to Install in termux ?
 
 Open the termux app and type following commands.
 
-apt update
+* `apt update`
 
-pkg install python2
+* `pkg install python2`
 
-pkg install git
+* `pkg install git`
 
-git clone https://github.com/Rajkumrdusad/Tool-X.git
+* `git clone https://github.com/Rajkumrdusad/Tool-X.git`
 
+* `cd Tool-X`
 
-Now Tool-X is installed successfully. To run Tool-X Type
+* `chmod +x install.aex`
 
-cd Tool-X
+* `./install` if not work than type `sh install.aex`
 
-python2 Tool-X.py
+<br/>
 
+## Now Tool-X is installed successfully. To run Tool-X Type
 
-</br>
-</br>
-</br>
+Now type Tool-X from anywhare in your terminl to open Tool-X.
 
+<br/><br/><br/>
 
+# How to Install in GNURoot Debian Terminal ?
 
+Open the GNURoot Debian app and type following commands.
 
+* `apt update`
 
+* `apt upgrade`
 
+* `apt install python2`
 
+* `apt install git`
+
+* `git clone https://github.com/Rajkumrdusad/Tool-X.git`
+
+* `cd Tool-X`
+
+* `chmod +x install.aex`
+
+* `./install` if not work than type `sh install.aex`
+
+<br/>
+
+## Now Tool-X is installed successfully. To run Tool-X Type
+
+Now type Tool-X from anywhare in your terminl to open Tool-X.
