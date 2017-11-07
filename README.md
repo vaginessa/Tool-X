@@ -5,6 +5,8 @@
 
 Tool-X is a automatic tool installer. In the Tool-X there are almost 70 hacking tools available for termux app and GNURoot Debian terminal. you can install any tool by single click. Tool-X is Specially made for Termux and GNURoot Debian Terminal. Tool-X is a script Developed By Rajkumar Dusad with the help of this script you can install best tools in termux app on android.
 
+
+
 # Features
 
 Install any tools by single click. You can install almost 70 tools in termux and GNURoot Debian Terminal.
@@ -15,20 +17,33 @@ Install any tools by single click. You can install almost 70 tools in termux and
 
         ![Tool-X](https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Screenshot_2017-11-06-15-54-26.png)
 
+
+
+
 # How to use ?
-- Type 0 : will install all Kali Linux tools
-- Type 1 : to sow all available tools.
-- Type the number of a tool which you want to install.
-- 00 : to Go back
-- x : for exit
+
+- Type 0 : To install all tools.
+- Type 1 : to sow all available tools and type the number of a tool which you want to install.
+- Type 2 : if you know About us.
+- Type 3 : if you want to update Tool-X.
+- Type x : for exit.
+
+
+
+
 
 # Warning
 
 ## I am not expert so use this tool at your own risk.
 
-## Installation in termux
+
+
+
+# How to Install in termux ?
+
 
 Open the termux app and type following commands.
+
 
 * `apt update`
 
@@ -43,19 +58,20 @@ Open the termux app and type following commands.
 * `sh install.aex`
 
 
-Now Tool-X is installed successfully. To run Tool-X Type
+## Now Tool-X is installed successfully. To run Tool-X Type
 
 * `Tool-X'
 
 
 
-
-## Installation in GNURoot Debian
+# How to Install in GNURoot Debian Terminal ?
 
 
 Open the GNURoot Debian app and type following commands.
 
 * `apt update`
+
+* `apt upgrade`
 
 * `apt install python2`
 
