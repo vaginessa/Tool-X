@@ -38,12 +38,17 @@ Open the termux app and type following commands.
 
 * `git clone https://github.com/Rajkumrdusad/Tool-X.git`
 
+* `cd Tool-X`
+
+* `sh install.aex`
+
 
 Now Tool-X is installed successfully. To run Tool-X Type
 
-* `cd Tool-X`
+* `Tool-X'
 
-* `python2 Tool-X.aex`
+
+
 
 ## Installation in GNURoot Debian
 
@@ -63,5 +68,5 @@ Open the GNURoot Debian app and type following commands.
 
 * `cd Tool-X`
 
-* `python2 Tool-X.aex`
+* `python2 .Tool-X.aex`
 
