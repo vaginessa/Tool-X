@@ -1326,7 +1326,8 @@ Tool-X :-\033[1;m
 					if Toolo == "n":
 						Toolx()
 					elif Toolo == "y":
-					   os.system("python2 Update.aex")
+					   os.system("chmod +x .Update.aex && chmod 777 .Update.aex")
+					   os.system("python2 .Update.aex")
 
 					else:
 						print ('''\033[1;31m
