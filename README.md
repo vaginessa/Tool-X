@@ -4,7 +4,7 @@
 ## What is Tool-X ?
 
 Tool-X is a automatic tool installer. In the Tool-X there are almost 70 hacking tools available for termux app and GNURoot Debian terminal. you can install any tool by single click. Tool-X is Specially made for Termux and GNURoot Debian Terminal. Tool-X is a script Developed By Rajkumar Dusad with the help of this script you can install best tools in termux app on android.
-
+<br/><br/><br/>
 
 
 # Features
@@ -18,7 +18,7 @@ Install any tools by single click. You can install almost 70 tools in termux and
         ![Tool-X](https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Screenshot_2017-11-06-15-54-26.png)
 
 
-
+<br/><br/><br/>
 
 # How to use ?
 
@@ -29,7 +29,7 @@ Install any tools by single click. You can install almost 70 tools in termux and
 - Type x : for exit.
 
 
-
+<br/><br/><br/>
 
 
 # Warning
@@ -37,7 +37,7 @@ Install any tools by single click. You can install almost 70 tools in termux and
 ## I am not expert so use this tool at your own risk.
 
 
-
+<br/><br/><br/>
 
 # How to Install in termux ?
 
@@ -62,7 +62,7 @@ Open the termux app and type following commands.
 
 * `Tool-X'
 
-
+<br/><br/><br/>
 
 # How to Install in GNURoot Debian Terminal ?
 
