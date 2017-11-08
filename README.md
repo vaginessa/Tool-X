@@ -36,8 +36,6 @@ Open the termux app and type following commands.
 
 * `apt update`
 
-* `pkg install python2`
-
 * `pkg install git`
 
 * `git clone https://github.com/Rajkumrdusad/Tool-X.git`
@@ -63,8 +61,6 @@ Open the GNURoot Debian app and type following commands.
 * `apt update`
 
 * `apt upgrade`
-
-* `apt install python2`
 
 * `apt install git`
 
