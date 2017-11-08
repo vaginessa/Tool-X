@@ -34,8 +34,10 @@ read ENTER
 echo ""
 echo ""
 cd
-cd && pkg install python2
-cd && apt-get install python2
+cd && pkg install -y python
+cd && pkg install -y python2
+cd && apt-get install -y python
+cd && apt-get install -y python2
 echo "get in Tool-X directory"
 cd ~/Too-X
 echo "giving permission to Tool-X directory"
