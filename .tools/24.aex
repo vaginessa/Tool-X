@@ -5,7 +5,8 @@
 cd && apt -y update && apt-get -y update
 cd && apt -y upgrade && apt-get -y upgrade
 cd && pkg install -y perl
-cd && apt-get install -y perl "_________________________________________________"
+cd && apt-get install -y perl
+echo "_________________________________________________"
 echo "_________________________________________________"
 echo " "
 echo " "
