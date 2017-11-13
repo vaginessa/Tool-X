@@ -1,5 +1,4 @@
 echo "get in Tool-X directory"
-cd Tool-X && mv .Tool-X Tool-X
 cd ~/Too-X
 echo "giving permission to Tool-X directory"
 chmod 777 Tool-X Tool-X/.tools
