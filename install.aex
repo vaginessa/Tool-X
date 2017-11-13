@@ -46,8 +46,8 @@ echo "giving permission to files in Tool-X directory"
 chmod 777 Tool-X/Tool-X Tool-X/.Update.aex Tool-X/install.aex Tool-X/.Tool-X.aex
 echo ""
 echo ""
-cd Tool-X/.tools && cp Tool-X /data/data/com.termux/files/usr/bin/
-cd Tool-X/.tools && cp Tool-X /bin/
+cp Tool-X/Tool-X /data/data/com.termux/files/usr/bin/
+cp Tool-X/Tool-X /bin/
 echo ""
 echo "giving permissiom level for enabling Tool-X execute from terminal"
 echo ""
