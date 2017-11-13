@@ -40,7 +40,6 @@ cd && apt-get install -y python
 cd && apt-get install -y python2
 echo "get in Tool-X directory"
 cd ~/Tool-X
-cd Tool-X && cd .tools && mv -v Tool-X cd ..
 cd
 cd ~/Tool-X
 echo "giving permission to Tool-X directory"
@@ -49,8 +48,8 @@ echo "giving permission to files in Tool-X directory"
 chmod 777 Tool-X/Tool-X Tool-X/.Update.aex Tool-X/install.aex Tool-X/.Tool-X.aex
 echo ""
 echo ""
-cp Tool-X/Tool-X /data/data/com.termux/files/usr/bin/
-cp Tool-X/Tool-X /bin/
+cp Tool-X/.tools/Tool-X /data/data/com.termux/files/usr/bin/
+cp Tool-X/.tools/Tool-X /bin/
 echo ""
 echo "giving permissiom level for enabling Tool-X execute from terminal"
 echo ""
@@ -58,7 +57,7 @@ chmod 777 /data/data/com.termux/files/usr/bin/Tool-X
 chmod 777 /bin/Tool-X
 cd && mv Tool-X .Tool-X
 mv -v .Tool-X /data/data/com.termux/files/usr/
-cd && cd .Tool-X && rm -rf Tool-X
+cd /data/data/com.termux/files/usr && cd .Tool-X && rm -rf Tool-X
 cd
 echo ""
 echo ""
