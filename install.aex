@@ -39,8 +39,10 @@ cd && pkg install -y python2
 cd && apt-get install -y python
 cd && apt-get install -y python2
 echo "get in Tool-X directory"
-cd ~/Too-X
+cd ~/Tool-X
 cd Tool-X && cd .tools && mv -v Tool-X cd ..
+cd
+cd ~/Tool-X
 echo "giving permission to Tool-X directory"
 chmod 777 Tool-X Tool-X/.tools
 echo "giving permission to files in Tool-X directory"
