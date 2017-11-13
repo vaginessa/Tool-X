@@ -57,7 +57,7 @@ cd && mv Tool-X .Tool-X
 cd && mv -v .Tool-X /data/data/com.termux/files/usr/
 cd && mv -v .Tool-X /etc/
 cd && cd /etc/.Tool-X && rm -rf Tool-X
-cd && cd /data/data/com.termux/files/usr/.Tool-X && rm -rf Tool-X
+cd && cd /data/data/com.termux/files/usr/.Tool-X/ && rm -rf Tool-X
 cd && rm -rf .Tool-X
 cd
 echo ""
