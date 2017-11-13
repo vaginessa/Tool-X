@@ -58,6 +58,8 @@ Now type Tool-X from anywhare in your terminl to open Tool-X.
 
 Open the GNURoot Debian app and type following commands.
 
+* `cd`
+
 * `apt update`
 
 * `apt upgrade`
@@ -77,3 +79,8 @@ Open the GNURoot Debian app and type following commands.
 ## Now Tool-X is installed successfully. To run Tool-X Type
 
 Now type Tool-X from anywhare in your terminl to open Tool-X.
+
+
+## ( Note : Use this tool at your own risk. )
+
+
