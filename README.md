@@ -80,7 +80,3 @@ Open the GNURoot Debian app and type following commands.
 
 Now type Tool-X from anywhare in your terminl to open Tool-X.
 
-
-## ( Note : Use this tool at your own risk. )
-
-
