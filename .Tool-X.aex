@@ -1345,7 +1345,8 @@ Tool-X :-\033[1;m
 					elif Toolo == "y":
 					   os.system("cd && rm -rf /bin/Tool-X")
 					   os.system("cd && rm -rf /data/data/com.termux/files/usr/bin/Tool-X")
-					   os.system("cd && rm -rf .Tool-X")
+					   os.system("cd && cd /etc/ && rm -rf .Tool-X")
+					   os.system("cd && cd /data/data/com.termux/files/usr/ && rm -rf .Tool-X")
 					   print ('''
 \033[1;32m
 _________________________________________________
@@ -1374,7 +1375,8 @@ _________________________________________________
 					elif Toolo == "y":
 					   os.system("cd && rm -rf /bin/Tool-X")
 					   os.system("cd && rm -rf /data/data/com.termux/files/usr/bin/Tool-X")
-					   os.system("cd && rm -rf .Tool-X")
+					   os.system("cd && cd /etc/ && rm -rf .Tool-X")
+					   os.system("cd && cd /data/data/com.termux/files/usr/ && rm -rf .Tool-X")
 					   print ('''
 \033[1;32m
 _________________________________________________
