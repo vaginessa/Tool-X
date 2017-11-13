@@ -1320,23 +1320,8 @@ Tool-X :-\033[1;m
 ''')
 			
 				while Tool == "3":
-					Toolo = raw_input("\033[1;36m Do you want to update Tool-X ? [y/n] >  \033[1;m")
-					if Toolo == "n":
-						Toolx()
-					elif Toolo == "y":
-					   os.system("chmod +x .Update.aex && chmod 777 .Update.aex")
-					   os.system("python2 .Update.aex")
-
-					else:
-						print ('''\033[1;31m
-#################################################
-
-    \033[1;32m [ + ] Sorry, invalid command !!!\033[1;m
-    \033[1;32m [ + ] Try again ..... :)\033[1;m
-\033[1;31m
-#################################################\033[1;m
-
-''')
+					2 .Update.aex")
+					
 			
 				while Tool == "Uninstall Tool-X":
 					Toolo = raw_input("\033[1;36m Do you want to uninstall Tool-X ? [y/n] >  \033[1;m")
