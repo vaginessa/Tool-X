@@ -54,9 +54,7 @@ echo ""
 chmod 777 /data/data/com.termux/files/usr/bin/Tool-X
 chmod 777 /bin/Tool-X
 cd && mv Tool-X .Tool-X
-cd && mv -v .Tool-X /data/data/com.termux/files/usr
 cd && mv -v .Tool-X /etc/
-cd && cd /data/data/com.termux/files/usr/.Tool-X && rm -rf Tool-X
 cd && cd /etc/.Tool-X && rm -rf Tool-X
 cd && rm -rf .Tool-X
 cd
