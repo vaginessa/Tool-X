@@ -60,7 +60,7 @@ ________________ Updating Tool-X _______________ \033[1;m
 						cmd3 = os.system("cd && rm -rf .Tool-X")
 						cmd4 = os.system("cd && pkg install git && apt-get install git")
 						cmd5 = os.system("cd && git clone https://github.com/Rajkumrdusad/Tool-X.git")
-						cmd6 = os.system("cd && cd Tool-X && sh U.aex")
+						cmd6 = os.system("cd && cd Tool-X && sh .U.aex")
 						print ('''\033[1;32m
 _________________________________________________
 *************************************************
