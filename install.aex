@@ -57,6 +57,7 @@ cd && mv Tool-X .Tool-X
 cd && cd .Tool-X && rm -rf Tool-X
 cd && cd .Tool-X && rm -rf install.aex
 cd && cd .Tool-X && rm -rf README.md
+cd
 echo ""
 echo ""
 echo "_________________________________________________"
