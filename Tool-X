@@ -23,6 +23,5 @@ echo ""
 
 echo "Starting Tool-X..........."
 echo "Please wait..............."
-cd && cd /etc/.Tool-X/ && python2 .Tool-X.aex
-cd && cd /data/data/com.termux/files/usr/.Tool-X/ && python2 .Tool-X.aex
+cd && cd .Tool-X && python2 .Tool-X.aex
 exit
