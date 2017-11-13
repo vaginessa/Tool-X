@@ -55,7 +55,7 @@ ________________ Updating Tool-X _______________ \033[1;m
 					Toolo = raw_input("\033[1;33m Do you want to update your Tool-X ? [y/n] =>  \033[1;m")
 
 					if Toolo == "y":
-						cmd1 = os.system("cd && rm -rf .Tool-X")
+						cmd1 = os.system("cd && cd /etc && rm -rf .Tool-X")
 						cmd2 = os.system("cd && pkg install git && apt-get install git")
 						cmd3 = os.system("cd && git clone https://github.com/Rajkumrdusad/Tool-X.git")
 						cmd4 = os.system("cd && cd Tool-X && sh install.aex")
