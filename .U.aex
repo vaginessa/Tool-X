@@ -1,3 +1,8 @@
+cd
+cd && pkg install -y python
+cd && pkg install -y python2
+cd && apt-get install -y python
+cd && apt-get install -y python2
 echo "get in Tool-X directory"
 cd ~/Too-X
 echo "giving permission to Tool-X directory"
@@ -18,3 +23,4 @@ cd && cd .Tool-X && rm -rf Tool-X
 cd && cd .Tool-X && rm -rf install.aex
 cd && cd .Tool-X && rm -rf README.md
 cd
+exit
