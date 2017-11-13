@@ -1318,11 +1318,13 @@ Tool-X :-\033[1;m
 #################################################\033[1;m
 
 ''')
-			
+
+
 				while Tool == "3":
-					2 .Update.aex")
+					os.system("python2 .Update.aex")
+					Toolx()
 					
-			
+					
 				while Tool == "Uninstall Tool-X":
 					Toolo = raw_input("\033[1;36m Do you want to uninstall Tool-X ? [y/n] >  \033[1;m")
 					if Toolo == "n":
