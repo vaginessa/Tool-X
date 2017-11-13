@@ -57,11 +57,10 @@ ________________ Updating Tool-X _______________ \033[1;m
 					if Toolo == "y":
 						cmd1 = os.system("cd && cd /bin && rm -rf Tool-X")
 					        cmd2 = os.system("cd && cd /data/data/com.termux/files/usr/bin && rm -rf Tool-X")
-						cmd1 = os.system("cd && cd /etc && rm -rf .Tool-X")
-					        cmd2 = os.system("cd && cd /data/data/com.termux/files/usr/ && rm -rf .Tool-X")
-						cmd3 = os.system("cd && pkg install git && apt-get install git")
-						cmd4 = os.system("cd && git clone https://github.com/Rajkumrdusad/Tool-X.git")
-						cmd5 = os.system("cd && cd Tool-X && sh install.aex")
+						cmd3 = os.system("cd && rm -rf .Tool-X")
+						cmd4 = os.system("cd && pkg install git && apt-get install git")
+						cmd5 = os.system("cd && git clone https://github.com/Rajkumrdusad/Tool-X.git")
+						cmd6 = os.system("cd && cd Tool-X && sh U.aex")
 						print ('''\033[1;32m
 _________________________________________________
 *************************************************
