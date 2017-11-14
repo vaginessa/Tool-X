@@ -99,20 +99,10 @@ cd && cd ezsploit && chmod u+x ezsploit.sh
 cd && cd ezsploit && chmod 777 ezsploit.sh
 
 cd && apt install -y tsu
-cd && git clone https://github.com/SpencerDelta/Gloom-Framework.git
-cd && cd Gloom-Framework && chmod +x install.py
-cd && cd Gloom-Framework && chmod u+x install.py
-cd && cd Gloom-Framework && chmod 777 install.py
-cd && cd Gloom-Framework && chmod +x gloom.py
-cd && cd Gloom-Framework && chmod u+x gloom.py
-cd && cd Gloom-Framework && chmod 777 gloom.py
-cd && cd Gloom-Framework && python2 install.py
-cd && cd Gloom-Framework && pip2 install bs4
-cd && cd Gloom-Framework && pip2 install beautifulsoup
-cd && cd Gloom-Framework && pip install python whois
-cd && cd Gloom-Framework && yum install sudo
-cd && cd Gloom-Framework && pip install requests
-cd && cd Gloom-Framework && pip install mechanize
+cd && git clone https://github.com/trustedsec/social-engineer-toolkit.git
+cd && cd social-engineer-toolkit && chmod +x setup.py
+cd && cd social-engineer-toolkit && chmod u+x setup.py
+cd && cd social-engineer-toolkit && python2 setup.py install
 
 cd && git clone https://github.com/4shadoww/hakkuframework.git
 cd && cd hakkuframework && chmod +x hakku
