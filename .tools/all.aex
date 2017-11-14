@@ -110,12 +110,6 @@ cd && cd ezsploit && chmod +x ezsploit.sh
 cd && cd ezsploit && chmod u+x ezsploit.sh
 cd && cd ezsploit && chmod 777 ezsploit.sh
 
-cd && apt install -y tsu
-cd && git clone https://github.com/trustedsec/social-engineer-toolkit.git
-cd && cd social-engineer-toolkit && chmod +x setup.py
-cd && cd social-engineer-toolkit && chmod u+x setup.py
-cd && cd social-engineer-toolkit && python2 setup.py install
-
 cd && git clone https://github.com/4shadoww/hakkuframework.git
 cd && cd hakkuframework && chmod +x hakku
 cd && cd hakkuframework && chmod u+x hakku
