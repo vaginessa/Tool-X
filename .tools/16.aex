@@ -12,28 +12,17 @@ cd && pkg install -y python
 cd && apt-get install -y python
 cd && pkg install -y tsu
 cd && apt-get install -y tsu
-cd && git clone https://github.com/SpencerDelta/Gloom-Framework.git
-cd && cd Gloom-Framework && chmod +x install.py
-cd && cd Gloom-Framework && chmod u+x install.py
-cd && cd Gloom-Framework && chmod 777 install.py
-cd && cd Gloom-Framework && chmod +x gloom.py
-cd && cd Gloom-Framework && chmod u+x gloom.py
-cd && cd Gloom-Framework && chmod 777 gloom.py
-cd && cd Gloom-Framework && python2 install.py
-cd && cd Gloom-Framework && pip2 install bs4
-cd && cd Gloom-Framework && pip2 install beautifulsoup
-cd && cd Gloom-Framework && pip install python whois
-cd && cd Gloom-Framework && yum install sudo
-cd && cd Gloom-Framework && pip install requests
-cd && cd Gloom-Framework && pip install mechanize
+cd && git clone https://github.com/trustedsec/social-engineer-toolkit.git
+cd && cd social-engineer-toolkit && chmod +x setup.py
+cd && cd social-engineer-toolkit && chmod u+x setup.py
 echo "_________________________________________________"
 echo "_________________________________________________"
 echo " "
 echo " "
 echo " [ + ]  Installed successfully !!! "
-echo " [ + ]  To run Gloom-Framework."
-echo " [ + ]  Go to 'Gloom-Framework' folder."
-echo " [ + ]  And type 'python2 gloom.py' "
+echo " [ + ]  To run social-engineer-toolkit."
+echo " [ + ]  Go to 'social-engineer-toolkit' folder."
+echo " [ + ]  And type 'python2 setup.py' "
 echo " [ + ]  Gloom need root access or tsu "
 echo " "
 echo " "
