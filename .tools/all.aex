@@ -2,17 +2,26 @@
 # Author :- Rajkumar dusad
 # Date :- 1/11/2017
 
-cd && apt -y update
-cd && apt -y upgrade
-cd && apt install -y git
-cd && apt install -y python
-cd && apt install -y python -pip
-cd && apt install -y python2
-cd && apt install -y python2 -pip
-cd && apt install python3
-cd && apt install python3-pip
-cd && apt install -y php
-cd && apt install -y php -pip
+cd && pkg -y update && apt-get -y update
+cd && pkg -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && pkg install -y python
+cd && apt-get install -y python
+cd && pkg install -y python -pip
+cd && apt-get install -y python -pip
+cd && pkg install -y python2
+cd && apt-get install -y python2
+cd && pkg install -y python2 -pip
+cd && apt-get install -y python2 -pip
+cd && pkg install python3
+cd && apt-get install python3
+cd && pkg install python3-pip
+cd && apt-get install python3-pip
+cd && pkg install -y php
+cd && apt-get install -y php
+cd && pkg install -y php -pip
+cd && apt-get install -y php -pip
 cd && pkg install -y ruby
 cd && apt-get install -y ruby
 cd && pkg install -y wget
@@ -33,10 +42,13 @@ cd && pkg install -y perl
 cd && apt-get install -y perl
 cd && pkg install -y curl
 cd && apt-get install -y curl
-cd && apt install -y nmap
+cd && pkg install -y nmap
+cd && apt-get install -y nmap
 cd && apt-get install python-nmap python-argparse python-scapy iw
-cd && apt install ncurses-utils
-cd && apt install toilet
+cd && pkg install ncurses-utils
+cd && apt-get install ncurses-utils
+cd && pkg install toilet
+cd && apt-get install toilet
 
 cd && git clone https://github.com/bdblackhat/admin-panel-finder.git
 cd && cd admin-panel-finder && chmod +x admin_panel_finder.py
