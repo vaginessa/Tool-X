@@ -1233,7 +1233,7 @@ _________________________________________________
 
 			
 				while Tool == "0":
-					os.system("python2 .A.aex")
+					os.system("cd && cd .Tool-X && python2 .A.aex")
 					Toolx()
 					
 					
