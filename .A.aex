@@ -53,7 +53,7 @@ ________________ Installing All Tools _______________ \033[1;m
 					cmd1 = os.system("cd && clear")
 					cmd2 = os.system("cd && cd .Tool-X && cd .tools && chmod +x all.aex")
 					cmd3 = os.system("cd && cd .Tool-X && cd .tools && sh all.aex")
-                         cmd4 = os.system("clear")
+					cmd4 = os.system("clear")
 					print ('''
 \033[1;36m_________________________________________________
 =================================================
