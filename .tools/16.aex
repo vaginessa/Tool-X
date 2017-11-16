@@ -3,9 +3,8 @@
 # Date :- 1/11/2017
 
 cd
-pkg install wget
-apt-get install wget
-apt install wget
+pkg install -y wget
+apt-get install -y wget
 cd
 echo "_________________________________________________"
 echo "_________________________________________________"
@@ -21,4 +20,5 @@ echo "_________________________________________________"
 echo " "
 echo "Press Enter to continue."
 read Enter
-echo " "
+echo ""
+exit
