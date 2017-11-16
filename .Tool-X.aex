@@ -139,8 +139,7 @@ _________________________________________________
 					if Toolo == "1":
 						cmd1 = os.system("cd .tools && chmod +x 01.aex && chmod 777 01.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 01.aex")
-						cmd3 = os.system("cd .tools && ./01.aex")
-						cmd4 = os.system("cd .tools && sh 01.aex")
+						cmd3 = os.system("cd .tools && sh 01.aex")
 						print ('''\033[1;32m
 _________________________________________________
 *************************************************
@@ -153,8 +152,7 @@ _________________________________________________
 					elif Toolo == "2":
 						cmd1 = os.system("cd .tools && chmod +x 02.aex && chmod 777 02.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 02.aex")
-						cmd3 = os.system("cd .tools && ./02.aex")
-						cmd4 = os.system("cd .tools && sh 02.aex")
+						cmd3 = os.system("cd .tools && sh 02.aex")
 						print ('''\033[1;32m
 _________________________________________________
 *************************************************
@@ -167,8 +165,7 @@ _________________________________________________
 					elif Toolo == "3":
 						cmd1 = os.system("cd .tools && chmod +x 03.aex && chmod 777 03.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 03.aex")
-						cmd3 = os.system("cd .tools && ./03.aex")
-						cmd4 = os.system("cd .tools && sh 03.aex")
+						cmd3 = os.system("cd .tools && sh 03.aex")
 						print ('''\033[1;32m
 _________________________________________________
 *************************************************
@@ -181,10 +178,9 @@ _________________________________________________
 
 
 					elif Toolo == "4":
-						cmd1 = os.system("cd .tools && chmod +x 04.sh && chmod 777 04.aex")
+						cmd1 = os.system("cd .tools && chmod +x 04.aex && chmod 777 04.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 04.aex")
-						cmd3 = os.system("cd .tools && ./04.aex")
-						cmd4 = os.system("cd .tools && sh 04.aex")
+						cmd3 = os.system("cd .tools && sh 04.aex")
 						print ('''\033[1;32m
 _________________________________________________
 *************************************************
