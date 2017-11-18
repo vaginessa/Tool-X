@@ -193,9 +193,8 @@ _________________________________________________
 
 
 					elif Toolo == "5":
-						cmd1 = os.system("cd .tools && chmod +x 05.sh && chmod 777 05.aex")
+						cmd1 = os.system("cd .tools && chmod +x 05.aex && chmod 777 05.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 05.aex")
-						cmd3 = os.system("cd .tools && ./05.aex")
 						cmd4 = os.system("cd .tools && sh 05.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -209,9 +208,8 @@ _________________________________________________
 
 
 					elif Toolo == "6":
-						cmd1 = os.system("cd .tools && chmod +x 06.sh && chmod 777 06.aex")
+						cmd1 = os.system("cd .tools && chmod +x 06.aex && chmod 777 06.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 06.aex")
-						cmd3 = os.system("cd .tools && ./06.aex")
 						cmd4 = os.system("cd .tools && sh 06.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -225,9 +223,8 @@ _________________________________________________
 
 
 					elif Toolo == "7":
-						cmd1 = os.system("cd .tools && chmod +x 07.sh && chmod 777 07.aex")
+						cmd1 = os.system("cd .tools && chmod +x 07.aex && chmod 777 07.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 07.aex")
-						cmd3 = os.system("cd .tools && ./07.aex")
 						cmd4 = os.system("cd .tools && sh 07.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -241,9 +238,8 @@ _________________________________________________
 
 
 					elif Toolo == "8":
-						cmd1 = os.system("cd .tools && chmod +x 08.sh && chmod 777 08.aex")
+						cmd1 = os.system("cd .tools && chmod +x 08.aex && chmod 777 08.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 08.aex")
-						cmd3 = os.system("cd .tools && ./08.aex")
 						cmd4 = os.system("cd .tools && sh 08.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -257,9 +253,8 @@ _________________________________________________
 
 
 					elif Toolo == "9":
-						cmd1 = os.system("cd .tools && chmod +x 09.sh && chmod 777 09.aex")
+						cmd1 = os.system("cd .tools && chmod +x 09.aex && chmod 777 09.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 09.aex")
-						cmd3 = os.system("cd .tools && ./09.aex")
 						cmd4 = os.system("cd .tools && sh 09.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -273,9 +268,8 @@ _________________________________________________
 
 
 					elif Toolo == "10":
-						cmd1 = os.system("cd .tools && chmod +x 10.sh && chmod 777 10.aex")
+						cmd1 = os.system("cd .tools && chmod +x 10.aex && chmod 777 10.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 10.aex")
-						cmd3 = os.system("cd .tools && ./10.aex")
 						cmd4 = os.system("cd .tools && sh 10.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -289,7 +283,6 @@ _________________________________________________
 					elif Toolo == "11":
 						cmd1 = os.system("cd .tools && chmod +x 11.aex && chmod 777 11.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 11.aex")
-						cmd3 = os.system("cd .tools && ./11.aex")
 						cmd4 = os.system("cd .tools && sh 11.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -303,7 +296,6 @@ _________________________________________________
 					elif Toolo == "12":
 						cmd1 = os.system("cd .tools && chmod +x 12.aex && chmod 777 12.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 12.aex")
-						cmd3 = os.system("cd .tools && ./12.aex")
 						cmd4 = os.system("cd .tools && sh 12.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -317,7 +309,6 @@ _________________________________________________
 					elif Toolo == "13":
 						cmd1 = os.system("cd .tools && chmod +x 13.aex && chmod 777 13.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 13.aex")
-						cmd3 = os.system("cd .tools && ./13.aex")
 						cmd4 = os.system("cd .tools && sh 13.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -331,9 +322,8 @@ _________________________________________________
 
 
 					elif Toolo == "14":
-						cmd1 = os.system("cd .tools && chmod +x 14.sh && chmod 777 14.aex")
+						cmd1 = os.system("cd .tools && chmod +x 14.aex && chmod 777 14.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 14.aex")
-						cmd3 = os.system("cd .tools && ./14.aex")
 						cmd4 = os.system("cd .tools && sh 14.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -347,9 +337,8 @@ _________________________________________________
 
 
 					elif Toolo == "15":
-						cmd1 = os.system("cd .tools && chmod +x 15.sh && chmod 777 15.aex")
+						cmd1 = os.system("cd .tools && chmod +x 15.aex && chmod 777 15.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 15.aex")
-						cmd3 = os.system("cd .tools && ./15.aex")
 						cmd4 = os.system("cd .tools && sh 15.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -363,9 +352,8 @@ _________________________________________________
 
 
 					elif Toolo == "16":
-						cmd1 = os.system("cd .tools && chmod +x 16.sh && chmod 777 16.aex")
+						cmd1 = os.system("cd .tools && chmod +x 16.aex && chmod 777 16.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 16.aex")
-						cmd3 = os.system("cd .tools && ./16.aex")
 						cmd4 = os.system("cd .tools && sh 16.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -379,9 +367,8 @@ _________________________________________________
 
 
 					elif Toolo == "17":
-						cmd1 = os.system("cd .tools && chmod +x 17.sh && chmod 777 17.aex")
+						cmd1 = os.system("cd .tools && chmod +x 17.aex && chmod 777 17.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 17.aex")
-						cmd3 = os.system("cd .tools && ./17.aex")
 						cmd4 = os.system("cd .tools && sh 17.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -395,9 +382,8 @@ _________________________________________________
 
 
 					elif Toolo == "18":
-						cmd1 = os.system("cd .tools && chmod +x 18.sh && chmod 777 18.aex")
+						cmd1 = os.system("cd .tools && chmod +x 18.aex && chmod 777 18.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 18.aex")
-						cmd3 = os.system("cd .tools && ./18.aex")
 						cmd4 = os.system("cd .tools && sh 18.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -411,9 +397,8 @@ _________________________________________________
 
 
 					elif Toolo == "19":
-						cmd1 = os.system("cd .tools && chmod +x 19.sh && chmod 777 19.aex")
+						cmd1 = os.system("cd .tools && chmod +x 19.aex && chmod 777 19.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 19.aex")
-						cmd3 = os.system("cd .tools && ./19.aex")
 						cmd4 = os.system("cd .tools && sh 19.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -427,9 +412,8 @@ _________________________________________________
 
 
 					elif Toolo == "20":
-						cmd1 = os.system("cd .tools && chmod +x 20.sh && chmod 777 20.aex")
+						cmd1 = os.system("cd .tools && chmod +x 20.aex && chmod 777 20.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 20.aex")
-						cmd3 = os.system("cd .tools && ./20.aex")
 						cmd4 = os.system("cd .tools && sh 20.aex")
 						print ('''\033[1;32m
 _________________________________________________
