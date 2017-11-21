@@ -429,7 +429,6 @@ _________________________________________________
 					elif Toolo == "21":
 						cmd1 = os.system("cd .tools && chmod +x 21.aex && chmod 777 21.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 21.aex")
-						cmd3 = os.system("cd .tools && ./21.aex")
 						cmd4 = os.system("cd .tools && sh 21.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -443,7 +442,6 @@ _________________________________________________
 					elif Toolo == "22":
 						cmd1 = os.system("cd .tools && chmod +x 22.aex && chmod 777 22.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 22.aex")
-						cmd3 = os.system("cd .tools && ./22.aex")
 						cmd4 = os.system("cd .tools && sh 22.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -457,7 +455,6 @@ _________________________________________________
 					elif Toolo == "23":
 						cmd1 = os.system("cd .tools && chmod +x 23.aex && chmod 777 23.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 23.aex")
-						cmd3 = os.system("cd .tools && ./23.aex")
 						cmd4 = os.system("cd .tools && sh 23.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -471,9 +468,8 @@ _________________________________________________
 
 
 					elif Toolo == "24":
-						cmd1 = os.system("cd .tools && chmod +x 24.sh && chmod 777 24.aex")
+						cmd1 = os.system("cd .tools && chmod +x 24.aex && chmod 777 24.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 24.aex")
-						cmd3 = os.system("cd .tools && ./24.aex")
 						cmd4 = os.system("cd .tools && sh 24.aex")
 						print ('''\033[1;32m
 _________________________________________________
@@ -487,9 +483,8 @@ _________________________________________________
 
 
 					elif Toolo == "25":
-						cmd1 = os.system("cd .tools && chmod +x 25.sh && chmod 777 25.aex")
+						cmd1 = os.system("cd .tools && chmod +x 25.aex && chmod 777 25.aex")
 						cmd2 = os.system("cd .tools && chmod u+x 25.aex")
-						cmd3 = os.system("cd .tools && ./25.aex")
 						cmd4 = os.system("cd .tools && sh 25.aex")
 						print ('''\033[1;32m
 _________________________________________________
