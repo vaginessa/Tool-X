@@ -2,39 +2,17 @@
 # Author :- Rajkumar dusad
 # Date :- 1/11/2017
 
-cd && apt -y update && apt-get -y update
-cd && apt -y upgrade && apt-get -y upgrade
-cd && pkg install -y git
-cd && apt-get install -y git
-cd && pkg install -y python2
-cd && apt-get install -y python2
-cd && pkg install -y python
-cd && apt-get install -y python
-cd && pkg install -y tsu
-cd && apt-get install -y tsu
-cd && git clone https://github.com/SpencerDelta/Gloom-Framework.git
-cd && cd Gloom-Framework && chmod +x install.py
-cd && cd Gloom-Framework && chmod u+x install.py
-cd && cd Gloom-Framework && chmod 777 install.py
-cd && cd Gloom-Framework && chmod +x gloom.py
-cd && cd Gloom-Framework && chmod u+x gloom.py
-cd && cd Gloom-Framework && chmod 777 gloom.py
-cd && cd Gloom-Framework && python2 install.py
-cd && cd Gloom-Framework && pip2 install bs4
-cd && cd Gloom-Framework && pip2 install beautifulsoup
-cd && cd Gloom-Framework && pip install python whois
-cd && cd Gloom-Framework && yum install sudo
-cd && cd Gloom-Framework && pip install requests
-cd && cd Gloom-Framework && pip install mechanize
+cd
+pkg install -y wget
+apt-get install -y wget
+cd
 echo "_________________________________________________"
 echo "_________________________________________________"
 echo " "
 echo " "
 echo " [ + ]  Installed successfully !!! "
-echo " [ + ]  To run Gloom-Framework."
-echo " [ + ]  Go to 'Gloom-Framework' folder."
-echo " [ + ]  And type 'python2 gloom.py' "
-echo " [ + ]  Gloom need root access or tsu "
+echo " [ + ]  To run wget."
+echo " [ + ]  Type 'wget yourlink' "
 echo " "
 echo " "
 echo "_________________________________________________"
@@ -42,4 +20,5 @@ echo "_________________________________________________"
 echo " "
 echo "Press Enter to continue."
 read Enter
-echo " "
+echo ""
+exit
