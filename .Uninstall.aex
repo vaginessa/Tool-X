@@ -1,0 +1,96 @@
+#Tool Name :- Tool-X v1.0 
+# Author :- Rajkumar Dusad
+# Date :- 1/11/2017
+# Aex Software's :- Tool-X is a automatic tool installer. Specially made for termux and GNURoot Debian terminal.
+
+import os
+import sys
+
+def Tool_X():
+	try:
+		
+		def Toolx():
+			while True:
+				os.system("clear")
+				print ('''
+\033[1;36m_________________________________________________
+=================================================
+_________________________________________________
+\033[1;m
+
+\033[1;33m
+          _____           _     __  __
+         |_   _|__   ___ | |    \ \/ /
+           | |/ _ \ / _ \| |_____\  /
+           | | (_) | (_) | |_____/  \     
+           |_|\___/ \___/|_|    /_/\_\ \033[1;m\033[1;32mv1.0\033[1;m
+
+
+\033[1;36m_________________________________________________
+_________________________________________________\033[1;m
+
+
+\033[1;33m  Uninstalling Tool-X.......\033[1;33m
+
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+			''')
+				os.system("cd && cd /bin && rm -rf Tool-X")
+				os.system("cd && cd /data/data/com.termux/files/usr/bin && rm -rf Tool-X")
+				os.system("cd && rm -rf .Tool-X")
+				os.system("cd && cd /bin && rm -rf aex")
+				os.system("cd && cd /data/data/com.termux/files/usr/bin && rm -rf aex")
+				os.system("cd && cd /bin && rm -rf aex2")
+				os.system("cd && cd /data/data/com.termux/files/usr/bin && rm -rf aex2")
+				os.system("cd && cd /bin && rm -rf aex3")
+				os.system("cd && cd /data/data/com.termux/files/usr/bin && rm -rf aex3")
+				os.system("clear")
+				print ('''
+\033[1;36m_________________________________________________
+=================================================
+_________________________________________________\033[1;m
+
+
+\033[1;33m
+          _____           _     __  __
+         |_   _|__   ___ | |    \ \/ /
+           | |/ _ \ / _ \| |_____\  /
+           | | (_) | (_) | |_____/  \     
+           |_|\___/ \___/|_|    /_/\_\ \033[1;m\033[1;32mv1.0\033[1;m
+
+
+
+\033[1;36m_________________________________________________
+_________________________________________________\033[1;m
+
+
+ \033[1;33m      [ + ] Tool-X Uninstalled Successfully\033[1;m
+ \033[1;33m      [ + ] Press Enter to continue.\033[1;m
+
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+
+			''')
+				Toolo = raw_input("\033[1;33m >>> \033[1;m")
+
+				if Toolo == "":
+					sys.exit(0)
+
+				else:
+					print ('''\033[1;31m
+#################################################
+
+    \033[1;32m [ + ] Sorry, invalid command !!!\033[1;m
+    \033[1;32m [ + ] Try again ..... :)\033[1;m
+\033[1;31m
+#################################################\033[1;m
+''')
+			
+		Toolx()
+
+
+
+	except KeyboardInterrupt:
+		os.system("clear")
+	sys.exit(0)
+Tool_X()
