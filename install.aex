@@ -2,5 +2,10 @@
 # Author :- Rajkumar dusad
 # Date :- 24/11/2017
 
+
+pkg install python
+pkg install python2
+apt-get install python
+apt-get install python2
 python2 .install.aex
 exit
