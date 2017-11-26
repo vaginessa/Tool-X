@@ -1,0 +1,244 @@
+# Tool Name :- Tool Kit 
+# Author :- Rajkumar Dusad
+# Date :- 24/11/2017
+
+import os
+import sys
+
+def Tool_Kit():
+	try:
+		
+		def ToolKit():
+			while True:
+				os.system("clear")
+				print ('''
+
+\033[1;33m
+          _____           _     __  __
+         |_   _|__   ___ | |    \ \/ /
+           | |/ _ \ / _ \| |_____\  /
+           | | (_) | (_) | |_____/  \     
+           |_|\___/ \___/|_|    /_/\_\ \033[1;m\033[1;32mv1.0\033[1;m
+
+\033[1;33m_________________________________________________\033[1;m
+
+\033[1;31m          Notic for You from Tool-X.\033[1;m
+\033[1;33m_________________________________________________\033[1;m
+\033[1;32m
+
+  [ + ] Use It At Your Own Risk.
+  [ + ] No Warranty.
+  [ + ] If it violates the law with this tool the risk is borne by the user.
+  [ + ] Use it legal purpose only.\033[1;m
+
+\033[1;31mIf you are installing this tool that mean you are agree with all terms.\033[1;m
+
+\033[1;33m_________________________________________________\033[1;m
+\033[1;33m=================================================\033[1;m
+			''')
+				
+
+				Tool = raw_input('''\033[1;33m Do you want to install Tool-X [Y/n]> \033[1;m''')
+			
+				while Tool == "Y":
+					os.system("clear")
+					print ('''
+\033[1;36m
+_________________________________________________
+=================================================\033[1;m
+
+\033[1;33m______________ Installing Tool-X ______________ \033[1;m
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+
+					''')
+					os.system("cd")
+					os.system("cd && pkg install git -y")
+					os.system("cd && apt-get install git -y")
+					os.system("cd && pkg install -y python")
+					os.system("cd && pkg install -y python2")
+					os.system("cd && apt-get install -y python")
+					os.system("cd && apt-get install -y python2")
+					print ('''\033[1;32mGet in Tool-X directory\033[1;m''')
+					os.system("cd ~/Tool-X")
+					print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
+					os.system("chmod 777 Tool-X Tool-X/.tools")
+					print ('''\033[1;32mGiving permission to files in Tool-X directory\033[1;m''')
+					os.system("chmod 777 Tool-X/Tool-X Tool-X/.Update.aex Tool-X/install.aex Tool-X/.Tool-X.aex")
+					os.system("cd && cd Tool-X && cd .tools && cp aex /data/data/com.termux/files/usr/bin/")
+					os.system("cd && cd Tool-X && cd .tools && cp aex /bin")
+					os.system("cd && cd Tool-X && cd .tools && rm -rf aex")
+					os.system("cd && cd Tool-X && cd .tools && cp aex2 /data/data/com.termux/files/usr/bin/")
+					os.system("cd && cd Tool-X && cd .tools && cp aex2 /bin")
+					os.system("cd && cd Tool-X && cd .tools && rm -rf aex2")
+					os.system("cd && cd Tool-X && cd .tools && cp aex3 /data/data/com.termux/files/usr/bin/")
+					os.system("cd && cd Tool-X && cd .tools && cp aex3 /bin")
+					os.system("cd && cd Tool-X && cd .tools && rm -rf aex3")
+					os.system("cd && cd Tool-X && cd .tools && cp Tool-X /data/data/com.termux/files/usr/bin/")
+					os.system("cd && cd Tool-X && cd .tools && cp Tool-X /bin")
+					os.system("cd && cd Tool-X && cd .tools && rm -rf Tool-X")
+					print ('''\033[1;32mGiving permissiom level for enabling Tool-X execute from terminal\033[1;m''')
+					os.system("chmod 777 /data/data/com.termux/files/usr/bin/Tool-X")
+					os.system("chmod 777 /data/data/com.termux/files/usr/bin/aex2")
+					os.system("chmod 777 /data/data/com.termux/files/usr/bin/aex")
+					os.system("chmod 777 /data/data/com.termux/files/usr/bin/aex3")
+					os.system("chmod 777 /bin/Tool-X")
+					os.system("chmod 777 /bin/aex")
+					os.system("chmod 777 /bin/aex2")
+					os.system("chmod 777 /bin/aex3")
+					os.system("cd && mv Tool-X .Tool-X")
+					os.system("cd && cd .Tool-X && rm -rf Tool-X")
+					os.system("cd && cd .Tool-X && rm -rf install.aex")
+					os.system("cd && cd .Tool-X && rm -rf README.md")
+					os.system("cd")
+					os.system("clear")
+					print ('''
+\033[1;36m_________________________________________________
+=================================================
+_________________________________________________\033[1;m
+
+
+\033[1;33m
+          _____           _     __  __
+         |_   _|__   ___ | |    \ \/ /
+           | |/ _ \ / _ \| |_____\  /
+           | | (_) | (_) | |_____/  \     
+           |_|\___/ \___/|_|    /_/\_\ \033[1;m\033[1;32mv1.0\033[1;m
+
+
+\033[1;36m_________________________________________________
+_________________________________________________\033[1;m
+
+\033[1;33m
+    [ + ] Tool-X installed successfully.
+    [ + ] To run Tool-X.
+    [ + ] Type Tool-X in your terminal.\033[1;m
+
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+''')
+					Toolo = raw_input("\033[1;33m Press Enter to continue >>> \033[1;m")
+
+					if Toolo == "":
+						sys.exit(0)
+
+					elif Toolo == "":
+						sys.exit(0)
+
+					else:
+						print ('''\033[1;31m
+_________________________________________________
+=================================================
+
+    \033[1;32m[ + ] Sorry, invalid command !!!\033[1;m
+    \033[1;32m[ + ] Try again ..... :)\033[1;m
+\033[1;31m
+_________________________________________________
+=================================================\033[1;m
+''')
+			
+				while Tool == "y":
+					os.system("clear")
+					print ('''
+\033[1;36m
+_________________________________________________
+=================================================\033[1;m
+
+\033[1;33m______________ Installing Tool-X ______________ \033[1;m
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+
+					''')
+					os.system("cd")
+					os.system("cd && pkg install git -y")
+					os.system("cd && apt-get install git -y")
+					os.system("cd && pkg install -y python")
+					os.system("cd && pkg install -y python2")
+					os.system("cd && apt-get install -y python")
+					os.system("cd && apt-get install -y python2")
+					print ('''\033[1;32mGet in Tool-X directory\033[1;m''')
+					os.system("cd ~/Tool-X")
+					print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
+					os.system("chmod 777 Tool-X Tool-X/.tools")
+					print ('''\033[1;32mGiving permission to files in Tool-X directory\033[1;m''')
+					os.system("chmod 777 Tool-X/Tool-X Tool-X/.Update.aex Tool-X/install.aex Tool-X/.Tool-X.aex")
+					os.system("cd && cd Tool-X && cd .tools && cp aex /data/data/com.termux/files/usr/bin/")
+					os.system("cd && cd Tool-X && cd .tools && cp aex /bin")
+					os.system("cd && cd Tool-X && cd .tools && rm -rf aex")
+					os.system("cd && cd Tool-X && cd .tools && cp aex2 /data/data/com.termux/files/usr/bin/")
+					os.system("cd && cd Tool-X && cd .tools && cp aex2 /bin")
+					os.system("cd && cd Tool-X && cd .tools && rm -rf aex2")
+					os.system("cd && cd Tool-X && cd .tools && cp aex3 /data/data/com.termux/files/usr/bin/")
+					os.system("cd && cd Tool-X && cd .tools && cp aex3 /bin")
+					os.system("cd && cd Tool-X && cd .tools && rm -rf aex3")
+					os.system("cd && cd Tool-X && cd .tools && cp Tool-X /data/data/com.termux/files/usr/bin/")
+					os.system("cd && cd Tool-X && cd .tools && cp Tool-X /bin")
+					os.system("cd && cd Tool-X && cd .tools && rm -rf Tool-X")
+					print ('''\033[1;32mGiving permissiom level for enabling Tool-X execute from terminal\033[1;m''')
+					os.system("chmod 777 /data/data/com.termux/files/usr/bin/Tool-X")
+					os.system("chmod 777 /bin/Tool-X")
+					os.system("cd && mv Tool-X .Tool-X")
+					os.system("cd && cd .Tool-X && rm -rf Tool-X")
+					os.system("cd && cd .Tool-X && rm -rf install.aex")
+					os.system("cd && cd .Tool-X && rm -rf README.md")
+					os.system("cd")
+					os.system("clear")
+					print ('''
+\033[1;36m_________________________________________________
+=================================================
+_________________________________________________\033[1;m
+
+
+\033[1;33m
+          _____           _     __  __
+         |_   _|__   ___ | |    \ \/ /
+           | |/ _ \ / _ \| |_____\  /
+           | | (_) | (_) | |_____/  \     
+           |_|\___/ \___/|_|    /_/\_\ \033[1;m\033[1;32mv1.0\033[1;m
+
+
+\033[1;36m_________________________________________________
+_________________________________________________\033[1;m
+
+\033[1;33m
+    [ + ] Tool-X installed successfully.
+    [ + ] To run Tool-X.
+    [ + ] Type Tool-X in your terminal.\033[1;m
+
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+''')
+					Toolo = raw_input("\033[1;33m Press Enter to continue >>> \033[1;m")
+
+					if Toolo == "":
+						sys.exit(0)
+
+					elif Toolo == "":
+						sys.exit(0)
+
+					else:
+						print ('''\033[1;31m
+_________________________________________________
+=================================================
+
+    \033[1;32m[ + ] Sorry, invalid command !!!\033[1;m
+    \033[1;32m[ + ] Try again ..... :)\033[1;m
+\033[1;31m
+_________________________________________________
+=================================================\033[1;m
+''')
+			
+				while Tool == "n":
+					sys.exit(0)
+			
+				while Tool == "N":
+					sys.exit(0)
+
+		ToolKit()
+
+
+
+	except KeyboardInterrupt:
+		os.system("clear")
+		sys.exit(0)
+Tool_Kit()
