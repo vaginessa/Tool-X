@@ -45,7 +45,7 @@ Open the termux app and type following commands.
 
 * `chmod +x install.aex`
 
-* `./install` if not work than type `sh install.aex`
+* `./install.aex` if not work than type `sh install.aex`
 
 <br/>
 
@@ -73,7 +73,7 @@ Open the GNURoot Debian app and type following commands.
 
 * `chmod +x install.aex`
 
-* `./install` if not work than type `sh install.aex`
+* `./install.aex` if not work than type `sh install.aex`
 
 <br/>
 
