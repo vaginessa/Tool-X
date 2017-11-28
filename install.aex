@@ -1,0 +1,14 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+apt-get update -y
+apt-get upgrade -y
+pkg update -y
+pkg upgrade -y
+apt-get install python -y
+apt-get install python2 -y
+pkg install python -y
+pkg install python2 -y
+python2 .install.aex
+exit
