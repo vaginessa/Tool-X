@@ -66,13 +66,13 @@ Open the GNURoot Debian app and type following commands.
 
 * `apt install git`
 
-* `git clone https://github.com/Rajkumrdusad/Tool-X.git`
+* `cd && git clone https://github.com/Rajkumrdusad/Tool-X.git`
 
 * `cd Tool-X`
 
-* `chmod +x install.aex`
+* `chmod +x install`
 
-* `./install.aex` if not work than type `sh install.aex`
+* `sh install` if not work than type `./install`
 
 <br/>
 
