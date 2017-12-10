@@ -45,7 +45,7 @@ Open the termux app and type following commands.
 
 * `chmod +x install.aex`
 
-* `./install.aex` if not work than type `sh install.aex`
+* `sh install.aex` if not work than type `./install.aex`
 
 <br/>
 
@@ -67,13 +67,13 @@ Open the GNURoot Debian app and type following commands.
 
 * `apt install git`
 
-* `git clone https://github.com/Rajkumrdusad/Tool-X.git`
+* `cd && git clone https://github.com/Rajkumrdusad/Tool-X.git`
 
 * `cd Tool-X`
 
 * `chmod +x install.aex`
 
-* `./install.aex` if not work than type `sh install.aex`
+* `sh install.aex` if not work than type `./install.aex`
 
 <br/>
 
