@@ -42,9 +42,9 @@ Open the termux app and type following commands.
 
 * `cd Tool-X`
 
-* `chmod +x install.aex`
+* `chmod +x install`
 
-* `./install.aex` if not work than type `sh install.aex`
+* `sh install` if not work than type `./install`
 
 <br/>
 
