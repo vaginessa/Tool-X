@@ -42,9 +42,9 @@ Open the termux app and type following commands.
 
 * `cd Tool-X`
 
-* `chmod +x install`
+* `chmod +x install.aex`
 
-* `sh install` if not work than type `./install`
+* `sh install.aex` if not work than type `./install.aex`
 
 <br/>
 
@@ -70,9 +70,9 @@ Open the GNURoot Debian app and type following commands.
 
 * `cd Tool-X`
 
-* `chmod +x install`
+* `chmod +x install.aex`
 
-* `sh install` if not work than type `./install`
+* `sh install.aex` if not work than type `./install.aex`
 
 <br/>
 
