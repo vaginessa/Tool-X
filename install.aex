@@ -10,5 +10,7 @@ apt-get install python -y
 apt-get install python2 -y
 pkg install python -y
 pkg install python2 -y
+rm -rf .Xecn
+rm -rf .Xecn1
 python2 .install.aex
 exit
