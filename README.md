@@ -10,8 +10,8 @@ Tool-X is a automatic tool installer for termux and GNURoot Debian Root terminal
 
 Install any tools by single click. You can install almost 70 tools in termux and GNURoot Debian Terminal.
 
-        ![Tool-X](https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Screenshot_2017-11-06-18-58-11.png)
-
+        ![Tool-X](Tool-X/.sc/Screenshot_2017-12-11-14-54-25.png)
+        
 <br/><br/><br/>
 
 # How to use ?
