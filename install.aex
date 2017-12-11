@@ -3,6 +3,8 @@
 # Date :- 1/11/2017
 # Powered By :- Aex Software's
 
+clear
+
 if [ ! -e /data/data/com.termux/files/usr/bin/python ];
 then
 	pkg install -y python
