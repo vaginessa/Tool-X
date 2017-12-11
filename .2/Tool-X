@@ -1,0 +1,25 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+echo ""
+echo '''
+
+
+               _____           _    __  __
+              |_   _|__   ___ | |   \ \/ /
+                | |/ _ \ / _ \| |____\  /
+                | | (_) | (_) | |____/  \     
+                |_|\___/ \___/|_|   /_/\_\ v2.0
+
+
+ =========================================================
+|                Install Best Hacking Tool.               |
+ =========================================================
+'''
+echo ""
+
+echo "Starting Tool-X..........."
+echo "Please wait..............."
+cd && cd /usr/lib/.Tool-X/.Xecn && python2 .Tool-X.aex
+exit
