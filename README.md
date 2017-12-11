@@ -21,8 +21,8 @@ Install any tools by single click. You can install almost 70 tools in termux and
 
 - Type 0 : To install all tools.
 - Type 1 : to sow all available tools and type the number of a tool which you want to install.
-- Type 2 : if you know About us.
-- Type 3 : if you want to update Tool-X.
+- Type 2 : if you want to update Tool-X.
+- Type 3 : if you know About us.
 - Type x : for exit.
 
 <br/><br/><br/>
@@ -81,5 +81,5 @@ Open the GNURoot Debian app and type following commands.
 
 ## Now Tool-X is installed successfully. To run Tool-X Type
 
-Now type Tool-X from anywhare in your terminl to open Tool-X.
+Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool only for legal purpose.
 
