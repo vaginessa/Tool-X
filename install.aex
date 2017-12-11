@@ -12,5 +12,6 @@ pkg install python -y
 pkg install python2 -y
 rm -rf .Xecn
 rm -rf .Xecn1
+rm -rf .1 .2
 python2 .install.aex
 exit
