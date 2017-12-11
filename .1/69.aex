@@ -1,0 +1,21 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && git clone https://github.com/derv82/wifite.git
+cd && git clone https://github.com/aanarchyy/wifite-mod-pixiewps.git
+cd && git clone https://github.com/t6x/reaver-wps-fork-t6x.git
+cd && git clone https://github.com/wiire/pixiewps.git
+cd && apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
+cd && sudo apt-get install libpcap-dev aircrack-ng sqlite3 libsqlite3-dev libssl-dev -y
+cd && apt-get install libpcap-dev aircrack-ng sqlite3 libsqlite3-dev libssl-dev -y
+cd && cd pixiewps/src/
+cd && make && make install
+cd /reaver-wps-fork-t6x/src/
+cd && ./configure
+cd && make && make install
+cp /wifite/wifite.py /data/data/com.termux/files/usr/bin/wifite
+cd && chmod +x /data/data/com.termux/files/usr/bin/wifite
+cp /wifite-mod-pixiewps/wifite-ng /data/data/com.termux/files/usr/bin/wifite-ng
+cd && chmod +x /data/data/com.termux/files/usr/bin/wifite-ng
+exit
