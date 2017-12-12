@@ -1,0 +1,8 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+# Powered By :- Aex Software's
+
+cd && cd Tool-X && sh install.aex
+clear
+exit
