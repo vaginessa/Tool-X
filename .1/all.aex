@@ -1,0 +1,400 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+
+cd && pkg -y update && apt-get -y update
+cd && pkg -y upgrade && apt-get -y upgrade
+cd && pkg install -y git
+cd && apt-get install -y git
+cd && pkg install -y python
+cd && apt-get install -y python
+cd && pkg install -y python -pip
+cd && apt-get install -y python -pip
+cd && pkg install -y python2
+cd && apt-get install -y python2
+cd && pkg install -y python2 -pip
+cd && apt-get install -y python2 -pip
+cd && pkg install python3
+cd && apt-get install python3
+cd && pkg install python3-pip
+cd && apt-get install python3-pip
+cd && pkg install -y php
+cd && apt-get install -y php
+cd && pkg install -y php -pip
+cd && apt-get install -y php -pip
+cd && pkg install -y ruby
+cd && apt-get install -y ruby
+cd && pkg install -y wget
+cd && apt-get install -y wget
+cd && pkg install -y clang
+cd && apt-get install -y clang
+cd && pkg install -y nano
+cd && apt-get install -y nano
+cd && pkg install -y tor
+cd && apt-get install -y tor
+cd && pkg install -y w3m
+cd && apt-get install -y w3m
+cd && pkg install -y figlet
+cd && apt-get install -y figlet
+cd && pkg install -y hydra
+cd && apt-get install -y hydra
+cd && pkg install -y perl
+cd && apt-get install -y perl
+cd && pkg install -y curl
+cd && apt-get install -y curl
+cd && pkg install -y nmap
+cd && apt-get install -y nmap
+cd && apt-get install python-nmap python-argparse python-scapy iw
+cd && pkg install ncurses-utils
+cd && apt-get install ncurses-utils
+cd && pkg install toilet
+cd && apt-get install toilet
+
+cd && git clone https://github.com/bdblackhat/admin-panel-finder.git
+cd && cd admin-panel-finder && chmod +x admin_panel_finder.py
+cd && cd admin-panel-finder && chmod u+x admin_panel_finder.py
+cd && cd admin-panel-finder && chmod 777 admin_panel_finder.py
+
+cd && git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+cd && cd airgeddon && chmod +x airgeddon.sh
+cd && cd airgeddon && chmod u+x airgeddon.sh
+cd && cd airgeddon && chmod 777 airgeddon.sh
+cd && cd airgeddon && chmod +x language_strings.sh
+cd && cd airgeddon && chmod u+x language_strings.sh
+cd && cd airgeddon && chmod 777 language_strings.sh
+
+cd && pkg install -y aircrack-ng
+cd && apt-get install -y aircrack-ng
+cd && apt install -y aircrack-ng
+
+cd && git clone https://github.com/ihebski/angryFuzzer.git
+cd && cd angryFuzzer && pip2 install -r requirements.txt
+cd && cd angryFuzzer && pip2 install requests
+cd && cd angryFuzzer && chmod u+x angryFuzzer.py && chmod 777 angryFuzzer.py && chmod +x angryFuzzer.py
+
+cd && git clone https://github.com/UltimateHackers/Breacher.git
+cd && cd Breacher && chmod +x breacher.py
+
+cd && git clone https://github.com/Screetsec/Brutal.git
+cd && cd Brutal && chmod +x Brutal.sh
+cd && cd Brutal && chmod u+x Brutal.sh
+cd && cd Brutal && chmod 777 Brutal.sh
+
+cd && git clone https://github.com/shawarkhanethicalhacker/BruteXSS.git
+cd && cd BruteXSS && chmod +x brutexss.py
+cd && cd BruteXSS && chmod u+x brutexss.py
+cd && cd BruteXSS && chmod 777 brutexss.py
+
+cd && git clone https://github.com/commixproject/commix.git
+cd && cd commix && chmod +x commix.py
+cd && cd commix && chmod u+x commix.py
+cd && cd commix && chmod 777 commix.py
+
+cd && git clone https://github.com/susmithHCK/cpscan.git
+cd && cd cpscan && chmod +x cpscan.py
+cd && cd cpscan && chmod u+x cpscan.py
+cd && cd cpscan && chmod 777 cpscan.py
+
+cd && git clone https://github.com/lightos/credmap.git
+cd && cd credmap && chmod +x credmap.py
+cd && cd credmap && chmod u+x credmap.py
+cd && cd credmap && chmod 777 credmap.py
+
+cd && git clone https://github.com/r00tmars/ExploitOnCLI.git
+cd && cd ExploitOnCLI && chmod +x exploitoncli.php
+cd && cd ExploitOnCLI && chmod u+x exploitoncli.php
+cd && cd ExploitOnCLI && chmod 777 exploitoncli.php
+
+cd && git clone https://github.com/rand0m1ze/ezsploit.git
+cd && cd ezsploit && chmod +x ezsploit.sh
+cd && cd ezsploit && chmod u+x ezsploit.sh
+cd && cd ezsploit && chmod 777 ezsploit.sh
+
+cd && git clone https://github.com/4shadoww/hakkuframework.git
+cd && cd hakkuframework && chmod +x hakku
+cd && cd hakkuframework && chmod u+x hakku
+cd && cd hakkuframework && chmod 777 hakku
+
+cd && git clone https://github.com/cyweb/hammer.git
+cd && cd hammer && chmod +x hammer.py
+cd && cd hammer && chmod u+x hammer.py
+cd && cd hammer && chmod 777 hammer.py
+
+cd && git clone https://github.com/UltimateHackers/Hash-Buster.git
+cd && cd Hash-Buster && chmod +x hash.py
+cd && cd Hash-Buster && chmod u+x hash.py
+cd && cd Hash-Buster && chmod 777 hash.py
+
+cd && git clone https://github.com/b3-v3r/Hunner.git
+cd && cd Hunner && chmod +x hunner.py
+cd && cd Hunner && chmod u+x hunner.py
+cd && cd Hunner && chmod 777 hunner.py
+
+cd && git clone https://github.com/m4ll0k/Infoga.git
+cd && cd Infoga && chmod +x infoga.py
+cd && cd Infoga && chmod u+x infoga.py
+cd && cd Infoga && chmod 777 infoga.py
+cd && cd Infoga && pip2 install requests
+cd && cd Infoga && pip2 install -r requirements.txt
+cd && cd Infoga && termux-fix-shebang requirements.txt
+
+cd && git clone https://github.com/avramit/instahack.git
+cd && cd instahack && chmod +x hackinsta.py
+cd && cd instahack && chmod u+x hackinsta.py
+cd && cd instahack && chmod 777 hackinsta.py
+cd && cd instahack && > pass.txt
+cd && cd instahack && pip install requests
+cd && cd instahack && pip install beautifulsoup4
+
+cd && git clone https://github.com/maldevel/IPGeoLocation.git
+cd && cd IPGeoLocation && chmod +x ipgeolocation.py
+cd && cd IPGeoLocation && chmod u+x ipgeolocation.py
+cd && cd IPGeoLocation && chmod 777 ipgeolocation.py
+cd && cd IPGeoLocation && pip install -r requirements.txt
+
+cd && git clone https://github.com/k4m4/kickthemout.git
+cd && cd kickthemout && chmod +x kickthemout.py
+cd && cd kickthemout && chmod u+x kickthemout.py
+cd && cd kickthemout && chmod 777 kickthemout.py
+cd && cd kickthemout && sudo pip2 install -r requirements.txt
+cd && cd kickthemout && pip2 install -r requirements.txt
+
+
+cd git clone https://github.com/toxic-ig/Trity.git
+cd && cd Trity && chmod +x trity.py install.py
+
+
+cd && git clone https://github.com/Gameye98/Lazymux.git
+cd && cd Lazymux && chmod +x lazymux.py
+cd && cd Lazymux && chmod u+x lazymux.py
+cd && cd Lazymux && chmod 777 lazymux.py
+
+cd && curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+cd && chmod +x metasploit.sh
+cd && chmod u+x metasploit.sh
+cd && chmod 777 metasploit.sh
+
+cd && apt-get install python-nmap python-argparse python-scapy iw
+cd && git clone https://github.com/chrizator/netattack.git
+cd && cd netattack && chmod +x netattack.py
+cd && cd netattack && chmod u+x netattack.py
+cd && cd netattack && chmod 777 netattack.py
+
+cd && git clone https://github.com/LandGrey/pydictor.git
+cd && cd pydictor && chmod +x pydictor.py
+cd && cd pydictor && chmod u+x pydictor.py
+cd && cd pydictor && chmod 777 pydictor.py
+
+cd && git clone https://github.com/k4m4/onioff.git
+cd && cd onioff && chmod +x onioff.py
+cd && cd onioff && chmod u+x onioff.py
+cd && cd onioff && chmod 777 onioff.py
+cd && cd onioff && pip2 install -r requirements.txt
+
+cd && git clone https://github.com/Xi4u7/A-Rat.git
+cd && cd A-Rat && chmod +x A-Rat.py
+cd && cd A-Rat && chmod u+x A-Rat.py
+cd && cd A-Rat && chmod 777 A-Rat.py
+
+cd && git clone https://github.com/jesparza/peepdf.git
+cd && cd peepdf && chmod +x peepdf.py
+cd && cd peepdf && chmod u+x peepdf.py
+cd && cd peepdf && chmod 777 peepdf.py
+
+cd && git clone https://github.com/Ekultek/Pybelt.git
+cd && cd Pybelt && chmod +x pybelt.py
+cd && cd Pybelt && chmod u+x pybelt.py
+cd && cd Pybelt && chmod 777 pybelt.py
+cd && cd Pybelt && pip2 install -r requirements.txt
+
+cd && git clone https://github.com/ikkebr/PyBozoCrack.git
+cd && cd PyBozoCrack && chmod +x pybozocrack.py
+cd && cd PyBozoCrack && chmod u+x pybozocrack.py
+cd && cd PyBozoCrack && chmod 777 pybozocrack.py
+cd && cd PyBozoCrack && pip2 install -r requirements.txt
+cd && cd PyBozoCrack && chmod +x Makefile
+cd && cd PyBozoCrack && chmod u+x Makefile
+cd && cd PyBozoCrack && chmod 777 Makefile
+
+cd && git clone https://github.com/jorik041/recon-ng.git
+cd && cd recon-ng && chmod +x recon-ng.py
+cd && cd recon-ng && chmod u+x recon-ng.py
+cd && cd recon-ng && chmod 777 recon-ng.py
+
+cd && git clone https://github.com/UltimateHackers/ReconDog.git
+cd && cd ReconDog && chmod +x dog.py
+cd && cd ReconDog && chmod u+x dog.py
+cd && cd ReconDog && chmod 777 dog.py
+
+cd && git clone https://github.com/Tuhinshubhra/RED_HAWK.git
+cd && cd RED_HAWK && chmod +x rhawk.php
+cd && cd RED_HAWK && chmod u+x rhawk.php
+cd && cd RED_HAWK && chmod 777 rhawk.php
+
+cd && git clone https://github.com/reverse-shell/routersploit.git
+cd && cd routersploit && chmod +x rsf.py
+cd && cd routersploit && chmod u+x rsf.py
+cd && cd routersploit && chmod 777 rsf.py
+cd && cd routersploit && pip2 install -r requests
+cd && cd routersploit && pip2 install -r requirements.txt
+cd && cd routersploit && pip2 install -r requirements-dev.txt
+
+cd && git clone https://github.com/googleinurl/SCANNER-INURLBR.git
+cd && cd SCANNER-INURLBR && chmod +x inurlbr.php
+cd && cd SCANNER-INURLBR && chmod u+x inurlbr.php
+cd && cd SCANNER-INURLBR && chmod 777 inurlbr.php
+
+cd && git clone https://github.com/trustedsec/social-engineer-toolkit.git
+cd && cd social-engineer-toolkit && chmod +x setoolkit
+cd && cd social-engineer-toolkit && chmod u+x setoolkit
+cd && cd social-engineer-toolkit && chmod 777 setoolkit 
+cd && cd social-engineer-toolkit && python setup.py install
+cd && cd social-engineer-toolkit && python2 setup.py install
+cd && cd social-engineer-toolkit && pip install -r requirements.txt
+
+cd && git clone https://github.com/sqlmapproject/sqlmap.git
+cd && cd sqlmap && chmod +x sqlmap.py
+cd && cd sqlmap && chmod u+x sqlmap.py
+cd && cd sqlmap && chmod 777 sqlmap.py
+
+cd && git clone https://github.com/manish002000/Termux-Squad.git
+cd && cd Termux-Squad && mv Manish-Hacker squad.py
+cd && cd Termux-Squad && chmod +x squad.py
+cd && cd Termux-Squad && chmod u+x squad.py
+cd && cd Termux-Squad && chmod 777 squad.py
+
+cd && git clone https://github.com/st42/termux-sudo.git
+cd && cd termux-sudo && mv -v sudo /data/data/com.termux/files/usr/bin
+cat sudo > /data/data/com.termux/files/usr/bin/sudo
+chmod 700 /data/data/com.termux/files/usr/bin/sudo
+
+cd && git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+cd && cd /data/data/com.termux/files/usr/bin && wget https://raw.githubusercontent.com/nmilosev/termux-fedora/master/termux-fedora.sh
+cd /data/data/com.termux/files/usr/bin && chmod +x termux-fedora.sh
+cd /data/data/com.termux/files/usr/bin && chmod 777 termux-fedora.sh
+cd /data/data/com.termux/files/usr/bin && chmod u+x termux-fedora.sh
+
+cd && git clone https://github.com/dotfighter/torshammer.git
+cd && cd torshammer && chmod +x torshammer.py
+cd && cd torshammer && chmod u+x torshammer.py
+cd && cd torshammer && chmod 777 torshammer.py
+
+cd && git clone https://github.com/verluchie/termux-lazysqlmap.git
+cd && cd termux-lazysqlmap && chmod +x install.sh
+cd && cd termux-lazysqlmap && chmod u+x install.sh
+cd && cd termux-lazysqlmap && chmod 777 install.sh
+cd && cd termux-lazysqlmap && sh install.sh
+echo
+cd && cd termux-lazysqlmap &&  ./install.sh
+
+cd && wget http://download1935.mediafire.com/xl524uo3wtsg/fbfyn2dyrb47ruw/Facebook_Brute.zip
+cd && unzip Facebook_Brute.zip && rm Facebook_Brute.zip
+cd && cd Facebook_Brute && chmod +x facebook.py
+cd && cd Facebook_Brute && chmod u+x facebook.py
+cd && cd Facebook_Brute && chmod 777 facebook.py
+
+cd && git clone https://github.com/silverhat007/termux_webscan.git
+cd && cd termux_webscan && chmod +x webscan
+cd && cd termux_webscan && chmod u+x webscan
+cd && cd termux_webscan && chmod 777 webscan
+
+cd && git clone https://github.com/zigoo0/webpwn3r.git
+cd && cd webpwn3r && chmod +x scan.py
+cd && cd webpwn3r && chmod u+x scan.py
+cd && cd webpwn3r && chmod 777 scan.py
+
+cd && git clone https://github.com/evait-security/weeman.git
+cd && cd weeman && chmod +x weeman.py
+cd && cd weeman && chmod u+x weeman.py
+cd && cd weeman && chmod 777 weeman.py
+
+cd && git clone https://github.com/bytezcrew/wfdroid-termux.git
+cd && cd wfdroid-termux && chmod +x wfdinstall
+cd && cd wfdroid-termux && chmod u+x wfdinstall
+cd && cd wfdroid-termux && chmod 777 wfdinstall
+cd && cd wfdroid-termux && ./wfdinstall
+cd && cd wfdroid-termux && sh wfdinstall
+cd && cd wfdroid-termux && chmod +x master.1
+cd && cd wfdroid-termux && chmod u+x master.1
+cd && cd wfdroid-termux && chmod 777 master.1
+
+cd && git clone https://github.com/esc0rtd3w/wifi-hacker.git
+cd && cd wifi-hacker && chmod +x wifi-hacker.sh
+cd && cd wifi-hacker && chmod u+x wifi-hacker.sh
+cd && cd wifi-hacker && chmod 777 wifi-hacker.sh
+
+cd && git clone https://github.com/gkbrk/slowloris.git
+cd && cd slowloris && chmod +x slowloris.py
+cd && cd slowloris && chmod u+x slowloris.py
+cd && cd slowloris && chmod 777 slowloris.py
+
+cd && git clone https://github.com/r00tmars/XPL-SEARCH.git
+cd && cd XPL-SEARCH && chmod +x 'xpl search.php'
+cd && cd XPL-SEARCH && chmod u+x 'xpl search.php'
+cd && cd XPL-SEARCH && chmod 777 'xpl search.php'
+
+cd && git clone https://github.com/Mebus/cupp.git
+cd && cd cupp && chmod +x cupp.py
+cd && cd cupp && chmod u+x cupp.py
+cd && cd cupp && chmod 777 cupp.py
+
+cd && git clone https://github.com/mrSilent0598/FBUPv2.0.git
+cd && cd FBUPv2.0 && chmod +x fbup.py
+cd && cd FBUPv2.0 && chmod u+x fbup.py
+cd && cd FBUPv2.0 && chmod 777 fbup.py
+
+cd && git clone https://github.com/Neo-Oli/termux-ubuntu.git
+cd && cd termux-ubuntu && chmod +x ubuntu.sh
+cd && cd termux-ubuntu && chmod u+x ubuntu.sh
+cd && cd termux-ubuntu && chmod 777 ubuntu.sh
+cd && cd termux-ubuntu && sh ubuntu.sh
+
+cd && git clone https://github.com/shawarkhanethicalhacker/D-TECT.git
+cd && cd D-TECT && chmod +x d-tect.py
+cd && cd D-TECT && chmod u+x d-tect.py
+cd && cd D-TECT && chmod 777 d-tect.py
+
+cd && git clone https://github.com/derv82/wifite.git
+cd && git clone https://github.com/aanarchyy/wifite-mod-pixiewps.git
+cd && git clone https://github.com/t6x/reaver-wps-fork-t6x.git
+cd && git clone https://github.com/wiire/pixiewps.git
+cd && apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
+cd && sudo apt-get install libpcap-dev aircrack-ng sqlite3 libsqlite3-dev libssl-dev -y
+cd && apt-get install libpcap-dev aircrack-ng sqlite3 libsqlite3-dev libssl-dev -y
+cd && cd pixiewps/src/
+cd && make && make install
+cd /root/backup/reaver-wps-fork-t6x/src/
+cd && ./configure
+cd && make && make install
+cp /root/backup/wifite/wifite.py /usr/bin/wifite
+cd && chmod +x /usr/bin/wifite
+cp /root/backup/wifite-mod-pixiewps/wifite-ng /usr/bin/wifite-ng
+cd && chmod +x /usr/bin/wifite-ng
+cd && cd wifite && chmod +x wifite.py
+cd && cd wifite && chmod u+x wifite.py
+cd && cd wifite && chmod 777 wifite.py
+
+
+cd && git clone https://github.com/zanyarjamal/IP-Locator.git
+cd && cd IP-Locator && chmod +x ip-locator.pl
+
+echo ""
+echo ""
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo ""
+echo ""
+echo " [ + ]  All toos installed successfully !!! "
+echo ""
+echo ""
+echo "_________________________________________________"
+echo "_________________________________________________"
+echo ""
+echo "Press Enter to continue."
+read Enter
+echo ""
+echo ""
+
+exit $?
+break;
+
