@@ -12,7 +12,7 @@ Install any tools by single click. You can install almost 70 tools in termux and
 <br/></br>
 
 <p align="center">
-<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/2017-12-14-08-57-45.jpg"/>
+<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Tool-X.jpg"/>
 </p>
 
 <br/><br/><br/>
