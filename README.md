@@ -25,11 +25,18 @@ Install any tools by single click. You can install almost 70 tools in termux and
 
 <br/><br/><br/>
 
+# Tool-X is available for
+
+## * Android
+## * Ubuntu
+
+<br/><br/><br/>
+
 # Warning
 
 ## I am not expert so use this tool at your own risk.
 
-<br/><br/><br/>
+<br/><br/>
 
 # How to Install in termux ?
 
@@ -49,7 +56,7 @@ Open the termux app and type following commands.
 
 <br/>
 
-## Now Tool-X is installed successfully. To run Tool-X Type
+## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
 
 Now type Tool-X from anywhare in your terminl to open Tool-X.
 
@@ -59,11 +66,7 @@ Now type Tool-X from anywhare in your terminl to open Tool-X.
 
 Open the GNURoot Debian app and type following commands.
 
-* `cd`
-
 * `apt update`
-
-* `apt upgrade`
 
 * `apt install git`
 
@@ -77,7 +80,28 @@ Open the GNURoot Debian app and type following commands.
 
 <br/>
 
-## Now Tool-X is installed successfully. To run Tool-X Type
+## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
 
 Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool only for legal purpose.
 
+<br/><br/><br/>
+
+# How to install in Ubuntu ?
+
+* `sudo apt-get Update`
+
+* `sudo apt-get install git`
+
+* `sudo git clone https://github.com/Rajkumrdusad/Tool-X.git`
+
+* `cd Tool-X`
+
+* `chmod +x install.aex`
+
+* `sudo sh install.aex` OR `./install.aex`
+
+## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
+
+Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool only for legal purpose.
+
+<br/><br/><br/>
