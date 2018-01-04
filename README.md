@@ -23,14 +23,12 @@ Install any tools by single click. You can install almost 70 tools in termux and
 - Type 3 : if you know About us.
 - Type x : for exit.
 
-<br/><br/><br/>
 
 # Tool-X is available for
 
 ## * Android
 ## * Ubuntu
 
-<br/><br/><br/>
 
 # Warning
 
@@ -99,6 +97,8 @@ Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool 
 * `chmod +x install.aex`
 
 * `sudo sh install.aex` OR `./install.aex`
+
+<br/>
 
 ## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
 
