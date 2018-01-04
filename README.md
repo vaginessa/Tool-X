@@ -23,18 +23,20 @@ Install any tools by single click. You can install almost 70 tools in termux and
 - Type 3 : if you know About us.
 - Type x : for exit.
 
+<br/>
 
 # Tool-X is available for
 
 ## * Android
 ## * Ubuntu
 
+<br/>
 
 # Warning
 
 ## I am not expert so use this tool at your own risk.
 
-<br/><br/>
+<br/>
 
 # How to Install in termux ?
 
@@ -58,7 +60,7 @@ Open the termux app and type following commands.
 
 Now type Tool-X from anywhare in your terminl to open Tool-X.
 
-<br/><br/><br/>
+<br/><br/>
 
 # How to Install in GNURoot Debian Terminal ?
 
@@ -82,7 +84,7 @@ Open the GNURoot Debian app and type following commands.
 
 Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool only for legal purpose.
 
-<br/><br/><br/>
+<br/><br/>
 
 # How to install in Ubuntu ?
 
@@ -104,4 +106,4 @@ Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool 
 
 Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool only for legal purpose.
 
-<br/><br/><br/>
+<br/><br/>
