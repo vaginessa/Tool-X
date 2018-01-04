@@ -27,8 +27,8 @@ Install any tools by single click. You can install almost 70 tools in termux and
 
 # Tool-X is available for
 
-## * Android
-## * Ubuntu
+* Android
+* Ubuntu
 
 <br/>
 
