@@ -16,7 +16,7 @@
   [ 15 ] Install PHP
   [ 16 ] Install wget
   [ 17 ] Install Hakku-Framework
-  [ 18 ] Install hammer
+  [ 18 ] Install Hammer
   [ 19 ] Install Hash-Buster
   [ 20 ] Install Hydra
   [ 21 ] Install Hunner
@@ -28,7 +28,7 @@
   [ 27 ] Install Trity
   [ 28 ] Install Lazymux
   [ 29 ] Install Metasploit-Framework
-  [ 30 ] Install nano
+  [ 30 ] Install nano editor
   [ 31 ] Install netattack
   [ 32 ] Install pydictor
   [ 33 ] Install Nmap
@@ -69,6 +69,28 @@
   [ 68 ] Install D-TECT
   [ 69 ] Install Wifite
   [ 70 ] Install IP-Locator
-  [ 71 ] Install fsociety
+  [ 71 ] Install Fsociety
   [ 72 ] Install WPSeku
   [ 73 ] Install Arch Linux
+  [ 74 ] Install Vim editor
+  [ 75 ] Install Curl
+  [ 76 ] Install Blazy
+  [ 77 ] Install Crips
+  [ 78 ] Install Cyberscan
+  [ 79 ] Install Devsploit
+  [ 80 ] Install Dsvw
+  [ 81 ] Install Dsxs
+  [ 82 ] Install GoldenEye
+  [ 83 ] Install HatCloud
+  [ 84 ] Install Htools
+  [ 85 ] Install Hulk
+  [ 86 ] Install Netattack2
+  [ 87 ] Install Nikto
+  [ 88 ] Install PyBluez
+  [ 89 ] Install Shellstack
+  [ 90 ] Install sn1per
+  [ 91 ] Install socialfish
+  [ 92 ] Inatall spammer-grab
+  [ 93 ] Install txtool
+  [ 94 ] Install wifresti
+  [ 95 ] Install XAttacker
