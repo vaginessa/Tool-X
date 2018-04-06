@@ -88,9 +88,24 @@
   [ 87 ] Install Nikto
   [ 88 ] Install PyBluez
   [ 89 ] Install Shellstack
-  [ 90 ] Install sn1per
-  [ 91 ] Install socialfish
-  [ 92 ] Inatall spammer-grab
-  [ 93 ] Install txtool
-  [ 94 ] Install wifresti
+  [ 90 ] Install Sn1per
+  [ 91 ] Install Socialfish
+  [ 92 ] Inatall Spammer-grab
+  [ 93 ] Install Txtool
+  [ 94 ] Install Wifresti
   [ 95 ] Install XAttacker
+  [ 96 ] Install QRLJacking
+  [ 97 ] Install Santet-online
+  [ 98 ] Install Th3inspector
+  [ 99 ] Install Alpine Linux
+  [ 100 ] Install hacktronian
+  [ 101 ] Install Gasmask
+  [ 102 ] Install Dedsploit
+  [ 103 ] Install Cookie-stealer
+  [ 104 ] Install killchain
+  [ 105 ] Install Kali Linux
+  [ 106 ] Install sAINT
+  [ 107 ] Install Sqliv
+  [ 108 ] Install theHarvester
+  [ 109 ] Install trape
+  [ 110 ] Install uidsploit
