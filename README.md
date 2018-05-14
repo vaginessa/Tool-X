@@ -58,7 +58,7 @@ Open the termux app and type following commands.
 
 ## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
 
-Now type Tool-X from anywhare in your terminl to open Tool-X.
+Now type Tool-X from anywhare in your terminal to open Tool-X.
 
 <br/><br/>
 
