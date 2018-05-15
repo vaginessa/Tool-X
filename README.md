@@ -58,7 +58,7 @@ Open the termux app and type following commands.
 
 ## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
 
-Now type Tool-X from anywhare in your terminl to open Tool-X.
+Now type Tool-X from anywhare in your terminal to open Tool-X.
 
 <br/><br/>
 
@@ -82,7 +82,7 @@ Open the GNURoot Debian app and type following commands.
 
 ## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
 
-Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool only for legal purpose.
+Now type Tool-X from anywhare in your terminal to open Tool-X. But use this tool only for legal purpose.
 
 <br/><br/>
 
@@ -104,6 +104,6 @@ Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool 
 
 ## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
 
-Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool only for legal purpose.
+Now type Tool-X from anywhare in your terminal to open Tool-X. But use this tool only for legal purpose.
 
 <br/><br/>
