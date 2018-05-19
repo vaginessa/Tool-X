@@ -2,29 +2,30 @@
 # Author :- Rajkumar dusad
 # Date :- 1/11/2017
 
-cd && apt-get install -y git
-cd && apt-get install -y python
-cd && apt-get install -y python-pip
-cd && apt-get install -y python2
-cd && apt-get install -y python2-pip
-cd && apt-get install python3
-cd && apt-get install python3-pip
-cd && apt-get install -y php
-cd && apt-get install -y php-pip
-cd && apt-get install -y ruby
-cd && apt-get install -y wget
-cd && apt-get install -y clang
-cd && apt-get install -y nano
-cd && apt-get install -y tor
-cd && apt-get install -y w3m
-cd && apt-get install -y figlet
-cd && apt-get install -y hydra
-cd && apt-get install -y perl
-cd && apt-get install -y curl
-cd && apt-get install -y nmap
-cd && apt-get install python-nmap python-argparse python-scapy iw
-cd && apt-get install ncurses-utils
-cd && apt-get install toilet
+cd && sudo apt-get update
+cd && sudo apt-get install -y git
+cd && sudo apt-get install -y python
+cd && sudo apt-get install -y python-pip
+cd && sudo apt-get install -y python2
+cd && sudo apt-get install -y python2-pip
+cd && sudo apt-get install python3
+cd && sudo apt-get install python3-pip
+cd && sudo apt-get install -y php
+cd && sudo apt-get install -y php-pip
+cd && sudo apt-get install -y ruby
+cd && sudo apt-get install -y wget
+cd && sudo apt-get install -y clang
+cd && sudo apt-get install -y nano
+cd && sudo apt-get install -y tor
+cd && sudo apt-get install -y w3m
+cd && sudo apt-get install -y figlet
+cd && sudo apt-get install -y hydra
+cd && sudo apt-get install -y perl
+cd && sudo apt-get install -y curl
+cd && sudo apt-get install -y nmap
+cd && sudo apt-get install python-nmap python-argparse python-scapy iw
+cd && sudo apt-get install ncurses-utils
+cd && sudo apt-get install toilet
 
 cd && sudo git clone https://github.com/bdblackhat/admin-panel-finder.git
 cd && cd admin-panel-finder && chmod +x admin_panel_finder.py
