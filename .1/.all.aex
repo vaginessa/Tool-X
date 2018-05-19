@@ -2,52 +2,29 @@
 # Author :- Rajkumar dusad
 # Date :- 1/11/2017
 
-cd && pkg update upgrade -y
-cd && pkg install git
-cd && apt-get install git
-cd && pkg install python
-cd && apt-get install python
-cd && pkg install python -pip
-cd && apt-get install python -pip
-cd && pkg install python2
-cd && apt-get install python2
-cd && pkg install python2 -pip
-cd && apt-get install python2 -pip
-cd && pkg install python3
-cd && apt-get install python3
-cd && pkg install python3-pip
-cd && apt-get install python3-pip
-cd && pkg install php
-cd && apt-get install php
-cd && pkg install php -pip
-cd && apt-get install php -pip
-cd && pkg install ruby
-cd && apt-get install ruby
-cd && pkg install wget
-cd && apt-get install wget
-cd && pkg install clang
-cd && apt-get install clang
-cd && pkg install nano
-cd && apt-get install nano
-cd && pkg install tor
-cd && apt-get install tor
-cd && pkg install w3m
-cd && apt-get install w3m
-cd && pkg install figlet
-cd && apt-get install figlet
-cd && pkg install hydra
-cd && apt-get install hydra
-cd && pkg install perl
-cd && apt-get install perl
-cd && pkg install curl
-cd && apt-get install curl
-cd && pkg install nmap
-cd && apt-get install nmap
-cd && apt-get install python-nmap python-argparse python-scapy iw
-cd && pkg install ncurses-utils
-cd && apt-get install ncurses-utils
-cd && pkg install toilet
-cd && apt-get install toilet
+pkg update upgrade -y
+pkg install git
+pkg install python
+pkg install python -pip
+pkg install python2
+pkg install python2 -pip
+pkg install python3
+pkg install python3-pip
+pkg install php
+pkg install php -pip
+pkg install ruby
+pkg install wget
+pkg install clang
+pkg install nano
+pkg install tor
+pkg install w3m
+pkg install figlet
+pkg install hydra
+pkg install perl
+pkg install curl
+pkg install nmap
+pkg install ncurses-utils
+pkg install toilet
 
 cd && git clone https://github.com/bdblackhat/admin-panel-finder.git
 cd && cd admin-panel-finder && chmod +x admin_panel_finder.py
