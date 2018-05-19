@@ -2,53 +2,52 @@
 # Author :- Rajkumar dusad
 # Date :- 1/11/2017
 
-cd && pkg update
-cd && pkg upgrade -y
-cd && pkg install git -y
-cd && apt-get install git -y
-cd && pkg install python -y
-cd && apt-get install python -y
-cd && pkg install python -pip -y
-cd && apt-get install python -pip -y
-cd && pkg install python2 -y
-cd && apt-get install python2 -y
-cd && pkg install python2 -pip -y
-cd && apt-get install python2 -pip -y
-cd && pkg install python3 -y
-cd && apt-get install python3 -y
-cd && pkg install python3-pip -y
-cd && apt-get install python3-pip -y
-cd && pkg install php -y
-cd && apt-get install php -y
-cd && pkg install php -pip -y
-cd && apt-get install php -pip -y
-cd && pkg install ruby -y
-cd && apt-get install ruby -y
-cd && pkg install wget -y
-cd && apt-get install wget -y
-cd && pkg install clang -y
-cd && apt-get install clang -y
-cd && pkg install nano -y
-cd && apt-get install nano -y
-cd && pkg install tor -y
-cd && apt-get install tor -y
-cd && pkg install w3m -y
-cd && apt-get install w3m -y
-cd && pkg install figlet -y
-cd && apt-get install figlet -y
-cd && pkg install hydra -y
-cd && apt-get install hydra -y
-cd && pkg install perl -y
-cd && apt-get install perl -y
-cd && pkg install curl -y
-cd && apt-get install curl -y
-cd && pkg install nmap -y
-cd && apt-get install nmap -y
-cd && apt-get install python-nmap python-argparse python-scapy iw -y
-cd && pkg install ncurses-utils -y
-cd && apt-get install ncurses-utils -y
-cd && pkg install toilet -y
-cd && apt-get install toilet -y
+cd && pkg update upgrade -y
+cd && pkg install git
+cd && apt-get install git
+cd && pkg install python
+cd && apt-get install python
+cd && pkg install python -pip
+cd && apt-get install python -pip
+cd && pkg install python2
+cd && apt-get install python2
+cd && pkg install python2 -pip
+cd && apt-get install python2 -pip
+cd && pkg install python3
+cd && apt-get install python3
+cd && pkg install python3-pip
+cd && apt-get install python3-pip
+cd && pkg install php
+cd && apt-get install php
+cd && pkg install php -pip
+cd && apt-get install php -pip
+cd && pkg install ruby
+cd && apt-get install ruby
+cd && pkg install wget
+cd && apt-get install wget
+cd && pkg install clang
+cd && apt-get install clang
+cd && pkg install nano
+cd && apt-get install nano
+cd && pkg install tor
+cd && apt-get install tor
+cd && pkg install w3m
+cd && apt-get install w3m
+cd && pkg install figlet
+cd && apt-get install figlet
+cd && pkg install hydra
+cd && apt-get install hydra
+cd && pkg install perl
+cd && apt-get install perl
+cd && pkg install curl
+cd && apt-get install curl
+cd && pkg install nmap
+cd && apt-get install nmap
+cd && apt-get install python-nmap python-argparse python-scapy iw
+cd && pkg install ncurses-utils
+cd && apt-get install ncurses-utils
+cd && pkg install toilet
+cd && apt-get install toilet
 
 cd && git clone https://github.com/bdblackhat/admin-panel-finder.git
 cd && cd admin-panel-finder && chmod +x admin_panel_finder.py
