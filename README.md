@@ -42,17 +42,22 @@ Install any tools by single click. You can install almost 110 tools in termux an
 
 Open the termux app and type following commands.
 
-* `apt update`
+```
+apt update
 
-* `pkg install git`
+pkg install git
 
-* `git clone https://github.com/Rajkumrdusad/Tool-X.git`
+git clone https://github.com/Rajkumrdusad/Tool-X.git
 
-* `cd Tool-X`
+cd Tool-X
 
-* `chmod +x install.aex`
+chmod +x install.aex
 
-* `sh install.aex` if not work than type `./install.aex`
+sh install.aex
+
+if not work than type 
+
+./install.aex
 
 <br/>
 
