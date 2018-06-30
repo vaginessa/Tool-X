@@ -1,0 +1,43 @@
+# Tool Name :- Tool-X v2.0 
+# Author :- Rajkumar Dusad
+# Date :- 1/11/2017
+# Powered By :- Aex Software's
+
+import os
+import sys
+from time import sleep
+
+def Ux():
+ Ux = os.system("clear")
+
+def Aex():
+	Aex = sys.exit()
+
+def ToolX():
+ while True:
+		os.system("clear")
+		print ('''\033[1;32m Removing All Files .........\033[1;m''')
+		os.system("cd && cd /data/data/com.termux/files/usr/bin && rm -rf Tool-X")
+		os.system("cd ~/ && rm -rf .Tool-X")
+		os.system("clear")
+		os.system("cd .. && cd .. && cd .. && rm -rf Tool-X")
+		os.system("cd .. && cd .. && cd .. && rm -rf .Tool-X")
+		os.system("clear")
+		Aex()
+
+		ToolX()
+
+def Ox():
+ ToolX()
+ Ox()
+
+
+def Tool_X():
+	try:
+		Ux()
+		Ox()
+
+	except KeyboardInterrupt:
+		Ux()
+	Aex()
+Tool_X()

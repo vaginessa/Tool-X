@@ -1,0 +1,275 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+# Powered By :- Aex Software's
+
+import os
+import sys
+
+
+def Upd():
+	print("\033[1;33m")
+	sys.stdout.write(open(".Toolo/.T0.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".Toolo/.U.aex").read())
+	print("\033[1;33m")
+	sys.stdout.write(open(".Toolo/.T0.aex").read())
+	print("\033[1;m")
+
+
+def Aex():
+	Aex=sys.exit()
+
+def Ux():
+	Ux=os.system("clear")
+
+def proc():
+	print("\033[1;33m")
+	sys.stdout.write(open(".Toolo/.T0.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".Toolo/.Ia.aex").read())
+	print("\033[1;33m")
+	sys.stdout.write(open(".Toolo/.T0.aex").read())
+	print("\033[1;m")
+	print("\n\n")
+
+
+
+def Er():
+	print("\033[1;31m")
+	sys.stdout.write(open(".Toolo/.er.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".Toolo/.er0.aex").read())
+	print("\033[1;31m")
+	sys.stdout.write(open(".Toolo/.er.aex").read())
+	print("\033[1;m")
+
+
+def Chk():
+
+	Ux()
+	proc()
+	if os.path.exists("/data/data/com.termux/files/usr/bin/proot"):
+		print ("\033[1;33m Done....\033[1;m")
+	else:
+		os.system("pkg install -y proot")
+
+	if os.path.exists("/data/data/com.termux/files/usr/bin/nano"):
+		print ("\033[1;33m Done....\033[1;m")
+	else:
+		os.system("pkg install -y nano")
+
+	if os.path.exists("/data/data/com.termux/files/usr/bin/curl"):
+		print ("\033[1;33m Done....\033[1;m")
+	else:
+		os.system("pkg install -y curl")
+
+	if os.path.exists("/data/data/com.termux/files/usr/bin/wget"):
+		print ("\033[1;33m Done....\033[1;m")
+	else:
+		os.system("pkg install -y wget")
+
+	if os.path.exists("/data/data/com.termux/files/usr/bin/git"):
+		print ("\033[1;33m Done....\033[1;m")
+	else:
+		os.system("pkg install -y git")
+
+
+
+def Notinst():
+ while True:
+
+		while os.path.exists("/data/data/com.termux/files/home/TermuxAlpine"):
+			Ux()
+			install()
+			
+
+		else:
+			Ux()
+			print ('''
+
+
+\033[1;33m
+          _____           _    __  __
+         |_   _|__   ___ | |   \ \/ /
+           | |/ _ \ / _ \| |____\  /
+           | | (_) | (_) | |____/  \     
+           |_|\___/ \___/|_|   /_/\_\ \033[1;m\033[1;91mv2.0\033[1;m
+
+
+\033[1;36m ===============================================\033[1;m
+\033[1;33m|           Install Best Hacking Tool           |
+\033[1;36m ===============================================\033[1;m
+
+\033[1;31m  [ + ]  \033[1;31mWe can't install this tool.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mAre you offline?\033[1;m
+\033[1;31m  [ + ]  \033[1;31mIf you are online.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mThen the server is down.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mPlease try again after some time.\033[1;m
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+
+''')
+			Toolo = raw_input("\033[1;33m Press any key to continue >>> \033[1;m")
+			if Toolo == "":
+				Aex()
+			elif Toolo == "":
+				Aex()
+			else:
+				Aex()
+
+
+
+def inst1():
+ while True:
+
+		Ux()
+		Chk()
+		os.system("cd")
+		Ux()
+
+		while os.path.exists("/data/data/com.termux/files/home/TermuxAlpine"):
+			Ux()
+			install()
+
+		else:
+			Ux()
+			Notinst()
+
+
+
+def inst():
+ while True:
+
+		Ux()
+		Chk()
+
+		os.system("cd && git clone https://github.com/Hax4us/TermuxAlpine.git")
+		os.system("cd && cd TermuxAlpine && chmod +x TermuxAlpine.sh")
+		Ux()
+
+		while os.path.exists("/data/data/com.termux/files/home/TermuxAlpine"):
+			Ux()
+			install()
+
+		else:
+			Ux()
+			inst1()
+
+
+
+def install():
+ while True:
+
+		while os.path.exists("/data/data/com.termux/files/home/TermuxAlpine"):
+			Ux()
+			print ('''
+
+
+
+\033[1;33m
+          _____           _    __  __
+         |_   _|__   ___ | |   \ \/ /
+           | |/ _ \ / _ \| |____\  /
+           | | (_) | (_) | |____/  \     
+           |_|\___/ \___/|_|   /_/\_\ \033[1;m\033[1;91mv2.0\033[1;m
+
+
+\033[1;36m ===============================================\033[1;m
+\033[1;33m|           Install Best Hacking Tool           |
+\033[1;36m ===============================================\033[1;m
+
+\033[1;33m  [ + ]  \033[1;32mInstalled successfully. !!! \033[1;m
+\033[1;33m  [ + ]  \033[1;32mTo run Alpine Linux.\033[1;m
+\033[1;33m  [ + ]  \033[1;32mGo to 'TermuxAlpine' folder.\033[1;m
+\033[1;33m  [ + ]  \033[1;32mthen type 'sh TermuxAlpine.sh' \033[1;m
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+
+''')
+			Toolo = raw_input("\033[1;33m Press any key to continue >>> \033[1;m")
+			if Toolo == "":
+				Aex()
+			elif Toolo == "":
+				Aex()
+			else:
+				Aex()
+
+		else:
+			inst()
+	
+
+
+
+
+
+def Open():
+ while True:
+
+		while os.path.exists("/data/data/com.termux/files/home/TermuxAlpine"):
+			Ux()
+			print ('''
+
+
+
+\033[1;33m
+          _____           _    __  __
+         |_   _|__   ___ | |   \ \/ /
+           | |/ _ \ / _ \| |____\  /
+           | | (_) | (_) | |____/  \     
+           |_|\___/ \___/|_|   /_/\_\ \033[1;m\033[1;91mv2.0\033[1;m
+
+
+\033[1;36m ===============================================\033[1;m
+\033[1;33m|           Install Best Hacking Tool           |
+\033[1;36m ===============================================\033[1;m
+
+\033[1;33m [+] \033[1;32mSorry. !!!
+\033[1;33m [+] \033[1;32mTermuxAlpine is already Installed. !!!\033[1;m
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+
+''')
+
+			Toolo = raw_input("\033[1;32m Press Y to update it. [Y/n] >>> \033[1;m")
+			if Toolo == "y":
+				Ux()
+				Upd()
+				Ux()
+				os.system("cd && rm -rf TermuxAlpine")
+				Ux()
+				install()
+
+			elif Toolo == "Y":
+				Ux()
+				Upd()
+				Ux()
+				os.system("cd && rm -rf TermuxAlpine")
+				Ux()
+				install()
+
+			elif Toolo == "n":
+				Aex()
+
+			elif Toolo == "N":
+				Aex()
+
+			else:
+				Er()
+				Open()
+
+		else:
+			install()
+
+
+
+def Tool_X():
+	try:
+		Open()
+		Ux()
+		Aex()
+
+	except KeyboardInterrupt:
+		Ux()
+		Aex()
+Tool_X()
