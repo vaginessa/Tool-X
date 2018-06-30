@@ -1,0 +1,49 @@
+#Tool Name :- Tool-X v2.0 
+# Author :- Rajkumar Dusad
+# Date :- 1/11/2017
+# Aex Software's :- Tool-X is a automatic tool installer. Specially made for termux and GNURoot Debian terminal.
+
+import os
+import sys
+
+if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
+    systm="termux"
+elif os.path.exists("/usr/bin/apt"):
+    if os.path.exists("/usr/lib/sudo"):
+        systm="ubuntu"
+    else:
+        systm="debian"
+elif os.path.exists("/bin/apt"):
+    if os.path.exists("/usr/lib/sudo"):
+        systm="ubuntu"
+    else:
+        systm="debian"
+
+def Aex():
+	Aex=sys.exit()
+
+def ox():
+	ox=os.system("clear")
+
+
+def Toolx():
+	while True:
+		ox()
+		os.system("cd && cd /data/data/com.termux/files/usr/bin && rm -rf Tool-X")
+		os.system("cd /data/data/com.termux/files/usr/lib && rm -rf .Tool-X")
+		os.system("cd .. && cd .. && rm -rf .Tool-X Tool-X")
+		os.system("clear")
+		Aex()
+
+
+def Tool_X():
+	try:
+		
+		Toolx()
+
+
+	except KeyboardInterrupt:
+		ox()
+	Aex()
+Tool_X()
+				
