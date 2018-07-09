@@ -299,8 +299,15 @@ def Notinst():
 def inst():
 	Ux()
 	Req()
-	os.system("cd ~/ && git clone "+path)
-	os.system("cd ~/"+toolname+" && chmod +x *.*")
+	if systm=="termux":
+		os.system("cd ~/ && git clone "+path)
+		os.system("cd ~/"+toolname+" && chmod +x *.*")
+	elif systm=="ubuntu":
+		os.system("cd ~/ && sudo git clone "+path)
+		os.system("cd ~/"+toolname+" && sudo chmod +x *.*")
+	else:
+		os.system("cd ~/ && git clone "+path)
+		os.system("cd ~/"+toolname+" && chmod +x *.*")
 	if os.path.exists(hpath+toolname+"/requirements.txt"):
 		os.system("cd ~/"+toolname+" && pip install -r requirements.txt")
 		os.system("cd ~/"+toolname+" && pip2 install -r requirements.txt")
