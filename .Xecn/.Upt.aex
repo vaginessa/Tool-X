@@ -254,7 +254,7 @@ def proce1():
 		Nerr()
 
 def proce():
-	print ('''\033[1;32m Updating.........\033[1;m''')
+	print ('''\n\033[1;32mUpdating.........\033[1;m\n''')
 	if systm=="termux":
 	  os.system("cd /data/data/com.termux/files/home/ && git clone https://github.com/Rajkumrdusad/Tool-X.git")
 	  proce1()
