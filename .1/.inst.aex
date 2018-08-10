@@ -68,7 +68,7 @@ def up():
 
 def py():
     if os.path.exists(bpath+"python"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install python -y")
         os.system(pac+" install python-pip -y")
@@ -80,7 +80,7 @@ def py():
         os.system(pac+" install python3-setuptools")
         os.system("easy_install3 pip")
     if os.path.exists(bpath+"python2"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install python -y")
         os.system(pac+" install python-pip -y")
@@ -92,7 +92,7 @@ def py():
         os.system(pac+" install python3-setuptools")
         os.system("easy_install3 pip")
     if os.path.exists(bpath+"python3"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install python -y")
         os.system(pac+" install python-pip -y")
@@ -106,44 +106,44 @@ def py():
 
 def git():
     if os.path.exists(bpath+"git"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install git -y")
 
 def perl():
     if os.path.exists(bpath+"perl"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install perl -y")
 
 def ruby():
     if os.path.exists(bpath+"ruby"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install ruby -y")
 
 def clang():
     if os.path.exists(bpath+"clang"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install clang -y")
 
 def php():
     if os.path.exists(bpath+"php"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install php -y")
         os.system(pac+" install php5 -y")
 
 def wget():
     if os.path.exists(bpath+"wget"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install wget -y")
 
 def curl():
     if os.path.exists(bpath+"curl"):
-        print("\033[1;33m Done .....")
+        print("\n\033[1;33mDone .....")
     else:
         os.system(pac+" install curl -y")
 
@@ -347,9 +347,9 @@ def install():
 \033[1;36m ===============================================
 
 \033[1;33m  [ + ]  \033[1;32mInstalled successfully. !!!
-\033[1;33m  [ + ]  \033[1;32mTo run '''+toolname+'''.
-\033[1;33m  [ + ]  \033[1;32mGo to \033[00m'''+toolname+'''\033[01;32m folder.
-\033[1;33m  [ + ]  \033[1;32mAnd type \033[00m'''+toollang+''' '''+toolfilename+'''
+\033[1;33m  [ + ]  \033[1;32mTo run \033[01;37m'''+toolname+'''.
+\033[1;33m  [ + ]  \033[1;32mGo to \033[01;37m'''+toolname+'''\033[01;32m folder.
+\033[1;33m  [ + ]  \033[1;32mAnd type \033[01;37m'''+toollang+''' '''+toolfilename+'''
 \033[1;36m_________________________________________________
 =================================================\033[00m
 ''')
@@ -369,9 +369,9 @@ def install():
 \033[1;36m =========================================================
 
 \033[1;33m     [ + ]  \033[1;32mInstalled successfully. !!!
-\033[1;33m     [ + ]  \033[1;32mTo run '''+toolname+'''.
-\033[1;33m     [ + ]  \033[1;32mGo to \033[00m'''+toolname+'''\033[01;32m folder.
-\033[1;33m     [ + ]  \033[1;32mAnd type \033[00m'''+toollang+''' '''+toolfilename+'''
+\033[1;33m     [ + ]  \033[1;32mTo run \033[01;37m'''+toolname+'''.
+\033[1;33m     [ + ]  \033[1;32mGo to \033[01;37m'''+toolname+'''\033[01;32m folder.
+\033[1;33m     [ + ]  \033[1;32mAnd type \033[01;37m'''+toollang+''' '''+toolfilename+'''
 \033[1;36m___________________________________________________________
 ===========================================================\033[00m
 ''')
@@ -408,7 +408,7 @@ def Open():
 \033[1;36m ===============================================
 
 \033[1;33m [+] \033[1;32mSorry. !!!
-\033[1;33m [+] \033[1;32m"""+toolname+""" is already Installed. !!!
+\033[1;33m [+] \033[1;33m"""+toolname+"""\033[01;32m is already Installed. !!!
 \033[1;36m_________________________________________________
 =================================================\033[00m
 """)
@@ -429,7 +429,7 @@ def Open():
 \033[1;36m =========================================================
 
 \033[1;33m   [+] \033[1;32mSorry. !!!
-\033[1;33m   [+] \033[1;32m"""+toolname+""" is already Installed. !!!
+\033[1;33m   [+] \033[1;33m"""+toolname+"""\033[01;32m is already Installed. !!!
 \033[1;36m___________________________________________________________
 ===========================================================\033[00m
 """)
