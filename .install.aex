@@ -288,7 +288,7 @@ def insok():
 
 def proce():
 	Inst()
-	print ('''\033[1;32m Installing.........\033[1;m''')
+	print ('''\n\033[1;32mInstalling.........\033[1;m''')
 	req()
 	os.system("python2 .U.aex")
 	print ('''\033[1;32m Installing.........\033[1;m''')
@@ -305,13 +305,13 @@ def proce():
 	    os.system("cd ~/.Tool-X/.Xecn/.tools && sudo rm -rf Tool-X")
 
 	    print ('''\033[1;32mGiving permissiom level for enabling Tool-X execute from terminal\033[1;m''')
-	    os.system("cd /bin/ && sudo chmod 777 Tool-X")
+	    os.system("cd /bin/ && sudo chmod +x Tool-X")
 
 	    print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
-	    os.system("cd ~/ && sudo chmod 777 .Tool-X")
+	    os.system("cd ~/ && sudo chmod +x .Tool-X")
 
 	    print ('''\033[1;32mGiving permission to files in Tool-X directory\033[1;m''')
-	    os.system("cd ~/.Tool-X/.Xecn/ && sudo chmod 777 *.*")
+	    os.system("cd ~/.Tool-X/.Xecn/ && sudo chmod +x *.* .* .*.* *")
 	    Ux()
 	    insok()
 
@@ -330,13 +330,13 @@ def proce():
 
 	    print ('''\033[1;32mGiving permissiom level for enabling Tool-X execute from terminal\033[1;m''')
 	    os.system("cd /data/data/com.termux/files/usr/bin/ && chmod 777 Tool-X")
-	    os.system("cd /bin/ && chmod 777 Tool-X")
+	    os.system("cd /bin/ && chmod +x Tool-X")
 
 	    print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
-	    os.system("cd ~/ && chmod 777 .Tool-X")
+	    os.system("cd ~/ && chmod +x .Tool-X")
 
 	    print ('''\033[1;32mGiving permission to files in Tool-X directory\033[1;m''')
-	    os.system("cd ~/.Tool-X/.Xecn/ && chmod 777 *.*")
+	    os.system("cd ~/.Tool-X/.Xecn/ && chmod +x *.* .*.* * .*")
 	    Ux()
 	    insok()
 
