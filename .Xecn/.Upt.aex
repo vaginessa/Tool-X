@@ -225,7 +225,7 @@ def Nerr():
 		Aex()
 
 def Done():
-	os.system("cd ~/Tool-X && sh install.aex")
+	os.system("cd /home/Tool-X && sh install.aex")
 	ox()
 	Ups()
 	Toolo = raw_input("\033[1;33m >>> \033[1;m")
@@ -256,15 +256,15 @@ def proce1():
 def proce():
 	print ('''\n\033[1;32mUpdating.........\033[1;m\n''')
 	if systm=="termux":
-	  os.system("cd ~/ && git clone https://github.com/Rajkumrdusad/Tool-X.git")
+	  os.system("cd /home/ && git clone https://github.com/Rajkumrdusad/Tool-X.git")
 	  proce1()
 	  ox()
 	elif systm=="debian":
-	  os.system("cd ~/ && git clone https://github.com/Rajkumrdusad/Tool-X.git")
+	  os.system("cd /home/ && git clone https://github.com/Rajkumrdusad/Tool-X.git")
 	  proce1()
 	  ox()
 	else:
-	  os.system("cd ~/ && sudo git clone https://github.com/Rajkumrdusad/Tool-X.git")
+	  os.system("cd /home/ && sudo git clone https://github.com/Rajkumrdusad/Tool-X.git")
 	  proce1()
 	  ox()
 
