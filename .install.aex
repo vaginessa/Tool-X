@@ -316,7 +316,8 @@ def proce():
 	    insok()
 
 	else:
-	    os.system("cd .. && mv Tool-X .Tool-X && mv -v .Tool-X ~/")
+	    os.system("cd .. && mv Tool-X .Tool-X")
+	    os.system("cd .. && mv -v .Tool-X ~/")
 	    os.system("cd .. && rm -rf Tool-X")
 	    os.system("cd ~/.Tool-X && mv .1 .tools")
 	    os.system("cd ~/.Tool-X && mv -v .tools ~/.Tool-X/.Xecn")
