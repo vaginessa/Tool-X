@@ -293,7 +293,8 @@ def proce():
 	os.system("python2 .U.aex")
 	print ('''\033[1;32m Installing.........\033[1;m''')
 	if os.path.exists("/usr/lib/sudo"):
-	    os.system("cd .. && sudo mv Tool-X .Tool-X && sudo mv -v .Tool-X ~/")
+	    os.system("sudo mkdir ~/.Tool-X")
+	    os.system("sudo mv -v .1 .sc .Toolo .Toolo2 .Xecn ~/.Tool-X")
 	    os.system("cd .. && sudo rm -rf Tool-X")
 	    os.system("cd ~/.Tool-X && sudo mv .1 .tools")
 	    os.system("cd ~/.Tool-X && sudo mv -v .tools ~/.Tool-X/.Xecn")
@@ -316,8 +317,8 @@ def proce():
 	    insok()
 
 	else:
-	    os.system("cd .. && mv Tool-X .Tool-X")
-	    os.system("cd .. && mv -v .Tool-X ~/")
+	    os.system("mkdir ~/.Tool-X")
+	    os.system("mv -v .1 .sc .Toolo .Toolo2 .Xecn ~/.Tool-X")
 	    os.system("cd .. && rm -rf Tool-X")
 	    os.system("cd ~/.Tool-X && mv .1 .tools")
 	    os.system("cd ~/.Tool-X && mv -v .tools ~/.Tool-X/.Xecn")
