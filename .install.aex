@@ -296,6 +296,7 @@ def proce():
 	    os.system("sudo mkdir ~/.Tool-X")
 	    os.system("sudo mv -v .1 .sc .Toolo .Toolo2 .Xecn ~/.Tool-X")
 	    os.system("cd .. && sudo rm -rf Tool-X")
+	    os.system("cd .. && sudo rm -rf Tool-X")
 	    os.system("cd ~/.Tool-X && sudo mv .1 .tools")
 	    os.system("cd ~/.Tool-X && sudo mv -v .tools ~/.Tool-X/.Xecn")
 	    os.system("cd ~/.Tool-X && sudo mv -v .Toolo ~/.Tool-X/.Xecn/.tools")
@@ -319,6 +320,7 @@ def proce():
 	else:
 	    os.system("mkdir ~/.Tool-X")
 	    os.system("mv -v .1 .sc .Toolo .Toolo2 .Xecn ~/.Tool-X")
+	    os.system("cd .. && rm -rf Tool-X")
 	    os.system("cd .. && rm -rf Tool-X")
 	    os.system("cd ~/.Tool-X && mv .1 .tools")
 	    os.system("cd ~/.Tool-X && mv -v .tools ~/.Tool-X/.Xecn")
