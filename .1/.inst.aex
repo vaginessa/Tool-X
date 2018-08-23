@@ -462,11 +462,11 @@ def Open():
 		else:
 			if toolname=="metasploit":
 			  if systm=="ubuntu":
-			    os.system("sudo mkdir metasploit")
-			    os.system("cd metasploit && sudo "+path)
+			    os.system("sudo mkdir ~/metasploit")
+			    os.system("cd ~/metasploit && sudo "+path)
 			  else:
-			    os.system("mkdir metasploit")
-			    os.system("cd metasploit && "+path)
+			    os.system("mkdir ~/metasploit")
+			    os.system("cd ~/metasploit && "+path)
 			install()
 
 
