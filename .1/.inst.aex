@@ -244,11 +244,9 @@ def Req():
 		git()
 		go()
 	elif req=="curl":
-		git()
-		go()
+		curl()
 	elif req=="wget":
-		git()
-		go()
+		wget()
 
 
 
@@ -468,9 +466,11 @@ def Open():
 		else:
 			if toolname=="metasploit":
 			  if systm=="ubuntu":
+			    Req()
 			    os.system("sudo mkdir ~/metasploit")
 			    os.system("cd ~/metasploit && sudo "+path)
 			  else:
+			    Req()
 			    os.system("mkdir ~/metasploit")
 			    os.system("cd ~/metasploit && "+path)
 			install()
