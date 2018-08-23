@@ -243,6 +243,12 @@ def Req():
 	elif req=="go":
 		git()
 		go()
+	elif req=="curl":
+		git()
+		go()
+	elif req=="wget":
+		git()
+		go()
 
 
 
