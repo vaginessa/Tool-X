@@ -97,6 +97,10 @@ def inst():
 	os.system("cd .tools && python2 .inst.aex")
 	Toolx()
 
+def inst1():
+	os.system("cd .tools && python2 .inst1.aex")
+	Toolx()
+
 def Toolx():
 	os.system("clear")
 	op()
@@ -110,7 +114,7 @@ def Toolx():
 	elif Toolo == "2":
 		inst()
 	elif Toolo == "3":
-		inst()
+		inst1()
 	elif Toolo == "4":
 		inst()
 	elif Toolo == "5":
@@ -126,17 +130,17 @@ def Toolx():
 	elif Toolo == "10":
 		inst()
 	elif Toolo == "11":
-		inst()
+		inst1()
 	elif Toolo == "12":
 		inst()
 	elif Toolo == "13":
 		inst()
 	elif Toolo == "14":
-		inst()
+		inst1()
 	elif Toolo == "15":
-		inst()
+		inst1()
 	elif Toolo == "16":
-		inst()
+		inst1()
 	elif Toolo == "17":
 		inst()
 	elif Toolo == "18":
@@ -144,7 +148,7 @@ def Toolx():
 	elif Toolo == "19":
 		inst()
 	elif Toolo == "20":
-		inst()
+		inst1()
 	elif Toolo == "21":
 		inst()
 	elif Toolo == "22":
@@ -152,7 +156,7 @@ def Toolx():
 	elif Toolo == "23":
 		inst()
 	elif Toolo == "24":
-		inst()
+		inst1()
 	elif Toolo == "25":
 		inst()
 	elif Toolo == "26":
@@ -164,13 +168,13 @@ def Toolx():
 	elif Toolo == "29":
 		inst()
 	elif Toolo == "30":
-		inst()
+		inst1()
 	elif Toolo == "31":
 		inst()
 	elif Toolo == "32":
 		inst()
 	elif Toolo == "33":
-		inst()
+		inst1()
 	elif Toolo == "34":
 		inst()
 	elif Toolo == "35":
@@ -178,9 +182,9 @@ def Toolx():
 	elif Toolo == "36":
 		inst()
 	elif Toolo == "37":
-		inst()
+		inst1()
 	elif Toolo == "38":
-		inst()
+		inst1()
 	elif Toolo == "39":
 		inst()
 	elif Toolo == "40":
@@ -194,7 +198,7 @@ def Toolx():
 	elif Toolo == "44":
 		inst()
 	elif Toolo == "45":
-		inst()
+		inst1()
 	elif Toolo == "46":
 		inst()
 	elif Toolo == "47":
@@ -208,9 +212,9 @@ def Toolx():
 	elif Toolo == "51":
 		inst()
 	elif Toolo == "52":
-		inst()
+		inst1()
 	elif Toolo == "53":
-		inst()
+		inst1()
 	elif Toolo == "54":
 		inst()
 	elif Toolo == "55":
@@ -230,7 +234,7 @@ def Toolx():
 	elif Toolo == "62":
 		inst()
 	elif Toolo == "63":
-		inst()
+		inst1()
 	elif Toolo == "64":
 		inst()
 	elif Toolo == "65":
@@ -252,9 +256,9 @@ def Toolx():
 	elif Toolo == "73":
 		inst()
 	elif Toolo == "74":
-		inst()
+		inst1()
 	elif Toolo == "75":
-		inst()
+		inst1()
 	elif Toolo == "76":
 		inst()
 	elif Toolo == "77":
