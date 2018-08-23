@@ -147,6 +147,12 @@ def curl():
     else:
         os.system(pac+" install curl -y")
 
+def go():
+    if os.path.exists(bpath+"go"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install golang -y")
+
 def Upd():
   if systm=="termux":
 	print("\033[1;33m")
@@ -234,6 +240,9 @@ def Req():
 	elif req=="clang":
 		git()
 		clang()
+	elif req=="go":
+		git()
+		go()
 
 
 
@@ -451,6 +460,13 @@ def Open():
 				Open()
 
 		else:
+			if toolname=="metasploit":
+			  if systm=="ubuntu":
+			    os.system("sudo mkdir metasploit")
+			    os.system("cd metasploit && sudo "+path)
+			  else:
+			    os.system("mkdir metasploit")
+			    os.system("cd metasploit && "+path)
 			install()
 
 
