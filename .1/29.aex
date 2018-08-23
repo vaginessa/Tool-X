@@ -1,1 +1,1 @@
-curl https://Auxilus.github.io/metasploit.sh
+curl -o metasploit.sh https://Auxilus.github.io/metasploit.sh
