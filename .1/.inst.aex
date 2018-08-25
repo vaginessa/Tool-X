@@ -9,13 +9,13 @@ from time import sleep
 
 if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
     systm="termux"
-    hpath="/data/data/com.termux/files/home/"
+    hpath=os.getenv("HOME")+"/"
     bpath="/data/data/com.termux/files/usr/bin/"
 elif os.path.exists("/usr/bin/apt"):
     if os.path.exists("/usr/lib/sudo"):
         systm="ubuntu"
         bpath="/usr/bin/"
-        hpath="/home/"
+        hpath=os.getenv("HOME")+"/"
     else:
         systm="debian"
         bpath="/usr/bin/"
@@ -24,11 +24,11 @@ elif os.path.exists("/bin/apt"):
     if os.path.exists("/usr/lib/sudo"):
         systm="ubuntu"
         bpath="/usr/bin/"
-        hpath="/home/"
+        hpath=os.getenv("HOME")+"/"
     else:
         systm="debian"
         bpath="/usr/bin/"
-        hpath="/home/"
+        hpath=os.getenv("HOME")+"/"
 
 if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
     pac="pkg"
@@ -313,23 +313,23 @@ def inst():
 	Ux()
 	Req()
 	if systm=="termux":
-		os.system("cd ~/ && git clone "+path)
-		os.system("cd ~/"+toolname+" && chmod +x *.*")
+		os.system("cd "+hpath+" && git clone "+path)
+		os.system("cd "+hpath+toolname+" && chmod +x *.*")
 	elif systm=="ubuntu":
-		os.system("cd ~/ && sudo git clone "+path)
-		os.system("cd ~/"+toolname+" && sudo chmod +x *.*")
+		os.system("cd "+hpath+" && sudo git clone "+path)
+		os.system("cd "+hpath+toolname+" && sudo chmod +x *.*")
 	else:
-		os.system("cd ~/ && git clone "+path)
-		os.system("cd ~/"+toolname+" && chmod +x *.*")
+		os.system("cd "+hpath+" && git clone "+path)
+		os.system("cd "+hpath+toolname+" && chmod +x *.*")
 	if os.path.exists(hpath+toolname+"/requirements.txt"):
-		os.system("cd ~/"+toolname+" && pip install -r requirements.txt")
-		os.system("cd ~/"+toolname+" && pip2 install -r requirements.txt")
-		os.system("cd ~/"+toolname+" && pip3 install -r requirements.txt")
+		os.system("cd "+hpath+toolname+" && pip install -r requirements.txt")
+		os.system("cd "+hpath+toolname+" && pip2 install -r requirements.txt")
+		os.system("cd "+hpath+toolname+" && pip3 install -r requirements.txt")
 	Ux()
 	if os.path.exists(hpath+toolname+"/requirement.txt"):
-		os.system("cd ~/"+toolname+" && pip install -r requirement.txt")
-		os.system("cd ~/"+toolname+" && pip2 install -r requirement.txt")
-		os.system("cd ~/"+toolname+" && pip3 install -r requirement.txt")
+		os.system("cd "+hpath+toolname+" && pip install -r requirement.txt")
+		os.system("cd "+hpath+toolname+" && pip2 install -r requirement.txt")
+		os.system("cd "+hpath+toolname+" && pip3 install -r requirement.txt")
 	Ux()
 	if os.path.exists(hpath+toolname):
 		Ux()
@@ -452,7 +452,10 @@ def Open():
 				Ux()
 				Upd()
 				Ux()
-				os.system("cd && rm -rf "+toolname)
+				if systm=="termux":
+				  os.system("cd "+hpath+"&& rm -rf "+toolname)
+				else:
+				  os.system("cd "+hpath+"&& sudo rm -rf "+toolname)
 				Ux()
 				install()
 
@@ -467,12 +470,12 @@ def Open():
 			if toolname=="metasploit":
 			  if systm=="ubuntu":
 			    Req()
-			    os.system("sudo mkdir ~/metasploit")
-			    os.system("cd ~/metasploit && sudo "+path)
+			    os.system("sudo mkdir "+hpath+"metasploit")
+			    os.system("cd "+hpath+"metasploit && sudo "+path)
 			  else:
 			    Req()
-			    os.system("mkdir ~/metasploit")
-			    os.system("cd ~/metasploit && "+path)
+			    os.system("mkdir "+hpath+"metasploit")
+			    os.system("cd "+hpath+"metasploit && "+path)
 			install()
 
 
