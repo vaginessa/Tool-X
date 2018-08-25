@@ -9,16 +9,26 @@ from time import sleep
 
 if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
     systm="termux"
+    hpath=os.getenv("HOME")+"/"
+    bpath="/data/data/com.termux/files/usr/bin/"
 elif os.path.exists("/usr/bin/apt"):
     if os.path.exists("/usr/lib/sudo"):
         systm="ubuntu"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
     else:
         systm="debian"
+        bpath="/usr/bin/"
+        hpath="/home/"
 elif os.path.exists("/bin/apt"):
     if os.path.exists("/usr/lib/sudo"):
         systm="ubuntu"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
     else:
         systm="debian"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
 
 if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
     pac="pkg"
@@ -57,6 +67,54 @@ def Inst():
         print("\033[1;36m")
         sys.stdout.write(open(".Toolo2/.T0u.aex").read())
         print("\033[00m")
+
+def Nerr():
+  if systm=="termux":
+	Ux()
+	print ('''
+
+
+\033[1;33m
+          _____           _    __  __
+         |_   _|__   ___ | |   \ \/ /
+           | |/ _ \ / _ \| |____\  /
+           | | (_) | (_) | |____/  \     
+           |_|\___/ \___/|_|   /_/\_\ \033[1;m\033[1;91mv2.0\033[1;m
+
+
+\033[1;36m ===============================================\033[1;m
+\033[1;33m|           Install Best Hacking Tool           |
+\033[1;36m ===============================================\033[1;m
+
+\033[1;31m  [ + ]  \033[1;31mWe can't install Tool-X.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mThere are some error.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mPlease try again after some time.\033[1;m
+\033[1;36m_________________________________________________
+=================================================\033[1;m
+''')
+  else:
+	Ux()
+	print ('''
+
+
+\033[1;33m
+               _____           _    __  __
+              |_   _|__   ___ | |   \ \/ /
+                | |/ _ \ / _ \| |____\  /
+                | | (_) | (_) | |____/  \     
+                |_|\___/ \___/|_|   /_/\_\ \033[1;31mv2.0
+\033[1;m
+
+\033[1;36m =========================================================\033[1;m
+\033[1;33m|\033[1;m               \033[1;33m Install Best Hacking Tool.\033[1;m               \033[1;33m|\033[1;m
+\033[1;36m =========================================================\033[1;m
+
+\033[1;31m  [ + ]  \033[1;31mWe can't install Tool-X.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mThere are some error.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mPlease try again after some time.\033[1;m
+\033[1;36m___________________________________________________________
+===========================================================\033[1;m
+''')
 
 def Logo():
     if systm=="termux":
@@ -234,113 +292,81 @@ def req():
 
 def delok():
     Ux()
-    if os.path.exists("/usr/lib/sudo"):
-        os.system("cd ~/.Tool-X && sudo rm -rf install.aex README.md .install.aex .U.aex .sc")
+    if systm=="ubuntu":
+        os.system("cd "+hpath+".Tool-X && sudo rm -rf install.aex README.md .install.aex .U.aex .sc")
         Ux()
     else:
-        os.system("cd ~/.Tool-X && rm -rf install.aex README.md .install.aex .U.aex .sc")
+        os.system("cd "+hpath+".Tool-X && rm -rf install.aex README.md .install.aex .U.aex .sc")
         Ux()
+    Sc()
 
 def delf():
-    if systm=="termux":
-        if os.path.exists("/data/data/com.termux/files/home/.Tool-X"):
-            delok()
-        else:
-            Ux()
-    elif systm=="ubuntu":
-        if os.path.exists("/Home/.Tool-X"):
-            delok()
-        else:
-            Ux()
-    elif systm=="debian":
-        if os.path.exists("/Home/.Tool-X"):
-            delok()
-        else:
-            Ux()
-    else:
-        if os.path.exists("/Home/.Tool-X"):
-            delok()
-        else:
-            Ux()
+  if os.path.exists(hpath+".Tool-X"):
+    delok()
+  else:
+    Nerr()
 
 def insok():
-    if systm=="termux":
-        if os.path.exists("/data/data/com.termux/files/usr/bin/Tool-X"):
-            delf()
-        else:
-            Ux()
-    elif systm=="debian":
-        if os.path.exists("/bin/Tool-X"):
-            delf()
-        else:
-            Ux()
-    elif systm=="ubuntu":
-        if os.path.exists("/bin/Tool-X"):
-            delf()
-        else:
-            Ux()
-    else:
-        if os.path.exists("/bin/Tool-X"):
-            delf()
-        else:
-            Ux()
-
+  if os.path.exists(bpath+"Tool-X"):
+    delf()
+  else:
+    Nerr()
 
 def proce():
 	Inst()
 	print ('''\n\033[1;32mInstalling.........\033[1;m''')
 	req()
-	os.system("python2 .U.aex")
 	print ('''\033[1;32m Installing.........\033[1;m''')
-	if os.path.exists("/usr/lib/sudo"):
-	    os.system("sudo mkdir ~/.Tool-X")
-	    os.system("sudo mv -v .1 .sc .Toolo .Toolo2 .Xecn ~/.Tool-X")
+	if systm=="ubuntu":
+	    os.system("cd "+hpath+" && sudo rm -rf .Tool-X")
+	    os.system("cd "+bpath+" && sudo rm -rf Tool-X")
+	    os.system("sudo mkdir "+hpath+".Tool-X")
+	    os.system("sudo mv -v .1 .sc .Toolo .Toolo2 .Xecn "+hpath+".Tool-X")
 	    os.system("cd .. && sudo rm -rf Tool-X")
 	    os.system("cd .. && sudo rm -rf Tool-X")
-	    os.system("cd ~/.Tool-X && sudo mv .1 .tools")
-	    os.system("cd ~/.Tool-X && sudo mv -v .tools ~/.Tool-X/.Xecn")
-	    os.system("cd ~/.Tool-X && sudo mv -v .Toolo ~/.Tool-X/.Xecn/.tools")
-	    os.system("cd ~/.Tool-X/.Xecn/ && sudo mkdir .sc")
-	    os.system("cd ~/.Tool-X && sudo mv .Toolo2 .Toolo")
-	    os.system("cd ~/.Tool-X && sudo mv -v .Toolo ~/.Tool-X/.Xecn/.sc/")
-	    os.system("cd ~/.Tool-X/.Xecn/.tools && sudo cp Tool-X /bin/")
-	    os.system("cd ~/.Tool-X/.Xecn/.tools && sudo rm -rf Tool-X")
+	    os.system("cd "+hpath+".Tool-X && sudo mv .1 .tools")
+	    os.system("cd "+hpath+".Tool-X && sudo mv -v .tools "+hpath+".Tool-X/.Xecn")
+	    os.system("cd "+hpath+".Tool-X && sudo mv -v .Toolo "+hpath+".Tool-X/.Xecn/.tools")
+	    os.system("cd "+hpath+".Tool-X/.Xecn/ && sudo mkdir .sc")
+	    os.system("cd "+hpath+".Tool-X && sudo mv .Toolo2 .Toolo")
+	    os.system("cd "+hpath+".Tool-X && sudo mv -v .Toolo "+hpath+".Tool-X/.Xecn/.sc/")
+	    os.system("cd "+hpath+".Tool-X/.Xecn/.tools && sudo cp Tool-X "+bpath)
+	    os.system("cd "+hpath+".Tool-X/.Xecn/.tools && sudo rm -rf Tool-X")
 
 	    print ('''\033[1;32mGiving permissiom level for enabling Tool-X execute from terminal\033[1;m''')
-	    os.system("cd /bin/ && sudo chmod +x Tool-X")
+	    os.system("cd "+bpath+" && sudo chmod +x Tool-X")
 
 	    print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
-	    os.system("cd ~/ && sudo chmod +x .Tool-X")
+	    os.system("cd "+hpath+" && sudo chmod +x .Tool-X")
 
 	    print ('''\033[1;32mGiving permission to files in Tool-X directory\033[1;m''')
-	    os.system("cd ~/.Tool-X/.Xecn/ && sudo chmod +x *.* .* .*.* *")
+	    os.system("cd "+hpath+".Tool-X/.Xecn/ && sudo chmod +x *.* .* .*.* *")
 	    Ux()
 	    insok()
 
 	else:
-	    os.system("mkdir ~/.Tool-X")
-	    os.system("mv -v .1 .sc .Toolo .Toolo2 .Xecn ~/.Tool-X")
+	    os.system("cd "+hpath+" && rm -rf .Tool-X")
+	    os.system("cd "+bpath+" && rm -rf Tool-X")
+	    os.system("mkdir "+hpath+".Tool-X")
+	    os.system("mv -v .1 .sc .Toolo .Toolo2 .Xecn "+hpath+".Tool-X")
 	    os.system("cd .. && rm -rf Tool-X")
 	    os.system("cd .. && rm -rf Tool-X")
-	    os.system("cd ~/.Tool-X && mv .1 .tools")
-	    os.system("cd ~/.Tool-X && mv -v .tools ~/.Tool-X/.Xecn")
-	    os.system("cd ~/.Tool-X && mv -v .Toolo ~/.Tool-X/.Xecn/.tools")
-	    os.system("cd ~/.Tool-X/.Xecn/ && mkdir .sc")
-	    os.system("cd ~/.Tool-X && mv .Toolo2 .Toolo")
-	    os.system("cd ~/.Tool-X && mv -v .Toolo ~/.Tool-X/.Xecn/.sc/")
-	    os.system("cd ~/.Tool-X/.Xecn/.tools && cp Tool-X /bin/")
-	    os.system("cd ~/.Tool-X/.Xecn/.tools && cp Tool-X /data/data/com.termux/files/usr/bin/")
-	    os.system("cd ~/.Tool-X/.Xecn/.tools && rm -rf Tool-X")
+	    os.system("cd "+hpath+".Tool-X && mv .1 .tools")
+	    os.system("cd "+hpath+".Tool-X && mv -v .tools "+hpath+".Tool-X/.Xecn")
+	    os.system("cd "+hpath+".Tool-X && mv -v .Toolo "+hpath+".Tool-X/.Xecn/.tools")
+	    os.system("cd "+hpath+".Tool-X/.Xecn/ && mkdir .sc")
+	    os.system("cd "+hpath+".Tool-X && mv .Toolo2 .Toolo")
+	    os.system("cd "+hpath+".Tool-X && mv -v .Toolo "+hpath+".Tool-X/.Xecn/.sc/")
+	    os.system("cd "+hpath+".Tool-X/.Xecn/.tools && cp Tool-X "+bpath)
+	    os.system("cd "+hpath+".Tool-X/.Xecn/.tools && rm -rf Tool-X")
 
 	    print ('''\033[1;32mGiving permissiom level for enabling Tool-X execute from terminal\033[1;m''')
-	    os.system("cd /data/data/com.termux/files/usr/bin/ && chmod 777 Tool-X")
-	    os.system("cd /bin/ && chmod +x Tool-X")
-
+	    os.system("cd "+bpath+" && chmod 777 Tool-X")
 	    print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
-	    os.system("cd ~/ && chmod +x .Tool-X")
+	    os.system("cd "+hpath+" && chmod +x .Tool-X")
 
 	    print ('''\033[1;32mGiving permission to files in Tool-X directory\033[1;m''')
-	    os.system("cd ~/.Tool-X/.Xecn/ && chmod +x *.* .*.* * .*")
+	    os.system("cd "+hpath+".Tool-X/.Xecn/ && chmod +x *.* .*.* * .*")
 	    Ux()
 	    insok()
 
@@ -354,8 +380,6 @@ def Toolx():
 		while Tool == "Y" or Tool == "y":
 			Ux()
 			proce()
-			Ux()
-			Sc()
 			Toolo = raw_input("\033[1;33m Press any key to continue >>> \033[00m")
 			if Toolo == "":
 			   Aex()
