@@ -67,9 +67,6 @@ def Al():
 			''')
 
 
-def chki():
-	chki=os.system("python2 .About.aex")
-
 def proc():
   if systm=="termux":
 	print("\033[1;36m\007")
@@ -179,23 +176,19 @@ def Toolx():
 			Toolo = raw_input("\033[1;33m >>> \033[1;m")
 
 			if Toolo == "":
-				chki()
 				ox()
 				Aex()
 
 			else:
-				chki()
 				ox()
 				Aex()
 			
 		while Tool == "0":
-			chki()
 			ox()
 			Aex()
 
 		else:
 			Er()
-			chki()
 Toolx()
 
 
@@ -204,7 +197,6 @@ def Tool_X():
 		Toolx()
 
 	except KeyboardInterrupt:
-		chki()
 		ox()
 	Aex()
 Tool_X()

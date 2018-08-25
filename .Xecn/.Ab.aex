@@ -109,9 +109,6 @@ def Er():
 	print("\033[1;m")
 	sleep(1)
 
-def chki():
-	chki=os.system("python2 .About.aex")
-
 def Toolx():
 	while True:
 		ox()
@@ -119,13 +116,11 @@ def Toolx():
 		Tool = raw_input('''\033[1;33m ##> \033[00m''')
 
 		while Tool == "00":
-			chki()
 			ox()
 			Aex()
 
 		else:
 			Er()
-			chki()
 Toolx()
 
 def Tool_X():
@@ -133,7 +128,6 @@ def Tool_X():
 		Toolx()
 
 	except KeyboardInterrupt:
-		chki()
 		ox()
 	Aex()
 Tool_X()

@@ -9,16 +9,26 @@ from time import sleep
 
 if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
     systm="termux"
+    hpath=os.getenv("HOME")+"/"
+    bpath="/data/data/com.termux/files/usr/bin/"
 elif os.path.exists("/usr/bin/apt"):
     if os.path.exists("/usr/lib/sudo"):
         systm="ubuntu"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
     else:
         systm="debian"
+        bpath="/usr/bin/"
+        hpath="/home/"
 elif os.path.exists("/bin/apt"):
     if os.path.exists("/usr/lib/sudo"):
         systm="ubuntu"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
     else:
         systm="debian"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
 
 def Er():
   if systm=="termux":
@@ -66,9 +76,6 @@ def Aex():
 
 def ox():
 	ox=os.system("clear")
-
-def chki():
-	chki=os.system("python2 .About.aex")
 
 def Logo():
   if systm=="termux":
@@ -217,18 +224,15 @@ def Nerr():
   if Toolo == "":
     os.system("python2 .Tool-X.aex")
     Aex()
-  elif Toolo == "":
-    os.system("python2 .Tool-X.aex")
-    Aex()
   else:
     os.system("python2 .Tool-X.aex")
     Aex()
 
 def Done():
-	if systm=="termux":
-	  os.system("cd /data/data/com.termux/files/home/Tool-X && sh install.aex")
+	if systm=="ubuntu":
+	  os.system("cd "+hpath+"Tool-X && sudo sh install.aex")
 	else:
-	  os.system("cd /home/Tool-X && sh install.aex")
+	  os.system("cd "+hpath+"Tool-X && sh install.aex")
 	ox()
 	Ups()
 	Toolo = raw_input("\033[1;33m >>> \033[1;m")
@@ -241,17 +245,13 @@ def Done():
 		Aex()
 
 def proce2():
-	if os.path.exists("/data/data/com.termux/files/home/Tool-X/install.aex"):
-		Done()
-	elif os.path.exists("/home/Tool-X/install.aex"):
+	if os.path.exists(hpath+"Tool-X/install.aex"):
 		Done()
 	else:
 		Nerr()
 
 def proce1():
-	if os.path.exists("/data/data/com.termux/files/home/Tool-X"):
-		proce2()
-	elif os.path.exists("/home/Tool-X"):
+	if os.path.exists(hpath+"Tool-X"):
 		proce2()
 	else:
 		Nerr()
@@ -259,15 +259,15 @@ def proce1():
 def proce():
 	print ('''\n\033[1;32mUpdating.........\033[1;m\n''')
 	if systm=="termux":
-	  os.system("cd /data/data/com.termux/files/home/ && git clone https://github.com/Rajkumrdusad/Tool-X.git")
+	  os.system("cd "+hpath+" && git clone https://github.com/Rajkumrdusad/Tool-X.git")
 	  proce1()
 	  ox()
 	elif systm=="debian":
-	  os.system("cd /home/ && git clone https://github.com/Rajkumrdusad/Tool-X.git")
+	  os.system("cd "+hpath+" && git clone https://github.com/Rajkumrdusad/Tool-X.git")
 	  proce1()
 	  ox()
 	else:
-	  os.system("cd /home/ && sudo git clone https://github.com/Rajkumrdusad/Tool-X.git")
+	  os.system("cd "+hpath+" && sudo git clone https://github.com/Rajkumrdusad/Tool-X.git")
 	  proce1()
 	  ox()
 
@@ -278,20 +278,17 @@ def Toolx():
 		Tool = raw_input('''\033[1;33m ##> \033[1;m''')
 			
 		while Tool == "1":
-			chki()
 			ox()
 			Up()
 			proce()
 			
 		while Tool == "0":
-			chki()
 			ox()
 			os.system("python2 .Tool-X.aex")
 			Aex()
 
 		else:
 			Er()
-			chki()
 Toolx()
 
 def Tool_X():
@@ -299,7 +296,6 @@ def Tool_X():
 		Toolx()
 
 	except KeyboardInterrupt:
-		chki()
 		ox()
 		os.system("python2 .Tool-X.aex")
 	Aex()

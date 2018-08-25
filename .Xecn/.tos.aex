@@ -26,9 +26,6 @@ def Aex():
 def ox():
 	ox=os.system("clear")
 
-def chki():
-	chki=os.system("python2 .About.aex")
-
 def Er():
 	print("\033[1;31m\007")
 	sys.stdout.write(open(".sc/.Toolo/.er.aex").read())
@@ -97,12 +94,10 @@ def Toolx():
 		Toolx()
 		
 	elif Toolo == "00":
-		chki()
 		ox()
 		Aex()
 	else:
 		Er()
-		chki()
 		Toolx()
 
 
@@ -111,7 +106,6 @@ def Tool_X():
 		Toolx()
 
 	except KeyboardInterrupt:
-		chki()
 		ox()
 		Aex()
 Tool_X()
