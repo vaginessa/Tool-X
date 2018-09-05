@@ -81,8 +81,10 @@ def Toolx():
 		os.system("cd .tools && python2 .T2.aex")
 		Toolx()
 	elif Toolo == "3":
-		os.system("cd .tools && chmod 777 .T3.aex")
-		os.system("cd .tools && sh .T3.aex")
+		os.system("cd .tools && cp .T3.aex ~/")
+		os.system("cd ~/ && chmod +x .T3.aex")
+		os.system("cd ~/ && sh .T3.aex")
+		os.system("cd ~/ && rm .T3.aex")
 		Toolx()
 	elif Toolo == "4":
 		os.system("cd .tools && chmod 777 .T4.aex")
