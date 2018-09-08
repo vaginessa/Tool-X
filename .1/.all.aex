@@ -6,7 +6,7 @@
 import os
 import sys
 
-for userinput in range(1,150):
+for userinput in range(1,160):
   if os.path.exists("%s.aex"%userinput):
     p=open("%s.aex"%userinput,"r")
     t=open("%stn.aex"%userinput,"r")
