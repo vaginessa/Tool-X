@@ -153,7 +153,7 @@ def Toolx():
 		usr=open(".tools/uip.aex","w")
 		usr.write("79")
 		usr.close()
-		inst1()
+		inst()
 	elif Toolo == "12":
 		usr=open(".tools/uip.aex","w")
 		usr.write("47")
