@@ -453,15 +453,21 @@ def Open():
 				Upd()
 				Ux()
 				if systm=="termux":
-				  os.system("cd "+hpath+" && rm -rf "+toolname)
+				  if toolname=="metasploit":
+				    os.system("cd "+hpath+" && rm -rf "+toolname)
+				    Open()
+				  else:
+				    os.system("cd "+hpath+" && rm -rf "+toolname)
+				    install()
 				else:
-				  os.system("cd "+hpath+" && sudo rm -rf "+toolname)
-				Ux()
-				install()
-
+				  if toolname=="metasploit":
+				    os.system("cd "+hpath+" && sudo rm -rf "+toolname)
+				    Open()
+				  else:
+				    os.system("cd "+hpath+" && sudo rm -rf "+toolname)
+				    install()
 			elif Toolo == "n" or Toolo == "N":
 				Aex()
-
 			else:
 				Er()
 				Open()
@@ -477,7 +483,6 @@ def Open():
 			    os.system("mkdir "+hpath+"metasploit")
 			    os.system("cd "+hpath+"metasploit && "+path)
 			install()
-
 
 
 def Tool_X():
