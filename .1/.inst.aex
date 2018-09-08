@@ -478,10 +478,12 @@ def Open():
 			    Req()
 			    os.system("sudo mkdir "+hpath+"metasploit")
 			    os.system("cd "+hpath+"metasploit && sudo "+path)
+			    os.system("cd "+hpath+"metasploit && sudo chmod +x *.* *")
 			  else:
 			    Req()
 			    os.system("mkdir "+hpath+"metasploit")
 			    os.system("cd "+hpath+"metasploit && "+path)
+			    os.system("cd "+hpath+"metasploit && chmod +x *.* *")
 			install()
 
 
