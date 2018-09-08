@@ -453,9 +453,9 @@ def Open():
 				Upd()
 				Ux()
 				if systm=="termux":
-				  os.system("cd "+hpath+"&& rm -rf "+toolname)
+				  os.system("cd "+hpath+" && rm -rf "+toolname)
 				else:
-				  os.system("cd "+hpath+"&& sudo rm -rf "+toolname)
+				  os.system("cd "+hpath+" && sudo rm -rf "+toolname)
 				Ux()
 				install()
 
