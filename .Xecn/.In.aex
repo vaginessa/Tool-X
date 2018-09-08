@@ -426,7 +426,21 @@ def Toolx():
 		inst()
 	elif Toolo == "160":
 		inst()
-	elif Toolo == "151":
+	elif Toolo == "161":
+		inst1()
+	elif Toolo == "162":
+		inst1()
+	elif Toolo == "163":
+		inst1()
+	elif Toolo == "164":
+		inst()
+	elif Toolo == "165":
+		inst()
+	elif Toolo == "166":
+		inst()
+	elif Toolo == "167":
+		inst()
+	elif Toolo == "168":
 		inst()
 	elif Toolo == "00":
 		ox()

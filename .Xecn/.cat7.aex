@@ -1,0 +1,157 @@
+#Tool Name :- Tool-X v2.0 
+# Author :- Rajkumar Dusad
+# Date :- 1/11/2017
+# Aex Software's :- Tool-X is a automatic tool installer. Specially made for termux and GNURoot Debian terminal.
+
+import os
+import sys
+from time import sleep
+
+if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
+    systm="termux"
+elif os.path.exists("/usr/bin/apt"):
+    if os.path.exists("/usr/lib/sudo"):
+        systm="ubuntu"
+    else:
+        systm="debian"
+elif os.path.exists("/bin/apt"):
+    if os.path.exists("/usr/lib/sudo"):
+        systm="ubuntu"
+    else:
+        systm="debian"
+
+def Aex():
+	Aex=sys.exit()
+
+def ox():
+	ox=os.system("clear")
+
+def Er():
+  if systm=="termux":
+	print("\033[1;31m\007")
+	sys.stdout.write(open(".sc/.Toolo/.er.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".sc/.Toolo/.er0.aex").read())
+	print("\033[1;31m")
+	sys.stdout.write(open(".sc/.Toolo/.er.aex").read())
+	print("\033[1;m")
+	sleep(1)
+
+  else:
+	print("\033[1;31m\007")
+	sys.stdout.write(open(".sc/.Toolo/.eru.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".sc/.Toolo/.er0u.aex").read())
+	print("\033[1;31m")
+	sys.stdout.write(open(".sc/.Toolo/.eru.aex").read())
+	print("\033[1;m")
+	sleep(1)
+
+
+
+def op():
+  if systm=="termux":
+	print("\033[1;36m\007")
+	sys.stdout.write(open(".sc/.Toolo/.T0.aex").read())
+	print("\033[1;33m")
+	sys.stdout.write(open(".sc/.Toolo/.T1.aex").read())
+	print("\033[1;36m")
+	sys.stdout.write(open(".sc/.Toolo/.T2.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".sc/.Toolo/.C7.aex").read())
+	print("\033[1;36m")
+	sys.stdout.write(open(".sc/.Toolo/.T0.aex").read())
+	print("\033[1;33m")
+	sys.stdout.write(open(".sc/.Toolo/.T3.aex").read())
+	print("\033[1;36m")
+	sys.stdout.write(open(".sc/.Toolo/.T0.aex").read())
+	print("\033[1;m")
+	print("\t")
+
+  else:
+	print("\033[1;36m\007")
+	sys.stdout.write(open(".sc/.Toolo/.T0u.aex").read())
+	print("\033[1;33m")
+	sys.stdout.write(open(".sc/.Toolo/.T1u.aex").read())
+	print("\033[1;36m")
+	sys.stdout.write(open(".sc/.Toolo/.T2u.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".sc/.Toolo/.C7.aex").read())
+	print("\033[1;36m")
+	sys.stdout.write(open(".sc/.Toolo/.T0u.aex").read())
+	print("\033[1;33m")
+	sys.stdout.write(open(".sc/.Toolo/.T3u.aex").read())
+	print("\033[1;36m")
+	sys.stdout.write(open(".sc/.Toolo/.T0u.aex").read())
+	print("\033[1;m")
+	print("\t")
+
+def inst():
+	os.system("cd .tools && python2 .inst.aex")
+	Toolx()
+
+def inst1():
+	os.system("cd .tools && python2 .inst1.aex")
+	Toolx()
+
+def Toolx():
+	os.system("clear")
+	op()
+
+	Toolo = raw_input("\033[1;33m >>>  \033[1;m")
+	if Toolo == "1":
+		usr=open(".tools/uip.aex","w")
+		usr.write("154")
+		usr.close()
+		inst()
+	elif Toolo == "2":
+		usr=open(".tools/uip.aex","w")
+		usr.write("92")
+		usr.close()
+		inst()
+	elif Toolo == "3":
+		usr=open(".tools/uip.aex","w")
+		usr.write("155")
+		usr.close()
+		inst()
+	elif Toolo == "4":
+		usr=open(".tools/uip.aex","w")
+		usr.write("91")
+		usr.close()
+		inst()
+	elif Toolo == "5":
+		usr=open(".tools/uip.aex","w")
+		usr.write("97")
+		usr.close()
+		inst()
+	elif Toolo == "6":
+		usr=open(".tools/uip.aex","w")
+		usr.write("47")
+		usr.close()
+		inst()
+	elif Toolo == "7":
+		usr=open(".tools/uip.aex","w")
+		usr.write("156")
+		usr.close()
+		inst()
+	elif Toolo == "8":
+		usr=open(".tools/uip.aex","w")
+		usr.write("157")
+		usr.close()
+		inst()
+	elif Toolo == "00":
+		ox()
+		Aex()
+	else:
+		Er()
+		Toolx()
+
+
+def Tool_X():
+	try:
+		Toolx()
+
+	except KeyboardInterrupt:
+		ox()
+		Aex()
+Tool_X()

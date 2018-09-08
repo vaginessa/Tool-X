@@ -37,11 +37,12 @@ def Logo():
 \033[1;33m|           Install Best Hacking Tool           |
 \033[1;36m ===============================================\033[1;m
 
-\033[1;33m  [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 160 tools\033[1;33m ]
-\033[1;33m  [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 160 tools\033[1;33m ]
-\033[1;33m  [ 2 ] \033[1;32mTermux OS.
-\033[1;33m  [ 3 ] \033[1;32mUpdate Tool-X.
-\033[1;33m  [ 4 ] \033[1;32mAbout Us.
+\033[1;33m  [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 168 tools\033[1;33m ]
+\033[1;33m  [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 168 tools\033[1;33m ]
+\033[1;33m  [ 2 ] \033[1;32mTools Category.
+\033[1;33m  [ 3 ] \033[1;32mTermux OS.
+\033[1;33m  [ 4 ] \033[1;32mUpdate Tool-X.
+\033[1;33m  [ 5 ] \033[1;32mAbout Us.
 \033[1;33m  [ x ] \033[1;32mFor Exit.\033[1;m
 \033[1;36m_________________________________________________
 =================================================\033[1;m''')
@@ -61,10 +62,11 @@ def Logo():
 \033[1;33m|\033[1;m               \033[1;33m Install Best Hacking Tool.\033[1;m               \033[1;33m|\033[1;m
 \033[1;36m =========================================================\033[1;m
 
-\033[1;33m   [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 160 tools\033[1;33m ]
-\033[1;33m   [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 160 tools\033[1;33m ]
-\033[1;33m   [ 2 ] \033[1;32mUpdate Tool-X.
-\033[1;33m   [ 3 ] \033[1;32mAbout Us.
+\033[1;33m   [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 168 tools\033[1;33m ]
+\033[1;33m   [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 168 tools\033[1;33m ]
+\033[1;33m   [ 2 ] \033[1;32mTools Category.
+\033[1;33m   [ 3 ] \033[1;32mUpdate Tool-X.
+\033[1;33m   [ 4 ] \033[1;32mAbout Us.
 \033[1;33m   [ x ] \033[1;32mFor Exit.\033[1;m
 \033[1;36m___________________________________________________________
 ===========================================================\033[1;m''')
@@ -160,16 +162,20 @@ def term():
 					term()
 			
 				while Tool == "2":
+					os.system("python2 .cat.aex")
+					term()
+			
+				while Tool == "3":
 					os.system("python2 .tos.aex")
 					term()
 
 
-				while Tool == "3":
+				while Tool == "4":
 					os.system("python2 .Upt.aex")
 					Aex()
 
 
-				while Tool == "4":
+				while Tool == "5":
 					os.system("python2 .Ab.aex")
 					term()
 
@@ -208,7 +214,12 @@ def term():
 					Aex()
 					term()
 			
-				while Tool == "x":
+				while Tool == "exit":
+					ox()
+					Ex()
+					Aex()
+			
+				while Tool == "x" or Tool=="X":
 					Toolo = raw_input("\033[1;33m Do you want to Exit ? [Y/n] >  \033[01;33m")
 					if Toolo == "N" or Toolo == "n":
 						ox()
@@ -244,11 +255,16 @@ def ubu():
 
 
 				while Tool == "2":
+					os.system("python2 .cat.aex")
+					ubu()
+
+
+				while Tool == "3":
 					os.system("python2 .Upt.aex")
 					Aex()
 
 
-				while Tool == "3":
+				while Tool == "4":
 					os.system("python2 .Ab.aex")
 					ubu()
 
@@ -285,7 +301,12 @@ def ubu():
 					Aex()
 					ubu()
 			
-				while Tool == "x":
+				while Tool == "exit":
+					ox()
+					Ex()
+					Aex()
+			
+				while Tool == "x" or Tool=="X":
 					Toolo = raw_input("\033[1;33m Do you want to Exit ? [Y/n] >  \033[1;m")
 					if Toolo == "N" or Toolo == "n":
 					   ubu()
