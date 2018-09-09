@@ -442,6 +442,84 @@ def Toolx():
 		inst()
 	elif Toolo == "168":
 		inst()
+	elif Toolo == "169":
+		inst()
+	elif Toolo == "170":
+		inst()
+	elif Toolo == "171":
+		inst()
+	elif Toolo == "172":
+		inst()
+	elif Toolo == "173":
+		inst()
+	elif Toolo == "174":
+		inst()
+	elif Toolo == "175":
+		inst()
+	elif Toolo == "176":
+		inst()
+	elif Toolo == "177":
+		inst()
+	elif Toolo == "178":
+		inst()
+	elif Toolo == "179":
+		inst()
+	elif Toolo == "180":
+		inst()
+	elif Toolo == "181":
+		inst()
+	elif Toolo == "182":
+		inst()
+	elif Toolo == "183":
+		inst()
+	elif Toolo == "184":
+		inst()
+	elif Toolo == "185":
+		inst()
+	elif Toolo == "186":
+		inst()
+	elif Toolo == "187":
+		inst()
+	elif Toolo == "188":
+		inst()
+	elif Toolo == "189":
+		inst()
+	elif Toolo == "190":
+		inst()
+	elif Toolo == "191":
+		inst()
+	elif Toolo == "192":
+		inst()
+	elif Toolo == "193":
+		inst()
+	elif Toolo == "194":
+		inst()
+	elif Toolo == "195":
+		inst()
+	elif Toolo == "196":
+		inst()
+	elif Toolo == "197":
+		inst()
+	elif Toolo == "198":
+		inst()
+	elif Toolo == "199":
+		inst()
+	elif Toolo == "200":
+		inst()
+	elif Toolo == "201":
+		inst()
+	elif Toolo == "202":
+		inst()
+	elif Toolo == "203":
+		inst()
+	elif Toolo == "204":
+		inst()
+	elif Toolo == "205":
+		inst()
+	elif Toolo == "206":
+		inst()
+	elif Toolo == "207":
+		inst()
 	elif Toolo == "00":
 		ox()
 		Aex()
