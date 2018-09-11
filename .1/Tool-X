@@ -3,22 +3,10 @@
 # Date :- 1/11/2017
 
 echo ""
-echo '''
-
-          _____           _    __  __
-         |_   _|__   ___ | |   \\ \\/ /
-           | |/ _ \\ / _ \\| |____\\  /
-           | | (_) | (_) | |____/  \\ 
-           |_|\\___/ \\___/|_|   /_/\\_\\ v2.0
-
-
- =============================================== 
-|           Install Best Hacking Tool.          |
- ===============================================
-'''
-echo ""
-
-echo "Starting Tool-X..........."
-echo "Please wait..............."
-cd && cd ~/.Tool-X/.Xecn && python2 .Tool-X.aex
+if [ -e /usr/lib/sudo ];
+then
+	cd && cd ~/.Tool-X/.Xecn && sudo python2 .Tool-X.aex
+else
+	cd && cd ~/.Tool-X/.Xecn && python2 .Tool-X.aex
+fi
 exit
