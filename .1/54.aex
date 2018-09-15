@@ -1,0 +1,6 @@
+# torshammer {
+    $toolinstall  ( https://github.com/dotfighter/torshammer.git );
+    $scriptname ( torshammer.py );
+    $toollang ( python2 );
+    $req ( py );
+}

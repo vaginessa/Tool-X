@@ -1,0 +1,6 @@
+# Lazymux {
+    $toolinstall  ( https://github.com/Gameye98/Lazymux.git );
+    $scriptname ( lazymux.py );
+    $toollang ( python2 );
+    $req ( py );
+}

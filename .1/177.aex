@@ -1,0 +1,6 @@
+# morpheus {
+    $toolinstall  ( https://github.com/r00t-3xp10it/morpheus.git );
+    $scriptname ( morpheus.sh );
+    $toollang ( ./ );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# nWatch {
+    $toolinstall  ( https://github.com/s0cket7/nWatch.git );
+    $scriptname ( nwatch.py );
+    $toollang ( python );
+    $req ( py );
+}

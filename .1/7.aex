@@ -1,0 +1,6 @@
+# BruteXSS {
+    $toolinstall  ( https://github.com/shawarkhanethicalhacker/BruteXSS.git );
+    $scriptname ( brutexss.py );
+    $toollang ( python2 );
+    $req ( py );
+}

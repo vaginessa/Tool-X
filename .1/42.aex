@@ -1,0 +1,6 @@
+# ReconDog {
+    $toolinstall  ( https://github.com/UltimateHackers/ReconDog.git );
+    $scriptname ( dog.py );
+    $toollang ( python2 );
+    $req ( py );
+}

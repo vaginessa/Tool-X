@@ -1,0 +1,6 @@
+# termux-lazysqlmap {
+    $toolinstall  ( https://github.com/verluchie/termux-lazysqlmap.git );
+    $scriptname ( install.sh );
+    $toollang ( sh );
+    $req ( sh );
+}

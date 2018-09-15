@@ -1,0 +1,6 @@
+# cupp {
+    $toolinstall  ( https://github.com/Mebus/cupp.git );
+    $scriptname ( cupp.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# PyBozoCrack {
+    $toolinstall  ( https://github.com/ikkebr/PyBozoCrack.git );
+    $scriptname ( pybozocrack.py );
+    $toollang ( python2 );
+    $req ( py );
+}

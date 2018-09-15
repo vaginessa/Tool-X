@@ -1,0 +1,6 @@
+# XPL-SEARCH {
+    $toolinstall  ( https://github.com/r00tmars/XPL-SEARCH.git );
+    $scriptname ( 'xpl search.php' );
+    $toollang ( php );
+    $req ( php );
+}

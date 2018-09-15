@@ -1,0 +1,6 @@
+# Dr0p1t-Framework {
+    $toolinstall  ( https://github.com/D4Vinci/Dr0p1t-Framework.git );
+    $scriptname ( install.sh );
+    $toollang ( ./ );
+    $req ( py );
+}

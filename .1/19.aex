@@ -1,0 +1,6 @@
+# Hash-Buster {
+    $toolinstall  ( https://github.com/UltimateHackers/Hash-Buster.git );
+    $scriptname ( hash.py );
+    $toollang ( python2 );
+    $req ( py );
+}

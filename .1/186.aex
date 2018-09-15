@@ -1,0 +1,6 @@
+# secHub {
+    $toolinstall  ( https://github.com/cys3c/secHub.git );
+    $scriptname ( installer.py );
+    $toollang ( python );
+    $req ( py );
+}

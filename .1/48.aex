@@ -1,0 +1,6 @@
+# sqlmap {
+    $toolinstall  ( https://github.com/sqlmapproject/sqlmap.git );
+    $scriptname ( sqlmap.py );
+    $toollang ( python2 );
+    $req ( py );
+}

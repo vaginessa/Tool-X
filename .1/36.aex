@@ -1,0 +1,6 @@
+# peepdf {
+    $toolinstall  ( https://github.com/jesparza/peepdf.git );
+    $scriptname ( peepdf.py );
+    $toollang ( python2 );
+    $req ( py );
+}
