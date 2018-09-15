@@ -1,0 +1,6 @@
+# Sn1per {
+    $toolinstall  ( https://github.com/1N3/Sn1per.git );
+    $scriptname ( install.sh );
+    $toollang ( sh );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# HTools {
+    $toolinstall  ( https://github.com/mehedishakeel/HTools.git );
+    $scriptname ( HTools.sh );
+    $toollang ( sh );
+    $req ( sh );
+}

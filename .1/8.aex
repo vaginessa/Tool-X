@@ -1,0 +1,6 @@
+# commix {
+    $toolinstall  ( https://github.com/commixproject/commix.git );
+    $scriptname ( commix.py );
+    $toollang ( python2 );
+    $req ( py );
+}

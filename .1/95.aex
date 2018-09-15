@@ -1,0 +1,6 @@
+# XAttacker {
+    $toolinstall  ( https://github.com/Moham3dRiahi/XAttacker.git );
+    $scriptname ( XAttacker.php );
+    $toollang ( php );
+    $req ( perlphp );
+}

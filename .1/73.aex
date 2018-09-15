@@ -1,0 +1,6 @@
+# TermuxArch {
+    $toolinstall  ( https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh );
+    $scriptname ( setupTermuxArch.sh );
+    $toollang ( bash );
+    $req ( Null );
+}

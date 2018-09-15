@@ -1,0 +1,6 @@
+# santet-online {
+    $toolinstall  ( https://github.com/Gameye98/santet-online.git );
+    $scriptname ( santet.py );
+    $toollang ( python );
+    $req ( py );
+}
