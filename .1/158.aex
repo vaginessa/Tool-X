@@ -1,0 +1,6 @@
+# torghost {
+    $toolinstall  ( https://github.com/susmithHCK/torghost.git );
+    $scriptname ( install );
+    $toollang ( sh );
+    $req ( py );
+}

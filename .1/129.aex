@@ -1,0 +1,6 @@
+# fuxploider {
+    $toolinstall  ( https://github.com/almandin/fuxploider.git );
+    $scriptname ( fuxploider.py );
+    $toollang ( python3 );
+    $req ( py );
+}

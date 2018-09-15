@@ -1,0 +1,6 @@
+# xerosploit {
+    $toolinstall  ( https://github.com/LionSec/xerosploit.git );
+    $scriptname ( install.py );
+    $toollang ( python );
+    $req ( py );
+}

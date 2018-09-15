@@ -1,0 +1,774 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+# Powered By :- Aex Software's
+
+import os
+import sys
+from time import sleep
+
+get=open("uip.aex","r")
+tn=get.read()
+get.close()
+opn=open("%s.aex"%tn,"r")
+red=opn.read()
+opn.close()
+n=len(red)
+s=1
+
+# extract code from { to }
+for i in range(0,n):
+  if red[i]=="{":
+    for j in range(i,n):
+      if red[j]!="{" or red[j]!="}":
+        for i in range(0,n):
+          if red[i]=="{" or red[i]!="}":
+            if red[i]!="{" and red[i]!="":
+              tmp=open("main.txt","a")
+              tmp.write(red[i])
+              tmp.close()
+        else:
+          break
+      else:
+        break
+  else:
+    pass
+
+#reading file
+if os.path.exists("main.txt"):
+  tmp1=open("main.txt","r")
+  re1=tmp1.read()
+  tmp1.close()
+  num1=len(re1)
+  os.system("rm main.txt")
+
+# extract statment
+  for i in range(0,num1):
+    if re1[i]=="$":
+      for j in range(i,num1):
+        if re1[j]=="$" or re1[j]!=";":
+          tmp=open("s%s.txt"%s,"a")
+          tmp.write(re1[j])
+          tmp.close()
+        else:
+          s+=1
+          break
+    else:
+      pass
+
+
+# ------------------------- Getting Tool name
+for i in range(0,n):
+  if red[i]=="#" or red[i] != "{":
+    if red[i]!="#" and red[i]!=" ":
+      tmp=open("toolname.txt","a")
+      tmp.write(red[i])
+      tmp.close()
+  else:
+    break
+if os.path.exists("toolname.txt"):
+  tmp=open("toolname.txt","r")
+  toolname=tmp.read()
+  tmp.close()
+  os.system("rm toolname.txt")
+
+
+
+#----------------- getting toolinstall 
+if os.path.exists("s1.txt"):
+  tmp2=open("s1.txt","r")
+  re2=tmp2.read()
+  tmp2.close()
+  num2=len(re2)
+  os.system("rm s1.txt")
+
+  # extract toolname
+  for i in range(0,num2):
+     if re2[i]=="$":
+      for j in range(i+1,num2):
+        if re2[j]!=" " and re2[j]!="(":
+          tmp=open("tmp.txt","a")
+          tmp.write(re2[j])
+          tmp.close()
+        else:
+          break
+     else:
+       break
+
+#reading file
+if os.path.exists("tmp.txt"):
+  tmp3=open("tmp.txt","r")
+  re3=tmp3.read()
+  tmp3.close()
+  num3=len(re3)
+  os.system("rm tmp.txt")
+  if re3=="toolinstall":
+    for i in range(0,num2):
+      if re2[i]=="(":
+        for j in range(i,num2):
+          if re2[j]=="(":
+            pass
+          elif re2[j-1]=="(" and re2[j]==" ":
+            pass
+          elif re2[j]==" " and re2[j+1]==")":
+            break
+          elif re2[j]==")":
+            break
+          else:
+            tmp=open("tmp.txt","a")
+            tmp.write(re2[j])
+            tmp.close()
+      else:
+        pass
+
+#reading file
+if os.path.exists("tmp.txt"):
+  tmp4=open("tmp.txt","r")
+  path=tmp4.read()
+  tmp4.close()
+  os.system("rm tmp.txt")
+
+
+
+#----------------- getting Script name
+if os.path.exists("s2.txt"):
+  tmp2=open("s2.txt","r")
+  re2=tmp2.read()
+  tmp2.close()
+  num2=len(re2)
+  os.system("rm s2.txt")
+
+  # extract toolname
+  for i in range(0,num2):
+     if re2[i]=="$":
+      for j in range(i+1,num2):
+        if re2[j]!=" " and re2[j]!="(":
+          tmp=open("tmp.txt","a")
+          tmp.write(re2[j])
+          tmp.close()
+        else:
+          break
+     else:
+       break
+
+#reading file
+if os.path.exists("tmp.txt"):
+  tmp3=open("tmp.txt","r")
+  re3=tmp3.read()
+  tmp3.close()
+  num3=len(re3)
+  os.system("rm tmp.txt")
+  if re3=="scriptname":
+    for i in range(0,num2):
+      if re2[i]=="(":
+        for j in range(i,num2):
+          if re2[j]=="(":
+            pass
+          elif re2[j-1]=="(" and re2[j]==" ":
+            pass
+          elif re2[j]==" " and re2[j+1]==")":
+            break
+          elif re2[j]==")":
+            break
+          else:
+            tmp=open("tmp.txt","a")
+            tmp.write(re2[j])
+            tmp.close()
+      else:
+        pass
+
+#reading file
+if os.path.exists("tmp.txt"):
+  tmp4=open("tmp.txt","r")
+  toolfilename=tmp4.read()
+  tmp4.close()
+  os.system("rm tmp.txt")
+
+
+
+
+
+#----------------- getting Toollang
+if os.path.exists("s3.txt"):
+  tmp2=open("s3.txt","r")
+  re2=tmp2.read()
+  tmp2.close()
+  num2=len(re2)
+  os.system("rm s3.txt")
+
+  # extract toolname
+  for i in range(0,num2):
+     if re2[i]=="$":
+      for j in range(i+1,num2):
+        if re2[j]!=" " and re2[j]!="(":
+          tmp=open("tmp.txt","a")
+          tmp.write(re2[j])
+          tmp.close()
+        else:
+          break
+     else:
+       break
+
+#reading file
+if os.path.exists("tmp.txt"):
+  tmp3=open("tmp.txt","r")
+  re3=tmp3.read()
+  tmp3.close()
+  num3=len(re3)
+  os.system("rm tmp.txt")
+  if re3=="toollang":
+    for i in range(0,num2):
+      if re2[i]=="(":
+        for j in range(i,num2):
+          if re2[j]=="(":
+            pass
+          elif re2[j-1]=="(" and re2[j]==" ":
+            pass
+          elif re2[j]==" " and re2[j+1]==")":
+            break
+          elif re2[j]==")":
+            break
+          else:
+            tmp=open("tmp.txt","a")
+            tmp.write(re2[j])
+            tmp.close()
+      else:
+        pass
+
+#reading file
+if os.path.exists("tmp.txt"):
+  tmp4=open("tmp.txt","r")
+  toollang=tmp4.read()
+  tmp4.close()
+  os.system("rm tmp.txt")
+
+
+
+
+#----------------- getting Req
+if os.path.exists("s4.txt"):
+  tmp2=open("s4.txt","r")
+  re2=tmp2.read()
+  tmp2.close()
+  num2=len(re2)
+  os.system("rm s4.txt")
+
+  # extract toolname
+  for i in range(0,num2):
+     if re2[i]=="$":
+      for j in range(i+1,num2):
+        if re2[j]!=" " and re2[j]!="(":
+          tmp=open("tmp.txt","a")
+          tmp.write(re2[j])
+          tmp.close()
+        else:
+          break
+     else:
+       break
+
+#reading file
+if os.path.exists("tmp.txt"):
+  tmp3=open("tmp.txt","r")
+  re3=tmp3.read()
+  tmp3.close()
+  num3=len(re3)
+  os.system("rm tmp.txt")
+  if re3=="req":
+    for i in range(0,num2):
+      if re2[i]=="(":
+        for j in range(i,num2):
+          if re2[j]=="(":
+            pass
+          elif re2[j-1]=="(" and re2[j]==" ":
+            pass
+          elif re2[j]==" " and re2[j+1]==")":
+            break
+          elif re2[j]==")":
+            break
+          else:
+            tmp=open("tmp.txt","a")
+            tmp.write(re2[j])
+            tmp.close()
+      else:
+        pass
+
+#reading file
+if os.path.exists("tmp.txt"):
+  tmp4=open("tmp.txt","r")
+  req=tmp4.read()
+  tmp4.close()
+  os.system("rm tmp.txt")
+
+
+if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
+    systm="termux"
+    hpath=os.getenv("HOME")+"/"
+    bpath="/data/data/com.termux/files/usr/bin/"
+elif os.path.exists("/usr/bin/apt"):
+    if os.path.exists("/usr/lib/sudo"):
+        systm="ubuntu"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
+    else:
+        systm="debian"
+        bpath="/usr/bin/"
+        hpath="/home/"
+elif os.path.exists("/bin/apt"):
+    if os.path.exists("/usr/lib/sudo"):
+        systm="ubuntu"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
+    else:
+        systm="debian"
+        bpath="/usr/bin/"
+        hpath=os.getenv("HOME")+"/"
+
+if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
+    pac="pkg"
+elif os.path.exists("/usr/bin/apt"):
+    if os.path.exists("/usr/lib/sudo"):
+        pac="sudo apt-get"
+    else:
+        pac="apt-get"
+elif os.path.exists("/bin/apt"):
+    if os.path.exists("/usr/lib/sudo"):
+        pac="sudo apt-get"
+    else:
+        pac="apt-get"
+
+
+def up():
+    os.system(pac+" update")
+    os.system(pac+" upgrade -y")
+
+def py():
+    if os.path.exists(bpath+"python"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install python -y")
+        os.system(pac+" install python-pip -y")
+        os.system(pac+" install pip -y")
+        os.system(pac+" install python2 -y")
+        os.system(pac+" install python2-pip -y")
+        os.system(pac+" install python3 -y")
+        os.system(pac+" install python3-pip -y")
+        os.system(pac+" install python3-setuptools")
+        os.system("easy_install3 pip")
+    if os.path.exists(bpath+"python2"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install python -y")
+        os.system(pac+" install python-pip -y")
+        os.system(pac+" install pip -y")
+        os.system(pac+" install python2 -y")
+        os.system(pac+" install python2-pip -y")
+        os.system(pac+" install python3 -y")
+        os.system(pac+" install python3-pip -y")
+        os.system(pac+" install python3-setuptools")
+        os.system("easy_install3 pip")
+    if os.path.exists(bpath+"python3"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install python -y")
+        os.system(pac+" install python-pip -y")
+        os.system(pac+" install pip -y")
+        os.system(pac+" install python2 -y")
+        os.system(pac+" install python2-pip -y")
+        os.system(pac+" install python3 -y")
+        os.system(pac+" install python3-pip -y")
+        os.system(pac+" install python3-setuptools")
+        os.system("easy_install3 pip")
+
+def git():
+    if os.path.exists(bpath+"git"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install git -y")
+
+def perl():
+    if os.path.exists(bpath+"perl"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install perl -y")
+
+def ruby():
+    if os.path.exists(bpath+"ruby"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install ruby -y")
+
+def clang():
+    if os.path.exists(bpath+"clang"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install clang -y")
+
+def php():
+    if os.path.exists(bpath+"php"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install php -y")
+        os.system(pac+" install php5 -y")
+
+def wget():
+    if os.path.exists(bpath+"wget"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install wget -y")
+
+def curl():
+    if os.path.exists(bpath+"curl"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install curl -y")
+
+def go():
+    if os.path.exists(bpath+"go"):
+        print("\033[1;33mDone .....")
+    else:
+        os.system(pac+" install golang -y")
+
+def Upd():
+  if systm=="termux":
+	print("\033[1;33m")
+	sys.stdout.write(open(".Toolo/.T0.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".Toolo/.U.aex").read())
+	print("\033[1;33m")
+	sys.stdout.write(open(".Toolo/.T0.aex").read())
+	print("\033[1;m")
+
+  else:
+	print("\033[1;33m")
+	sys.stdout.write(open(".Toolo/.T0u.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".Toolo/.Uu.aex").read())
+	print("\033[1;33m")
+	sys.stdout.write(open(".Toolo/.T0u.aex").read())
+	print("\033[1;m")
+
+
+def Aex():
+	Aex=sys.exit()
+
+def Ux():
+	Ux=os.system("clear")
+
+def proc():
+  if systm=="termux":
+    print("\033[1;33m\007")
+    sys.stdout.write(open(".Toolo/.T0.aex").read())
+    print("\033[1;32m")
+    sys.stdout.write(open(".Toolo/.Ia.aex").read())
+    print("\033[1;33m")
+    sys.stdout.write(open(".Toolo/.T0.aex").read())
+    print("\033[1;m")
+
+  else:
+    print("\033[1;33m\007")
+    sys.stdout.write(open(".Toolo/.T0u.aex").read())
+    print("\033[1;32m")
+    sys.stdout.write(open(".Toolo/.Iau.aex").read())
+    print("\033[1;33m")
+    sys.stdout.write(open(".Toolo/.T0u.aex").read())
+    print("\033[1;m")
+
+
+
+def Er():
+  if systm=="termux":
+	print("\033[1;31m\007")
+	sys.stdout.write(open(".Toolo/.er.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".Toolo/.er0.aex").read())
+	print("\033[1;31m")
+	sys.stdout.write(open(".Toolo/.er.aex").read())
+	print("\033[1;m")
+	sleep(1)
+
+  else:
+	print("\033[1;31m\007")
+	sys.stdout.write(open(".Toolo/.eru.aex").read())
+	print("\033[1;32m")
+	sys.stdout.write(open(".Toolo/.er0u.aex").read())
+	print("\033[1;31m")
+	sys.stdout.write(open(".Toolo/.eru.aex").read())
+	print("\033[1;m")
+	sleep(1)
+
+
+def Req():
+	Ux()
+	proc()
+	if req=="py":
+		git()
+		py()
+	elif req=="php":
+		git()
+		php()
+	elif req=="perl":
+		git()
+		perl()
+	elif req=="ruby":
+		git()
+		ruby()
+	elif req=="clang":
+		git()
+		clang()
+	elif req=="go":
+		git()
+		go()
+	elif req=="curl":
+		curl()
+	elif req=="wget":
+		wget()
+
+
+
+def Notinst():
+    if os.path.exists(hpath+toolname):
+        Ux()
+        install()
+    else:
+        Ux()
+        if systm=="termux":
+            print ("""\033[1;33m\007
+
+
+          _____           _    __  __
+         |_   _|__   ___ | |   \ \/ /
+           | |/ _ \ / _ \| |____\  /
+           | | (_) | (_) | |____/  \     
+           |_|\___/ \___/|_|   /_/\_\ \033[1;91mv2.0
+
+
+\033[1;36m ===============================================\033[1;m
+\033[1;33m|           Install Best Hacking Tool           |
+\033[1;36m ===============================================\033[1;m
+
+\033[1;31m  [ + ]  \033[1;31mWe can't install \033[01;37m"""+toolname+""".\033[1;m
+\033[1;31m  [ + ]  \033[1;31mAre you offline?\033[1;m
+\033[1;31m  [ + ]  \033[1;31mIf you are online.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mThen the server is down.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mPlease try again after some time.
+\033[1;36m_________________________________________________
+=================================================\033[00m
+""")
+        else:
+            print ("""\033[1;33m\007
+
+
+               _____           _    __  __
+              |_   _|__   ___ | |   \ \/ /
+                | |/ _ \ / _ \| |____\  /
+                | | (_) | (_) | |____/  \     
+                |_|\___/ \___/|_|   /_/\_\ \033[1;31mv2.0
+
+
+\033[1;36m =========================================================
+\033[1;33m|               \033[1;33m Install Best Hacking Tool.               \033[1;33m|
+\033[1;36m =========================================================
+
+\033[1;31m     [ + ]  \033[1;31mWe can't install \033[01;37m"""+toolname+""".
+\033[1;31m     [ + ]  \033[1;31mAre you offline?
+\033[1;31m     [ + ]  \033[1;31mIf you are online.
+\033[1;31m     [ + ]  \033[1;31mThen the server is down.
+\033[1;31m     [ + ]  \033[1;31mPlease try again after some time.
+\033[1;36m___________________________________________________________
+===========================================================\033[00m
+""")
+        Toolo = raw_input("\033[1;33m Press any key to continue >>> \033[00m")
+        if Toolo == "":
+            Aex()
+        else:
+            Aex()
+
+
+def inst():
+	Ux()
+	Req()
+	if systm=="termux":
+		os.system("cd "+hpath+" && git clone "+path)
+		os.system("cd "+hpath+toolname+" && chmod +x *.*")
+	elif systm=="ubuntu":
+		os.system("cd "+hpath+" && sudo git clone "+path)
+		os.system("cd "+hpath+toolname+" && sudo chmod +x *.*")
+	else:
+		os.system("cd "+hpath+" && git clone "+path)
+		os.system("cd "+hpath+toolname+" && chmod +x *.*")
+	if os.path.exists(hpath+toolname+"/requirements.txt"):
+		os.system("cd "+hpath+toolname+" && pip install -r requirements.txt")
+		os.system("cd "+hpath+toolname+" && pip2 install -r requirements.txt")
+		os.system("cd "+hpath+toolname+" && pip3 install -r requirements.txt")
+	Ux()
+	if os.path.exists(hpath+toolname+"/requirement.txt"):
+		os.system("cd "+hpath+toolname+" && pip install -r requirement.txt")
+		os.system("cd "+hpath+toolname+" && pip2 install -r requirement.txt")
+		os.system("cd "+hpath+toolname+" && pip3 install -r requirement.txt")
+	Ux()
+	if os.path.exists(hpath+toolname):
+		Ux()
+		install()
+	else:
+		Ux()
+		Notinst()
+
+
+
+def install():
+ while True:
+		while os.path.exists(hpath+toolname):
+			Ux()
+			if systm=="termux":
+				print ('''\033[1;33m\007
+
+
+          _____           _    __  __
+         |_   _|__   ___ | |   \ \/ /
+           | |/ _ \ / _ \| |____\  /
+           | | (_) | (_) | |____/  \     
+           |_|\___/ \___/|_|   /_/\_\ \033[1;91mv2.0
+
+
+\033[1;36m ===============================================
+\033[1;33m|           Install Best Hacking Tool           |
+\033[1;36m ===============================================
+
+\033[1;33m  [ + ]  \033[1;32mInstalled successfully. !!!
+\033[1;33m  [ + ]  \033[1;32mTo run \033[01;37m'''+toolname+'''.
+\033[1;33m  [ + ]  \033[1;32mGo to \033[01;37m'''+toolname+'''\033[01;32m folder.
+\033[1;33m  [ + ]  \033[1;32mAnd type \033[01;37m'''+toollang+''' '''+toolfilename+'''
+\033[1;36m_________________________________________________
+=================================================\033[00m
+''')
+			else:
+				print ('''\033[1;33m\007
+
+
+               _____           _    __  __
+              |_   _|__   ___ | |   \ \/ /
+                | |/ _ \ / _ \| |____\  /
+                | | (_) | (_) | |____/  \     
+                |_|\___/ \___/|_|   /_/\_\ \033[1;31mv2.0
+
+
+\033[1;36m =========================================================
+\033[1;33m|               \033[1;33m Install Best Hacking Tool.               \033[1;33m|
+\033[1;36m =========================================================
+
+\033[1;33m     [ + ]  \033[1;32mInstalled successfully. !!!
+\033[1;33m     [ + ]  \033[1;32mTo run \033[01;37m'''+toolname+'''.
+\033[1;33m     [ + ]  \033[1;32mGo to \033[01;37m'''+toolname+'''\033[01;32m folder.
+\033[1;33m     [ + ]  \033[1;32mAnd type \033[01;37m'''+toollang+''' '''+toolfilename+'''
+\033[1;36m___________________________________________________________
+===========================================================\033[00m
+''')
+			Toolo = raw_input("\033[1;33m Press any key to continue >>> \033[00m")
+			if Toolo == "":
+				Aex()
+			else:
+				Aex()
+
+		else:
+			inst()
+
+
+
+def Open():
+ while True:
+
+		while os.path.exists(hpath+toolname):
+			Ux()
+			if systm=="termux":
+				print ("""\033[1;33m
+
+
+
+          _____           _    __  __
+         |_   _|__   ___ | |   \ \/ /
+           | |/ _ \ / _ \| |____\  /
+           | | (_) | (_) | |____/  \     
+           |_|\___/ \___/|_|   /_/\_\ \033[1;91mv2.0
+
+
+\033[1;36m ===============================================
+\033[1;33m|           Install Best Hacking Tool           |
+\033[1;36m ===============================================
+
+\033[1;33m [+] \033[1;32mSorry. !!!
+\033[1;33m [+] \033[1;37m"""+toolname+"""\033[01;32m is already Installed. !!!
+\033[1;36m_________________________________________________
+=================================================\033[00m
+""")
+			else:
+				print ("""\033[1;33m
+
+
+
+               _____           _    __  __
+              |_   _|__   ___ | |   \ \/ /
+                | |/ _ \ / _ \| |____\  /
+                | | (_) | (_) | |____/  \     
+                |_|\___/ \___/|_|   /_/\_\ \033[1;31mv2.0
+
+
+\033[1;36m =========================================================
+\033[1;33m|               \033[1;33m Install Best Hacking Tool.               \033[1;33m|
+\033[1;36m =========================================================
+
+\033[1;33m   [+] \033[1;32mSorry. !!!
+\033[1;33m   [+] \033[1;37m"""+toolname+"""\033[01;32m is already Installed. !!!
+\033[1;36m___________________________________________________________
+===========================================================\033[00m
+""")
+
+			Toolo = raw_input("\033[1;32m Press Y to update it. [\033[01;33mY/n\033[01;32m] >>> \033[00m")
+			if Toolo == "y" or Toolo == "Y":
+				Ux()
+				Upd()
+				Ux()
+				if systm=="termux":
+				  if toolname=="metasploit":
+				    os.system("cd "+hpath+" && rm -rf "+toolname)
+				    Open()
+				  else:
+				    os.system("cd "+hpath+" && rm -rf "+toolname)
+				    install()
+				else:
+				  if toolname=="metasploit":
+				    os.system("cd "+hpath+" && sudo rm -rf "+toolname)
+				    Open()
+				  else:
+				    os.system("cd "+hpath+" && sudo rm -rf "+toolname)
+				    install()
+			elif Toolo == "n" or Toolo == "N":
+				Aex()
+			else:
+				Er()
+				Open()
+
+		else:
+			if toolname=="metasploit":
+			  if systm=="ubuntu":
+			    Req()
+			    os.system("sudo mkdir "+hpath+"metasploit")
+			    os.system("cd "+hpath+"metasploit && sudo "+path)
+			    os.system("cd "+hpath+"metasploit && sudo chmod +x *.* *")
+			  else:
+			    Req()
+			    os.system("mkdir "+hpath+"metasploit")
+			    os.system("cd "+hpath+"metasploit && "+path)
+			    os.system("cd "+hpath+"metasploit && chmod +x *.* *")
+			install()
+
+
+def Tool_X():
+	try:
+		Open()
+		Ux()
+		Aex()
+
+	except KeyboardInterrupt:
+		Ux()
+		Aex()
+Tool_X()

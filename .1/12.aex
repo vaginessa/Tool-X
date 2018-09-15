@@ -1,0 +1,6 @@
+# ExploitOnCLI {
+    $toolinstall  ( https://github.com/r00tmars/ExploitOnCLI.git );
+    $scriptname ( exploitoncli.php );
+    $toollang ( php );
+    $req ( php );
+}

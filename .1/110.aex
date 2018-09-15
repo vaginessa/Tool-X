@@ -1,0 +1,6 @@
+# uidsploit {
+    $toolinstall  ( https://github.com/siruidops/uidsploit.git );
+    $scriptname ( install.sh );
+    $toollang ( sh );
+    $req ( py );
+}

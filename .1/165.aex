@@ -1,0 +1,6 @@
+# IP-FY {
+    $toolinstall  ( https://github.com/T4P4N/IP-FY.git );
+    $scriptname ( ipfy.py );
+    $toollang ( python );
+    $req ( py );
+}

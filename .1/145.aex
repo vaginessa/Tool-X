@@ -1,0 +1,6 @@
+# Hashzer {
+    $toolinstall  ( https://github.com/Anb3rSecID/Hashzer.git );
+    $scriptname ( hashzer.py );
+    $toollang ( python );
+    $req ( py );
+}

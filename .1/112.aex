@@ -1,0 +1,6 @@
+# Vegile {
+    $toolinstall  ( https://github.com/Screetsec/Vegile.git );
+    $scriptname ( Vegile );
+    $toollang ( sh );
+    $req ( bash );
+}

@@ -1,0 +1,6 @@
+# WP-plugin-scanner {
+    $toolinstall  ( https://github.com/mintobit/WP-plugin-scanner.git );
+    $scriptname ( wp-plugin-scan.py );
+    $toollang ( python );
+    $req ( py );
+}

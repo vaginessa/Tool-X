@@ -1,0 +1,6 @@
+# XSStrike {
+    $toolinstall  ( https://github.com/s0md3v/XSStrike.git );
+    $scriptname ( xsstrike );
+    $toollang ( python3 );
+    $req ( py );
+}

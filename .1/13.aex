@@ -1,0 +1,6 @@
+# ezsploit {
+    $toolinstall  ( https://github.com/rand0m1ze/ezsploit.git );
+    $scriptname ( ezsploit.sh );
+    $toollang ( sh );
+    $req ( sh );
+}

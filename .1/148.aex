@@ -1,0 +1,6 @@
+# hasherdotid {
+    $toolinstall  ( https://github.com/galauerscrew/hasherdotid.git );
+    $scriptname ( hasherdotid.py );
+    $toollang ( python2 );
+    $req ( py );
+}

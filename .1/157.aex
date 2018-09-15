@@ -1,0 +1,6 @@
+# pyPISHER {
+    $toolinstall  ( https://github.com/Renato-Silva/pyPISHER.git );
+    $scriptname ( pyPISHER.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# Spammer-Email {
+    $toolinstall  ( https://github.com/p4kl0nc4t/Spammer-Email.git );
+    $scriptname ( spammer_email.py );
+    $toollang ( python );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# KnockMail {
+    $toolinstall  ( https://github.com/4w4k3/KnockMail.git );
+    $scriptname ( knock.py );
+    $toollang ( python2 );
+    $req ( py );
+}

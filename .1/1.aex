@@ -1,0 +1,6 @@
+# admin-panel-finder {
+    $toolinstall  ( https://github.com/bdblackhat/admin-panel-finder.git );
+    $scriptname ( admin_panel_finder.py );
+    $toollang ( python2 );
+    $req ( py );
+}

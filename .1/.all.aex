@@ -1,0 +1,153 @@
+# Tool Name :- Tool-X
+# Author :- Rajkumar dusad
+# Date :- 1/11/2017
+# Powered By :- Aex Software's
+
+import os
+import sys
+
+for userinput in range(1,208):
+  if os.path.exists("%s.aex"%userinput):
+    opn=open("%s.aex"%userinput,"r")
+    red=opn.read()
+    opn.close()
+    n=len(red)
+    s=1
+
+    # extract code from { to }
+    for i in range(0,n):
+      if red[i]=="{":
+        for j in range(i,n):
+          if red[j]!="{" or red[j]!="}":
+            for i in range(0,n):
+              if red[i]=="{" or red[i]!="}":
+                if red[i]!="{" and red[i]!="":
+                  tmp=open("main.txt","a")
+                  tmp.write(red[i])
+                  tmp.close()
+            else:
+              break
+          else:
+            break
+      else:
+        pass
+
+    #reading file
+    if os.path.exists("main.txt"):
+      tmp1=open("main.txt","r")
+      re1=tmp1.read()
+      tmp1.close()
+      num1=len(re1)
+      os.system("rm main.txt")
+
+    # extract statment
+      for i in range(0,num1):
+        if re1[i]=="$":
+          for j in range(i,num1):
+            if re1[j]=="$" or re1[j]!=";":
+              tmp=open("s%s.txt"%s,"a")
+              tmp.write(re1[j])
+              tmp.close()
+            else:
+              s+=1
+              break
+        else:
+          pass
+
+
+    # ------------------------- Getting Tool name
+    for i in range(0,n):
+      if red[i]=="#" or red[i] != "{":
+        if red[i]!="#" and red[i]!=" ":
+          tmp=open("toolname.txt","a")
+          tmp.write(red[i])
+          tmp.close()
+      else:
+        break
+    if os.path.exists("toolname.txt"):
+      tmp=open("toolname.txt","r")
+      toolname=tmp.read()
+      tmp.close()
+      os.system("rm toolname.txt")
+
+
+
+    #----------------- getting toolinstall 
+    if os.path.exists("s1.txt"):
+      tmp2=open("s1.txt","r")
+      re2=tmp2.read()
+      tmp2.close()
+      num2=len(re2)
+      os.system("rm s1.txt")
+      os.system("rm s2.txt")
+      os.system("rm s3.txt")
+      os.system("rm s4.txt")
+
+      # extract toolname
+      for i in range(0,num2):
+         if re2[i]=="$":
+          for j in range(i+1,num2):
+            if re2[j]!=" " and re2[j]!="(":
+              tmp=open("tmp.txt","a")
+              tmp.write(re2[j])
+              tmp.close()
+            else:
+              break
+         else:
+           break
+
+    #reading file
+    if os.path.exists("tmp.txt"):
+      tmp3=open("tmp.txt","r")
+      re3=tmp3.read()
+      tmp3.close()
+      num3=len(re3)
+      os.system("rm tmp.txt")
+      if re3=="toolinstall":
+        for i in range(0,num2):
+          if re2[i]=="(":
+            for j in range(i,num2):
+              if re2[j]=="(":
+                pass
+              elif re2[j-1]=="(" and re2[j]==" ":
+                pass
+              elif re2[j]==" " and re2[j+1]==")":
+                break
+              elif re2[j]==")":
+                break
+              else:
+                tmp=open("tmp.txt","a")
+                tmp.write(re2[j])
+                tmp.close()
+          else:
+            pass
+
+    #reading file
+    if os.path.exists("tmp.txt"):
+      tmp4=open("tmp.txt","r")
+      path=tmp4.read()
+      tmp4.close()
+      os.system("rm tmp.txt")
+
+
+
+    if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
+      os.system("cd ~/ && git clone "+path)
+      os.system("cd ~/"+toolname+" && chmod +x *.*")
+    elif os.path.exists("/usr/bin/apt"):
+      if os.path.exists("/usr/lib/sudo"):
+          os.system("cd ~/ && sudo git clone "+path)
+          os.system("cd ~/"+toolname+" && sudo chmod +x *.*")
+      else:
+          os.system("cd ~/ && git clone "+path)
+          os.system("cd ~/"+toolname+" && chmod +x *.*")
+    elif os.path.exists("/bin/apt"):
+      if os.path.exists("/usr/lib/sudo"):
+          os.system("cd ~/ && sudo git clone "+path)
+          os.system("cd ~/"+toolname+" && sudo chmod +x *.*")
+      else:
+          os.system("cd ~/ && git clone "+path)
+          os.system("cd ~/"+toolname+" && chmod +x *.*")
+    else:
+      os.system("cd ~/ && git clone "+path)
+      os.system("cd ~/"+toolname+" && chmod +x *.*")

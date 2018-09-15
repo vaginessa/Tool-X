@@ -1,0 +1,6 @@
+# sslstrip {
+    $toolinstall  ( https://github.com/moxie0/sslstrip.git );
+    $scriptname ( sslstrip.py );
+    $toollang ( python2 );
+    $req ( py );
+}

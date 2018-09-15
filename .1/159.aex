@@ -1,0 +1,6 @@
+# Parat {
+    $toolinstall  ( https://github.com/micle-fm/Parat.git );
+    $scriptname ( main.py );
+    $toollang ( python );
+    $req ( py );
+}

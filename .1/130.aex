@@ -1,0 +1,6 @@
+# elpscrk {
+    $toolinstall  ( https://github.com/D4Vinci/elpscrk.git );
+    $scriptname ( elpscrk.py );
+    $toollang ( python2 );
+    $req ( py );
+}

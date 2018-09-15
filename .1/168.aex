@@ -1,0 +1,6 @@
+# websploit {
+    $toolinstall  ( https://github.com/websploit/websploit.git );
+    $scriptname ( websploit );
+    $toollang ( python );
+    $req ( py );
+}

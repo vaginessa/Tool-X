@@ -1,0 +1,6 @@
+# wpscan {
+    $toolinstall  ( https://github.com/wpscanteam/wpscan.git );
+    $scriptname ( wpscan.rb );
+    $toollang ( ruby );
+    $req ( ruby );
+}
