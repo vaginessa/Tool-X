@@ -1,13 +1,14 @@
 
+<h1 align="center">Tool-X v2.0</h1>
+<p align="center">
+       Tool-X is a kali linux hacking tool installer.
+</p>
+
+
 # What is Tool-X ?
 
 Tool-X is a kali linux hacking Tool installer. Tool-X is Developed By Rajkumar Dusad. with the help of Tool-X you can install best hacking tools in Rooted or Non Rooted Android devices. In the Tool-X there are almost 207 hacking tools available for termux app and GNURoot Debian terminal. you can install any tool by single click. Tool-X is Specially made for Termux and GNURoot Debian Terminal. Now Tool-X is available for Ubuntu.
 <br/><br/><br/>
-
-# Features
-
-Install any tools by single click. You can install almost 207 tools in termux and GNURoot Debian Terminal.
-<br/></br>
 
 <p align="center">
 <img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Logo.jpg"/>
@@ -26,16 +27,10 @@ Install any tools by single click. You can install almost 207 tools in termux an
 
 <br/>
 
-# Tool-X is available for
+### Tool-X is available for
 
 * Android
 * Ubuntu
-
-<br/>
-
-# Warning
-
-## I am not expert so use this tool at your own risk.
 
 <br/>
 
@@ -57,7 +52,7 @@ Open the termux app and type following commands.
 
 <br/>
 
-## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
+**Now Tool-X is installed successfully. To run Tool-X Type Tool-X**
 
 Now type Tool-X from anywhare in your terminal to open Tool-X.
 
@@ -81,7 +76,7 @@ Open the GNURoot Debian app and type following commands.
 
 <br/>
 
-## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
+**Now Tool-X is installed successfully. To run Tool-X Type Tool-X**
 
 Now type Tool-X from anywhare in your terminal to open Tool-X. But use this tool only for legal purpose.
 
@@ -103,8 +98,12 @@ Now type Tool-X from anywhare in your terminal to open Tool-X. But use this tool
 
 <br/>
 
-## Now Tool-X is installed successfully. To run Tool-X Type Tool-X
+**Now Tool-X is installed successfully. To run Tool-X Type Tool-X**
 
 Now type Tool-X from anywhare in your terminal to open Tool-X. But use this tool only for legal purpose.
 
 <br/><br/>
+## Warning
+
+***I am not expert so use this tool at your own risk.***
+
