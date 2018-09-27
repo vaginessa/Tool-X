@@ -1,5 +1,4 @@
-# hydra
- {
+# hydra {
     $toolinstall  ( Null );
     $scriptname ( Null );
     $toollang ( Null );
