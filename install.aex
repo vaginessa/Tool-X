@@ -3,40 +3,28 @@
 # Date :- 1/11/2017
 # Powered By :- Aex Software's
 
-if [ ! -e /data/data/com.termux/files/usr/bin/python ];
-then
-	pkg update
-	pkg -y upgrade
-	pkg install -y python
+if [ -e  /usr/lib/sudo ];then
+  if [ ! -e /usr/bin/python2 ];then
+     sudo apt-get update
+     sudo apt-get upgrade -y
+     sudo apt-get install python -y
+     sudo apt-get install python2 -y
+   fi
+else
+  if [ -d /usr/bin ];then
+    if [ ! -e /usr/bin/python2 ];then
+     apt-get update
+     apt -get upgrade -y
+     apt-get install python -y
+     apt-get install python2 -y
+    fi
+  fi
 fi
-
-clear
-
-if [ ! -e /data/data/com.termux/files/usr/bin/python2 ];
-then
-	pkg update
-	pkg -y upgrade
-	pkg install -y python2
+if [ ! -e /data/data/com.termux/files/usr/bin/python2 ];then
+  pkg update
+  pkg upgrade -y
+  pkg install python -y
+  pkg install python2 -y
 fi
-
-clear
-
-if [ ! -e /usr/bin/python ];
-then
-	apt-get update
-	apt-get -y upgrade
-	apt-get install -y python
-fi
-
-clear
-
-if [ ! -e /usr/bin/python2 ];
-then
-	apt-get update
-	apt-get -y upgrade
-	apt-get install -y python2
-fi
-
-clear
-python2 .install.aex
+python2 .install.py
 exit
