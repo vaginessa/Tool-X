@@ -7,7 +7,7 @@
 
 ### What is Tool-X ?
 
-Tool-X is a kali linux hacking Tool installer. Tool-X is Developed By Rajkumar Dusad. with the help of Tool-X you can install best hacking tools in Rooted or Non Rooted Android devices. In the Tool-X there are almost 207 hacking tools available for termux app and GNURoot Debian terminal. you can install any tool by single click. Tool-X is Specially made for Termux and GNURoot Debian Terminal. Now Tool-X is available for Ubuntu.
+Tool-X is a kali linux hacking Tool installer. Tool-X is Developed By Rajkumar Dusad. with the help of Tool-X you can install best hacking tools in Rooted or Non Rooted Android devices. In the Tool-X there are almost 215 hacking tools available for termux app and GNURoot Debian terminal. you can install any tool by single click. Tool-X is Specially made for Termux and GNURoot Debian Terminal. Now Tool-X is available for Ubuntu.
 <br/><br/><br/>
 
 <p align="center">
