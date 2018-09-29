@@ -550,6 +550,22 @@ def Toolx():
 		inst()
 	elif Toolo == "207":
 		inst()
+	elif Toolo == "208":
+		inst()
+	elif Toolo == "209":
+		inst()
+	elif Toolo == "210":
+		inst()
+	elif Toolo == "211":
+		inst()
+	elif Toolo == "212":
+		inst()
+	elif Toolo == "213":
+		inst()
+	elif Toolo == "214":
+		inst()
+	elif Toolo == "215":
+		inst()
 	elif Toolo == "00":
 		ox()
 		Aex()
