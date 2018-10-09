@@ -1,6 +1,0 @@
-# LALIN {
-    $toolinstall  ( https://github.com/Screetsec/LALIN.git );
-    $scriptname ( Lalin.sh );
-    $toollang ( ./ );
-    $req ( bash );
-}

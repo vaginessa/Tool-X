@@ -1,6 +1,0 @@
-# ruby {
-    $toolinstall  ( Null );
-    $scriptname ( Null );
-    $toollang ( Null );
-    $req ( Null );
-}

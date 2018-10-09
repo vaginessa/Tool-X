@@ -1,6 +1,0 @@
-# fsociety {
-    $toolinstall  ( https://github.com/Manisso/fsociety.git );
-    $scriptname ( install.sh );
-    $toollang ( sh );
-    $req ( py );
-}

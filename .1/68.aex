@@ -1,6 +1,0 @@
-# D-TECT {
-    $toolinstall  ( https://github.com/shawarkhanethicalhacker/D-TECT.git );
-    $scriptname ( d-tect.py );
-    $toollang ( python2 );
-    $req ( py );
-}

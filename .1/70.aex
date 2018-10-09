@@ -1,6 +1,0 @@
-# IP-Locator {
-    $toolinstall  ( https://github.com/zanyarjamal/IP-Locator.git );
-    $scriptname ( ip-locator.pl );
-    $toollang ( perl );
-    $req ( perl );
-}

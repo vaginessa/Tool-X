@@ -1,6 +1,0 @@
-# Planetwork-DDOS {
-    $toolinstall  ( https://github.com/Hydra7/Planetwork-DDOS.git );
-    $scriptname ( pntddos.py );
-    $toollang ( python );
-    $req ( py );
-}

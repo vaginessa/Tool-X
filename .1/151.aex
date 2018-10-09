@@ -1,6 +1,0 @@
-# ATSCAN {
-    $toolinstall  ( https://github.com/AlisamTechnology/ATSCAN.git );
-    $scriptname ( install.sh );
-    $toollang ( sh );
-    $req ( sh );
-}

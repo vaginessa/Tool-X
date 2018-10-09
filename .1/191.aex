@@ -1,6 +1,0 @@
-# Winpayloads {
-    $toolinstall  ( https://github.com/nccgroup/Winpayloads.git );
-    $scriptname ( setup.sh );
-    $toollang ( ./ );
-    $req ( py );
-}

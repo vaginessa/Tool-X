@@ -1,6 +1,0 @@
-# wfdroid-termux {
-    $toolinstall  ( https://github.com/bytezcrew/wfdroid-termux.git );
-    $scriptname ( wfdinstall );
-    $toollang ( sh );
-    $req ( sh );
-}

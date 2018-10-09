@@ -1,6 +1,0 @@
-# jboss-autopwn {
-    $toolinstall  ( https://github.com/SpiderLabs/jboss-autopwn.git );
-    $scriptname ( e.sh );
-    $toollang ( sh );
-    $req ( sh );
-}

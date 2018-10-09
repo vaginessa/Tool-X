@@ -1,6 +1,0 @@
-# txtool {
-    $toolinstall  ( https://github.com/kuburan/txtool.git );
-    $scriptname ( install.py );
-    $toollang ( python2 );
-    $req ( py );
-}

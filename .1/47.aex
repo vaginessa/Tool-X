@@ -1,6 +1,0 @@
-# social-engineer-toolkit {
-    $toolinstall  ( https://github.com/trustedsec/social-engineer-toolkit.git );
-    $scriptname ( setup.py );
-    $toollang ( python2 );
-    $req ( py );
-}

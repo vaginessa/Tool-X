@@ -1,6 +1,0 @@
-# BeeLogger {
-    $toolinstall  ( https://github.com/4w4k3/BeeLogger.git );
-    $scriptname ( install.sh );
-    $toollang ( ./ );
-    $req ( py );
-}

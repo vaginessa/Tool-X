@@ -1,6 +1,0 @@
-# bleachbit {
-    $toolinstall  ( https://github.com/bleachbit/bleachbit.git );
-    $scriptname ( setup.py );
-    $toollang ( python );
-    $req ( py );
-}

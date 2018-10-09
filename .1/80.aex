@@ -1,6 +1,0 @@
-# DSVW {
-    $toolinstall  ( https://github.com/stamparm/DSVW.git );
-    $scriptname ( dsvw.py );
-    $toollang ( python2 );
-    $req ( py );
-}

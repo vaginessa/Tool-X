@@ -1,6 +1,0 @@
-# fbvid {
-    $toolinstall ( https://github.com/Tuhinshubhra/fbvid.git );
-    $scriptname ( fb.php );
-    $toollang ( php );
-    $req ( php );
-}

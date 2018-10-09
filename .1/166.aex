@@ -1,6 +1,0 @@
-# IP-Tracer {
-    $toolinstall  ( https://github.com/Rajkumrdusad/IP-Tracer.git );
-    $scriptname ( install );
-    $toollang ( sh );
-    $req ( php );
-}

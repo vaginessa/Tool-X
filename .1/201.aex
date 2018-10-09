@@ -1,6 +1,0 @@
-# LFIsuite {
-    $toolinstall  ( https://github.com/D35m0nd142/LFISuite.git );
-    $scriptname ( socks.py );
-    $toollang ( python );
-    $req ( py );
-}

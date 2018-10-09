@@ -1,6 +1,0 @@
-# TheFatRat {
-    $toolinstall  ( https://github.com/Screetsec/TheFatRat.git );
-    $scriptname ( setup.sh );
-    $toollang ( ./ );
-    $req ( sh );
-}

@@ -1,6 +1,0 @@
-# rang3r {
-    $toolinstall  ( https://github.com/floriankunushevci/rang3r.git );
-    $scriptname ( rang3r.py );
-    $toollang ( python );
-    $req ( py );
-}

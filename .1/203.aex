@@ -1,6 +1,0 @@
-# DKMC {
-    $toolinstall  ( https://github.com/Mr-Un1k0d3r/DKMC.git );
-    $scriptname ( dkmc.py );
-    $toollang ( python2 );
-    $req ( py );
-}

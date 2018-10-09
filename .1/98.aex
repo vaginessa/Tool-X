@@ -1,6 +1,0 @@
-# Th3inspector {
-    $toolinstall  ( https://github.com/Moham3dRiahi/Th3inspector.git );
-    $scriptname ( install.sh );
-    $toollang ( sh );
-    $req ( perl );
-}

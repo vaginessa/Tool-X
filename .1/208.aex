@@ -1,6 +1,0 @@
-# SocialBox {
-    $toolinstall ( https://github.com/TunisianEagles/SocialBox.git );
-    $scriptname ( SocialBox.sh );
-    $toollang ( ./ );
-    $req ( bash );
-}

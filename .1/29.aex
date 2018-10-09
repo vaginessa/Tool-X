@@ -1,6 +1,0 @@
-# metasploit {
-    $toolinstall  ( curl -o metasploit.sh https://Auxilus.github.io/metasploit.sh );
-    $scriptname ( metasploit.sh );
-    $toollang ( bash );
-    $req ( curl );
-}

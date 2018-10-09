@@ -1,6 +1,0 @@
-# trape {
-    $toolinstall  ( https://github.com/boxug/trape.git );
-    $scriptname ( trape.py );
-    $toollang ( python );
-    $req ( py );
-}

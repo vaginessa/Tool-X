@@ -1,6 +1,0 @@
-# trackout {
-    $toolinstall  ( https://github.com/abaykan/trackout.git );
-    $scriptname ( trackout.py );
-    $toollang ( python );
-    $req ( py );
-}

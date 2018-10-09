@@ -1,6 +1,0 @@
-# angryFuzzer {
-    $toolinstall  ( https://github.com/ihebski/angryFuzzer.git );
-    $scriptname ( angryFuzzer.py );
-    $toollang ( python2 );
-    $req ( py );
-}

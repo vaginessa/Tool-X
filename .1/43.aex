@@ -1,6 +1,0 @@
-# RED_HAWK {
-    $toolinstall  ( https://github.com/Tuhinshubhra/RED_HAWK.git );
-    $scriptname ( rhawk.php );
-    $toollang ( php );
-    $req ( php );
-}

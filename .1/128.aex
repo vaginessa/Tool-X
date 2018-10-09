@@ -1,6 +1,0 @@
-# evilginx {
-    $toolinstall  ( https://github.com/kgretzky/evilginx.git );
-    $scriptname ( install.sh );
-    $toollang ( sh );
-    $req ( py );
-}

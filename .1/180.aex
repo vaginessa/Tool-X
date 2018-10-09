@@ -1,6 +1,0 @@
-# The-Eye {
-    $toolinstall  ( https://github.com/EgeBalci/The-Eye.git );
-    $scriptname ( TheEye.go );
-    $toollang ( go );
-    $req ( go );
-}

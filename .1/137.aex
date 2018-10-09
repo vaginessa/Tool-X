@@ -1,6 +1,0 @@
-# sqlscan {
-    $toolinstall  ( https://github.com/Cvar1984/sqlscan.git );
-    $scriptname ( sqlscan.php );
-    $toollang ( php );
-    $req ( php );
-}

@@ -1,6 +1,0 @@
-# sAINT {
-    $toolinstall  ( https://github.com/tiagorlampert/sAINT.git );
-    $scriptname ( configure.sh );
-    $toollang ( sh );
-    $req ( java );
-}

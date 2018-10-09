@@ -1,6 +1,0 @@
-# pupy {
-    $toolinstall  ( https://github.com/n1nj4sec/pupy );
-    $scriptname ( create-workspace.py );
-    $toollang ( python );
-    $req ( py );
-}

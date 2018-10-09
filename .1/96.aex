@@ -1,6 +1,0 @@
-# QRLJacking {
-    $toolinstall  ( https://github.com/OWASP/QRLJacking.git );
-    $scriptname ( QRLJacker.py );
-    $toollang ( python );
-    $req ( py );
-}

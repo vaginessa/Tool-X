@@ -1,6 +1,0 @@
-# xerxes {
-    $toolinstall  ( https://github.com/zanyarjamal/xerxes.git );
-    $scriptname ( xerxes.c -o xerxes );
-    $toollang ( gcc );
-    $req ( c );
-}

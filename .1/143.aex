@@ -1,6 +1,0 @@
-# blackbox {
-    $toolinstall  ( https://github.com/jothatron/blackbox.git );
-    $scriptname ( install );
-    $toollang ( ./ );
-    $req ( py );
-}

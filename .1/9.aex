@@ -1,6 +1,0 @@
-# cpscan {
-    $toolinstall  ( https://github.com/susmithHCK/cpscan.git );
-    $scriptname ( cpscan.py );
-    $toollang ( python2 );
-    $req ( py );
-}

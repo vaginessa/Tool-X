@@ -1,6 +1,0 @@
-# vim {
-    $toolinstall  ( vim );
-    $scriptname ( Null );
-    $toollang ( Null );
-    $req ( Null );
-}

@@ -1,6 +1,0 @@
-# DSSS {
-    $toolinstall  ( https://github.com/stamparm/DSSS.git );
-    $scriptname ( dsss.py );
-    $toollang ( python );
-    $req ( py );
-}

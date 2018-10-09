@@ -1,6 +1,0 @@
-# IPGeoLocation {
-    $toolinstall  ( https://github.com/maldevel/IPGeoLocation.git );
-    $scriptname ( ipgeolocation.py );
-    $toollang ( python );
-    $req ( py );
-}

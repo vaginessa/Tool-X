@@ -1,6 +1,0 @@
-# CMSeeK {
-    $toolinstall  ( https://github.com/Tuhinshubhra/CMSeeK.git );
-    $scriptname ( cmseek.py );
-    $toollang ( python3 );
-    $req ( py );
-}

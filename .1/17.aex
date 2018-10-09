@@ -1,6 +1,0 @@
-# hakkuframework {
-    $toolinstall  ( https://github.com/4shadoww/hakkuframework.git );
-    $scriptname ( hakku );
-    $toollang ( python2 );
-    $req ( py );
-}

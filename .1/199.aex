@@ -1,6 +1,0 @@
-# FakeImageExploiter {
-    $toolinstall  ( https://github.com/r00t-3xp10it/FakeImageExploiter.git );
-    $scriptname ( FakeImageExploiter.sh );
-    $toollang ( ./ );
-    $req ( bash );
-}
