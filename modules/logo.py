@@ -11,13 +11,13 @@ def all_logo():
   if system=="termux":
     hader()
     print ('''
-\033[1;33m  [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 207 tools\033[1;33m ]
+\033[1;33m  [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 215 tools\033[1;33m ]
 \033[1;33m  [ 0 ] \033[1;32mFor Back.\033[00m''')
     footer()
   else:
     hader()
     print ('''
-\033[1;33m   [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 207 tools\033[1;33m ]
+\033[1;33m   [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 215 tools\033[1;33m ]
 \033[1;33m   [ 0 ] \033[1;32mFor Back.\033[00m''')
     footer()
 

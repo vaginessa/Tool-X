@@ -41,7 +41,7 @@ def Done():
     os.system("cd "+home+"Tool-X && sh install.aex")
   ux()
   ups_logo()
-  Toolo = raw_input("\033[1;33m >>> \033[00m")
+  Toolo = raw_input("\n\033[1;33m >>> \033[00m")
   if Toolo == "":
     os.system("Tool-X")
     ex()
