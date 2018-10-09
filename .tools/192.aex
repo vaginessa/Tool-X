@@ -1,0 +1,6 @@
+# CHAOS {
+    $toolinstall  ( https://github.com/tiagorlampert/CHAOS.git );
+    $scriptname ( CHAOS.go );
+    $toollang ( go run );
+    $req ( go );
+}

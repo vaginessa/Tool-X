@@ -1,0 +1,6 @@
+# avet {
+    $toolinstall  ( https://github.com/govolution/avet.git );
+    $scriptname ( make_avet.c );
+    $toollang ( gcc );
+    $req ( c );
+}

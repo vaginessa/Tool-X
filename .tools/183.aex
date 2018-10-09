@@ -1,0 +1,6 @@
+# eternal_scanner {
+    $toolinstall  ( https://github.com/peterpt/eternal_scanner.git );
+    $scriptname ( escan );
+    $toollang ( ./ );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# koadic {
+    $toolinstall  ( https://github.com/zerosum0x0/koadic.git );
+    $scriptname ( koadic );
+    $toollang ( python );
+    $req ( py );
+}

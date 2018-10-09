@@ -1,0 +1,6 @@
+# beef {
+    $toolinstall  ( https://github.com/beefproject/beef.git );
+    $scriptname ( install );
+    $toollang ( ./ );
+    $req ( ruby );
+}

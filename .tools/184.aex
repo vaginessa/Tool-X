@@ -1,0 +1,6 @@
+# eaphammer {
+    $toolinstall  ( https://github.com/s0lst1c3/eaphammer.git );
+    $scriptname ( kali-setup );
+    $toollang ( ./ );
+    $req ( py );
+}

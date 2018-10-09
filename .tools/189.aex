@@ -1,0 +1,6 @@
+# zirikatu {
+    $toolinstall  ( https://github.com/pasahitz/zirikatu.git );
+    $scriptname ( zirikatu.sh );
+    $toollang ( ./ );
+    $req ( sh );
+}

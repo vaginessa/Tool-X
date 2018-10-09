@@ -1,0 +1,6 @@
+# Gloom-Framework {
+    $toolinstall  ( https://github.com/StreetSec/Gloom-Framework.git );
+    $scriptname ( install.py );
+    $toollang ( python );
+    $req ( py );
+}
