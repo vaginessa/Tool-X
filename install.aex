@@ -26,5 +26,5 @@ if [ ! -e /data/data/com.termux/files/usr/bin/python2 ];then
   pkg install python -y
   pkg install python2 -y
 fi
-python2 .install1.py
+python2 .install.py
 exit
