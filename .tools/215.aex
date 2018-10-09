@@ -1,0 +1,6 @@
+# Mercury {
+    $toolinstall ( https://github.com/MetaChar/Mercury.git );
+    $scriptname ( Mercury.py );
+    $toollang ( python2 );
+    $req ( py );
+}

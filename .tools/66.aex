@@ -1,0 +1,6 @@
+# FBUPv2.0 {
+    $toolinstall  ( https://github.com/mrSilent0598/FBUPv2.0.git );
+    $scriptname ( fbup.py );
+    $toollang ( python2 );
+    $req ( py );
+}

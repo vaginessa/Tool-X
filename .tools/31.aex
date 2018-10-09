@@ -1,0 +1,6 @@
+# netattack {
+    $toolinstall  ( https://github.com/chrizator/netattack.git );
+    $scriptname ( netattack.py );
+    $toollang ( python2 );
+    $req ( py );
+}

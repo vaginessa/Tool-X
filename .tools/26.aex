@@ -1,0 +1,6 @@
+# kickthemout {
+    $toolinstall  ( https://github.com/k4m4/kickthemout.git );
+    $scriptname ( kickthemout.py );
+    $toollang ( python2 );
+    $req ( py );
+}

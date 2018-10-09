@@ -1,0 +1,6 @@
+# webpwn3r {
+    $toolinstall  ( https://github.com/zigoo0/webpwn3r.git );
+    $scriptname ( scan.py );
+    $toollang ( python2 );
+    $req ( py );
+}

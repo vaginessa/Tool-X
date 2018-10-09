@@ -1,0 +1,6 @@
+# weeman {
+    $toolinstall  ( https://github.com/evait-security/weeman.git );
+    $scriptname ( weeman.py );
+    $toollang ( python2 );
+    $req ( py );
+}

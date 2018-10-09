@@ -1,0 +1,6 @@
+# routersploit {
+    $toolinstall  ( https://github.com/reverse-shell/routersploit.git );
+    $scriptname ( rsf.py );
+    $toollang ( python2 );
+    $req ( py );
+}

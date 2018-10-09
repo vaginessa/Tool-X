@@ -1,0 +1,6 @@
+# CyberScan {
+    $toolinstall  ( https://github.com/medbenali/CyberScan.git );
+    $scriptname ( CyberScan.py );
+    $toollang ( python2 );
+    $req ( py );
+}

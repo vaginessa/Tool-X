@@ -1,0 +1,6 @@
+# HatCloud {
+    $toolinstall  ( https://github.com/HatBashBR/HatCloud.git );
+    $scriptname ( hatcloud.rb );
+    $toollang ( ruby );
+    $req ( ruby );
+}

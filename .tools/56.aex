@@ -1,0 +1,6 @@
+# fbht {
+    $toolinstall  ( https://github.com/chinoogawa/fbht.git );
+    $scriptname ( main.py );
+    $toollang ( python2 );
+    $req ( py );
+}

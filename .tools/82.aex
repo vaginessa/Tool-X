@@ -1,0 +1,6 @@
+# GoldenEye {
+    $toolinstall  ( https://github.com/jseidl/GoldenEye.git );
+    $scriptname ( goldeneye.py );
+    $toollang ( python2 );
+    $req ( py );
+}

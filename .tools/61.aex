@@ -1,0 +1,6 @@
+# wifi-hacker {
+    $toolinstall  ( https://github.com/esc0rtd3w/wifi-hacker.git );
+    $scriptname ( wifi-hacker.sh );
+    $toollang ( sh );
+    $req ( sh );
+}

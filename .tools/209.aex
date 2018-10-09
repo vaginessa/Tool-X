@@ -1,0 +1,6 @@
+# LITESPAM {
+    $toolinstall ( https://github.com/4L13199/LITESPAM.git );
+    $scriptname ( LITESPAM.sh );
+    $toollang ( bash );
+    $req ( php );
+}

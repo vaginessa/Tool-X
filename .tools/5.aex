@@ -1,0 +1,6 @@
+# Breacher {
+    $toolinstall  ( https://github.com/UltimateHackers/Breacher.git );
+    $scriptname ( breacher.py );
+    $toollang ( python2 );
+    $req ( py );
+}

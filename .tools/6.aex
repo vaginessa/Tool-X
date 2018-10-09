@@ -1,0 +1,6 @@
+# Brutal {
+    $toolinstall  ( https://github.com/Screetsec/Brutal.git );
+    $scriptname ( Brutal.sh );
+    $toollang ( sh );
+    $req ( sh );
+}

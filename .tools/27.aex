@@ -1,0 +1,6 @@
+# Trity {
+    $toolinstall  ( https://github.com/toxic-ig/Trity.git );
+    $scriptname ( install.py );
+    $toollang ( python2 );
+    $req ( py );
+}

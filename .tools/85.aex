@@ -1,0 +1,6 @@
+# hulk {
+    $toolinstall  ( https://github.com/grafov/hulk.git );
+    $scriptname ( hulk.py );
+    $toollang ( python2 );
+    $req ( py );
+}

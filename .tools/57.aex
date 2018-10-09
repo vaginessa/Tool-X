@@ -1,0 +1,6 @@
+# termux_webscan {
+    $toolinstall  ( https://github.com/silverhat007/termux_webscan.git );
+    $scriptname ( webscan );
+    $toollang ( sh );
+    $req ( sh );
+}

@@ -1,0 +1,6 @@
+# DSXS {
+    $toolinstall  ( https://github.com/stamparm/DSXS.git );
+    $scriptname ( dsxs.py );
+    $toollang ( python2 );
+    $req ( py );
+}

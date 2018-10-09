@@ -1,0 +1,6 @@
+# wifresti {
+    $toolinstall  ( https://github.com/LionSec/wifresti.git );
+    $scriptname ( wifresti.py );
+    $toollang ( python2 );
+    $req ( py );
+}

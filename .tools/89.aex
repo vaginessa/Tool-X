@@ -1,0 +1,6 @@
+# shellstack {
+    $toolinstall  ( https://github.com/Tuhinshubhra/shellstack.git );
+    $scriptname ( shellstack.php );
+    $toollang ( php );
+    $req ( php );
+}

@@ -1,0 +1,6 @@
+# CredSniper {
+    $toolinstall ( https://github.com/ustayready/CredSniper.git );
+    $scriptname ( install.sh );
+    $toollang ( ./ );
+    $req ( py );
+}

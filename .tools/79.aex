@@ -1,0 +1,6 @@
+# Devploit {
+    $toolinstall  ( https://github.com/joker25000/Devploit.git );
+    $scriptname ( install );
+    $toollang ( sh );
+    $req ( py );
+}
