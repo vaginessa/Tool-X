@@ -1,0 +1,6 @@
+# hash-generator {
+    $toolinstall  ( https://github.com/CiKu370/hash-generator.git );
+    $scriptname ( hashgen.py );
+    $toollang ( python2 );
+    $req ( py );
+}

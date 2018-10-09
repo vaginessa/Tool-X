@@ -1,0 +1,6 @@
+# wirespy {
+    $toolinstall  ( https://github.com/AresS31/wirespy.git );
+    $scriptname ( wirespy.sh );
+    $toollang ( sh );
+    $req ( sh );
+}

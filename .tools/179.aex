@@ -1,0 +1,6 @@
+# netdiscover {
+    $toolinstall  ( https://github.com/alexxy/netdiscover.git );
+    $scriptname ( update-oui-database.sh );
+    $toollang ( sh );
+    $req ( sh );
+}

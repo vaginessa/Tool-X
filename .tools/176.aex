@@ -1,0 +1,6 @@
+# wifiphisher {
+    $toolinstall  ( https://github.com/wifiphisher/wifiphisher.git );
+    $scriptname ( setup.py );
+    $toollang ( python );
+    $req ( py );
+}

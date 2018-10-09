@@ -1,0 +1,6 @@
+# sqlmate {
+    $toolinstall  ( https://github.com/s0md3v/sqlmate.git );
+    $scriptname ( sqlmate );
+    $toollang ( python );
+    $req ( py );
+}

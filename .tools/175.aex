@@ -1,0 +1,6 @@
+# lscript {
+    $toolinstall  ( https://github.com/arismelachroinos/lscript.git );
+    $scriptname ( install.sh );
+    $toollang ( ./ );
+    $req ( sh );
+}

@@ -1,0 +1,6 @@
+# AndroBugs_Framwork {
+    $toolinstall  ( https://github.com/AndroBugs/AndroBugs_Framework.git );
+    $scriptname ( androbugs.py );
+    $toollang ( python );
+    $req ( py );
+}

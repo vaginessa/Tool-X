@@ -1,0 +1,6 @@
+# CMSmap {
+    $toolinstall  ( https://github.com/Dionach/CMSmap.git );
+    $scriptname ( cmsmap.py );
+    $toollang ( python );
+    $req ( py );
+}

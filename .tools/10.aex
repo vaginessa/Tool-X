@@ -1,0 +1,6 @@
+# credmap {
+    $toolinstall  ( https://github.com/lightos/credmap.git );
+    $scriptname ( credmap.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# hacktronian {
+    $toolinstall  ( https://github.com/thehackingsage/hacktronian.git );
+    $scriptname ( install.sh );
+    $toollang ( sh );
+    $req ( py );
+}

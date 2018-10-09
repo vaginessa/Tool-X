@@ -1,0 +1,6 @@
+# weevely3 {
+    $toolinstall  ( https://github.com/epinna/weevely3.git );
+    $scriptname ( weevely.py );
+    $toollang ( python2 );
+    $req ( py );
+}

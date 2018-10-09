@@ -1,0 +1,6 @@
+# zarp {
+    $toolinstall  ( https://github.com/hatRiot/zarp.git );
+    $scriptname ( zarp.py );
+    $toollang ( python );
+    $req ( py );
+}

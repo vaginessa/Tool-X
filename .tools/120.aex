@@ -1,0 +1,6 @@
+# zambie {
+    $toolinstall  ( https://github.com/zanyarjamal/zambie.git );
+    $scriptname ( installer.sh );
+    $toollang ( sh );
+    $req ( py );
+}

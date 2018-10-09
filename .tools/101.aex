@@ -1,0 +1,6 @@
+# gasmask {
+    $toolinstall  ( https://github.com/twelvesec/gasmask.git );
+    $scriptname ( gasmask.py );
+    $toollang ( python2 );
+    $req ( py );
+}

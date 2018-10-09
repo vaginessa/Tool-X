@@ -1,0 +1,6 @@
+# Xshell {
+    $toolinstall  ( https://github.com/Manisso/Xshell.git );
+    $scriptname ( install.sh );
+    $toollang ( bash );
+    $req ( bash );
+}

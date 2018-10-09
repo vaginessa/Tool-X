@@ -1,0 +1,6 @@
+# hasher {
+    $toolinstall  ( https://github.com/CiKu370/hasher.git );
+    $scriptname ( hash.py );
+    $toollang ( python2 );
+    $req ( py );
+}

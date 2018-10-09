@@ -1,0 +1,6 @@
+# sqliv {
+    $toolinstall  ( https://github.com/Hadesy2k/sqliv.git );
+    $scriptname ( setup.py );
+    $toollang ( python2 );
+    $req ( py );
+}

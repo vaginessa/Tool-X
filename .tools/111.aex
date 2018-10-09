@@ -1,0 +1,6 @@
+# Umbrella {
+    $toolinstall  ( https://github.com/4w4k3/Umbrella.git );
+    $scriptname ( install.sh );
+    $toollang ( sh );
+    $req ( py );
+}

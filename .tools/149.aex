@@ -1,0 +1,6 @@
+# webdav {
+    $toolinstall  ( https://github.com/hacdias/webdav.git );
+    $scriptname ( webdav.go );
+    $toollang ( go );
+    $req ( go );
+}

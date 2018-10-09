@@ -1,0 +1,6 @@
+# MyServer {
+    $toolinstall  ( https://github.com/Rajkumrdusad/MyServer.git );
+    $scriptname ( install );
+    $toollang ( sh );
+    $req ( py );
+}

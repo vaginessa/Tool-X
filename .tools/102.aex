@@ -1,0 +1,6 @@
+# dedsploit {
+    $toolinstall  ( https://github.com/ex0dus-0x/dedsploit.git );
+    $scriptname ( dedsploit );
+    $toollang ( python );
+    $req ( py );
+}

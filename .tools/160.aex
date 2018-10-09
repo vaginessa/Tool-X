@@ -1,0 +1,6 @@
+# BruteX {
+    $toolinstall  ( https://github.com/1N3/BruteX.git );
+    $scriptname ( install.sh );
+    $toollang ( sh );
+    $req ( py );
+}

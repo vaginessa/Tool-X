@@ -1,0 +1,6 @@
+# AutoPixieWps {
+    $toolinstall  ( https://github.com/nxxxu/AutoPixieWps.git );
+    $scriptname ( autopixie.py );
+    $toollang ( python );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# wafw00f {
+    $toolinstall  ( https://github.com/EnableSecurity/wafw00f.git );
+    $scriptname ( setup.py );
+    $toollang ( python );
+    $req ( py );
+}

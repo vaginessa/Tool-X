@@ -1,0 +1,6 @@
+# killchain {
+    $toolinstall  ( https://github.com/ruped24/killchain.git );
+    $scriptname ( killchain.py );
+    $toollang ( python2 );
+    $req ( py );
+}

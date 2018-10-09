@@ -1,0 +1,6 @@
+# shellnoob {
+    $toolinstall  ( https://github.com/reyammer/shellnoob.git );
+    $scriptname ( shellnoob.py );
+    $toollang ( python );
+    $req ( py );
+}
