@@ -7,41 +7,59 @@ import os
 import sys
 from time import sleep
 
-if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
-    systm="termux"
+if os.path.exists("/usr/bin/yum"):
+  if os.path.exists("/usr/lib/sudo"):
+    systm="fedora"
     hpath=os.getenv("HOME")+"/"
-    bpath="/data/data/com.termux/files/usr/bin/"
-elif os.path.exists("/usr/bin/apt"):
-    if os.path.exists("/usr/lib/sudo"):
-        systm="ubuntu"
-        bpath="/usr/bin/"
-        hpath=os.getenv("HOME")+"/"
-    else:
-        systm="debian"
-        bpath="/usr/bin/"
-        hpath="/home/"
-elif os.path.exists("/bin/apt"):
-    if os.path.exists("/usr/lib/sudo"):
-        systm="ubuntu"
-        bpath="/usr/bin/"
-        hpath=os.getenv("HOME")+"/"
-    else:
-        systm="debian"
-        bpath="/usr/bin/"
-        hpath=os.getenv("HOME")+"/"
+    bpath="/usr/bin/"
+    pac="sudo yum"
+  else:
+    systm="fedora"
+    hpath=os.getenv("HOME")+"/"
+    bpath="/usr/bin/"
+    pac="yum"
 
-if os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
-    pac="pkg"
 elif os.path.exists("/usr/bin/apt"):
-    if os.path.exists("/usr/lib/sudo"):
-        pac="sudo apt-get"
-    else:
-        pac="apt-get"
-elif os.path.exists("/bin/apt"):
-    if os.path.exists("/usr/lib/sudo"):
-        pac="sudo apt-get"
-    else:
-        pac="apt-get"
+  if os.path.exists("/usr/lib/sudo"):
+    systm="ubuntu"
+    hpath=os.getenv("HOME")+"/"
+    bpath="/usr/bin/"
+    pac="sudo apt-get"
+  else:
+    systm="debian"
+    hpath=os.getenv("HOME")+"/"
+    bpath="/usr/bin/"
+    pac="apt-get"
+
+elif os.path.exists("/usr/bin/apt"):
+  if os.path.exists("/usr/bin/sudo"):
+    systm="ubuntu"
+    hpath=os.getenv("HOME")+"/"
+    bpath="/usr/bin/"
+    pac="sudo apt-get"
+  else:
+    systm="debian"
+    hpath=os.getenv("HOME")+"/"
+    bpath="/usr/bin/"
+    pac="apt-get"
+
+elif os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
+  systm="termux"
+  hpath=os.getenv("HOME")+"/"
+  bpath="/data/data/com.termux/files/usr/bin/"
+  pac="pkg"
+
+elif os.path.exists("/usr/bin/brew"):
+  systm="mac"
+  hpath=os.getenv("HOME")+"/"
+  bpath="/usr/bin/"
+  pac="brew"
+
+elif os.path.exists("/bin/brew"):
+  systm="mac"
+  hpath=os.getenv("HOME")+"/"
+  bpath="/bin/"
+  pac="brew"
 
 def Aex():
 	Aex=sys.exit()
@@ -265,13 +283,10 @@ def proce():
 	    Ux()
 	    insok()
 
-
-
 def Toolx():
 		Ux()
 		Logo()
 		Tool = raw_input('''\033[1;33m Do you want to install Tool-X [Y/n]> \033[00m''')
-			
 		while Tool == "Y" or Tool == "y":
 			Ux()
 			proce()
@@ -280,17 +295,14 @@ def Toolx():
 			   Aex()
 			else:
 			   Aex()
-			
 		while Tool == "n" or Tool == "N":
 			Aex()
-			
 		else:
 			Toolx()
 
 def Tool_X():
 	try:
 		Toolx()
-
 	except KeyboardInterrupt:
 		Ux()
 		Aex()

@@ -4,27 +4,65 @@
 # Powered By :- Aex Software's
 
 if [ -e  /usr/lib/sudo ];then
-  if [ ! -e /usr/bin/python2 ];then
-     sudo apt-get update
-     sudo apt-get upgrade -y
-     sudo apt-get install python -y
-     sudo apt-get install python2 -y
-   fi
+  if [ -e /usr/bin/apt-get ];then
+    if [ ! -e /usr/bin/python2 ];then
+       sudo apt-get update
+       sudo apt-get upgrade -y
+       sudo apt-get install python -y
+       sudo apt-get install python2 -y
+     fi
+  fi
 else
   if [ -d /usr/bin ];then
-    if [ ! -e /usr/bin/python2 ];then
-     apt-get update
-     apt -get upgrade -y
-     apt-get install python -y
-     apt-get install python2 -y
+    if [ -e /usr/bin/apt-get ];then
+      if [ ! -e /usr/bin/python2 ];then
+       apt-get update
+       apt -get upgrade -y
+       apt-get install python -y
+       apt-get install python2 -y
+      fi
     fi
   fi
 fi
-if [ ! -e /data/data/com.termux/files/usr/bin/python2 ];then
-  pkg update
-  pkg upgrade -y
-  pkg install python -y
-  pkg install python2 -y
+if [ -d /data/data/com.termux/files/usr/bin ]; then
+  if [ ! -e /data/data/com.termux/files/usr/bin/python2 ];then
+    pkg update
+    pkg upgrade -y
+    pkg install python -y
+    pkg install python2 -y
+  fi
+fi
+if [ -e  /usr/lib/sudo ];then
+  if [ -e /usr/bin/yum ];then
+    if [ ! -e /usr/bin/python2 ];then
+       sudo yum update
+       sudo yum upgrade -y
+       sudo yum install python -y
+       sudo yum install python2 -y
+     fi
+  fi
+else
+  if [ -d /usr/bin ];then
+    if [ -e /usr/bin/yum ];then
+      if [ ! -e /usr/bin/python2 ];then
+       yum update
+       yum upgrade -y
+       yum install python -y
+       yum install python2 -y
+      fi
+    fi
+  fi
+fi
+if [ -e  /usr/lib/brew ];then
+  if [ ! -e /usr/bin/python2 ];then
+     brew install python -y
+     brew install python2 -y
+   fi
+fiif [ -e  /usr/bin/brew ];then
+  if [ ! -e /usr/bin/python ];then
+     brew install python -y
+     brew install python2 -y
+   fi
 fi
 python2 .install.py
 exit

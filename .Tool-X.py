@@ -14,7 +14,8 @@ class chk(object):
       # Running Tool-X on linux ....
       pass
     elif "darwin" in sys.platform:
-      print("Sorry, its not available for windows right now...")
+      pass
+      # print("Sorry, its not available for mac right now...")
       ex()
     elif "win" in sys.platform:
       print("Sorry, its not available for windows right now...")
