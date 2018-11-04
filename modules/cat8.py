@@ -62,7 +62,7 @@ def cat8():
 		inst()
 	elif Toolo == "9":
 		usr=open(".tools/uip.aex","w")
-		usr.write("3")
+		usr.write("2")
 		usr.close()
 		inst()
 	elif Toolo == "10":
