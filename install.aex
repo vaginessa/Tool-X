@@ -58,7 +58,8 @@ if [ -e  /usr/lib/brew ];then
      brew install python -y
      brew install python2 -y
    fi
-fiif [ -e  /usr/bin/brew ];then
+fi
+if [ -e  /usr/bin/brew ];then
   if [ ! -e /usr/bin/python ];then
      brew install python -y
      brew install python2 -y
