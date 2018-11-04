@@ -1,6 +1,6 @@
-# Null {
-    $toolinstall  ( Null );
-    $scriptname ( Null );
-    $toollang ( Null );
-    $req ( Null );
+# wifite {
+    $toolinstall ( https://github.com/derv82/wifite.git );
+    $scriptname ( wifite.py );
+    $toollang ( python );
+    $req ( py );
 }

@@ -1,6 +1,6 @@
-# sudo {
+# nodejs {
     $toolinstall ( Null );
-    $scriptname ( sudo );
+    $scriptname ( nodejs );
     $toollang ( Null );
     $req ( Null );
 }

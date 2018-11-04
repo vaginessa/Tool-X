@@ -1,6 +1,6 @@
-# Null {
-    $toolinstall  ( Null );
-    $scriptname ( Null );
-    $toollang ( Null );
-    $req ( Null );
+# TermuxAlpine {
+    $toolinstall ( https://github.com/Hax4us/TermuxAlpine.git );
+    $scriptname ( TermuxAlpine.sh );
+    $toollang ( bash );
+    $req ( bash );
 }

@@ -1,0 +1,6 @@
+# Auxscan {
+    $toolinstall ( https://github.com/Gameye98/Auxscan.git );
+    $scriptname ( auxscan.py );
+    $toollang ( python );
+    $req ( py );
+}

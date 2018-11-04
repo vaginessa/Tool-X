@@ -1,6 +1,6 @@
-# sudo {
+# reaver {
     $toolinstall ( Null );
-    $scriptname ( sudo );
+    $scriptname ( reaver );
     $toollang ( Null );
     $req ( Null );
 }
