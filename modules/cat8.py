@@ -22,39 +22,54 @@ def cat8():
 	Toolo = raw_input("\n\033[1;33m >>>  \033[1;m")
 	if Toolo == "1":
 		usr=open(".tools/uip.aex","w")
-		usr.write("69")
+		usr.write("3")
 		usr.close()
-		inst()
-	elif Toolo == "2":
+		inst1()
+	if Toolo == "2":
 		usr=open(".tools/uip.aex","w")
-		usr.write("167")
+		usr.write("69")
 		usr.close()
 		inst()
 	elif Toolo == "3":
 		usr=open(".tools/uip.aex","w")
-		usr.write("94")
+		usr.write("167")
 		usr.close()
 		inst()
 	elif Toolo == "4":
 		usr=open(".tools/uip.aex","w")
-		usr.write("114")
+		usr.write("94")
 		usr.close()
 		inst()
 	elif Toolo == "5":
 		usr=open(".tools/uip.aex","w")
-		usr.write("115")
+		usr.write("114")
 		usr.close()
 		inst()
 	elif Toolo == "6":
 		usr=open(".tools/uip.aex","w")
-		usr.write("116")
+		usr.write("115")
 		usr.close()
 		inst()
 	elif Toolo == "7":
 		usr=open(".tools/uip.aex","w")
+		usr.write("116")
+		usr.close()
+		inst()
+	elif Toolo == "8":
+		usr=open(".tools/uip.aex","w")
 		usr.write("61")
 		usr.close()
 		inst()
+	elif Toolo == "9":
+		usr=open(".tools/uip.aex","w")
+		usr.write("3")
+		usr.close()
+		inst()
+	elif Toolo == "10":
+		usr=open(".tools/uip.aex","w")
+		usr.write("216")
+		usr.close()
+		inst1()
 	elif Toolo == "00":
 		pass
 	else:
