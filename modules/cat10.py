@@ -55,6 +55,11 @@ def cat10():
 		usr.write("15")
 		usr.close()
 		inst1()
+	elif Toolo == "8":
+		usr=open(".tools/uip.aex","w")
+		usr.write("217")
+		usr.close()
+		inst1()
 	elif Toolo == "00":
 		pass
 	else:

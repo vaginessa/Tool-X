@@ -492,6 +492,16 @@ def tmn():
 		inst()
 	elif Toolo == "215":
 		inst()
+	elif Toolo == "216":
+		inst1()
+	elif Toolo == "217":
+		inst1()
+	elif Toolo == "218":
+		inst()
+	elif Toolo == "219":
+		inst()
+	elif Toolo == "220":
+		inst()
 	elif Toolo == "00" or Toolo=="back":
 		pass
 	else:

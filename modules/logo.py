@@ -11,13 +11,13 @@ def all_logo():
   if system=="termux":
     hader()
     print ('''
-\033[1;33m  [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 215 tools\033[1;33m ]
+\033[1;33m  [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 220 tools\033[1;33m ]
 \033[1;33m  [ 0 ] \033[1;32mFor Back.\033[00m''')
     footer()
   else:
     hader()
     print ('''
-\033[1;33m   [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 215 tools\033[1;33m ]
+\033[1;33m   [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 220 tools\033[1;33m ]
 \033[1;33m   [ 0 ] \033[1;32mFor Back.\033[00m''')
     footer()
 
@@ -95,7 +95,7 @@ def a_logo():
 
 \033[1;33m [+] \033[1;32mTool-x is automatic tool installer.
 \033[1;33m [+] \033[1;32mMade for termux and GNURool Debian Terminal.
-\033[1;33m [+] \033[1;32mIn the tool-x almost 215 tools available.
+\033[1;33m [+] \033[1;32mIn the tool-x almost 220 tools available.
 \033[1;31m [+] Note :- Use this tool at your own risk.''')
     footer()
   else:
@@ -107,25 +107,25 @@ def a_logo():
 
 \033[1;33m   [+] \033[1;32mTool-x is automatic tool installer.
 \033[1;33m   [+] \033[1;32mMade for termux and GNURool Debian Terminal.
-\033[1;33m   [+] \033[1;32mIn the tool-x almost 215 tools available.
+\033[1;33m   [+] \033[1;32mIn the tool-x almost 220 tools available.
 \033[1;31m   [+] Note :- Use this tool at your own risk.''')
     footer()
 
 def cat_logo():
   hader()
   print ("""\033[01;32m
-  [ 1 ] Information Gathering
-  [ 2 ] Vulnerability Scanner
-  [ 3 ] Stress Testing
-  [ 4 ] Password Attacks
-  [ 5 ] Web Hacking
-  [ 6 ] Exploitation Tools
-  [ 7 ] Sniffing & Spoofing
-  [ 8 ] Wireless Testing
-  [ 9 ] IP-Tracking
+  [ 1 ] Information Gathering.
+  [ 2 ] Vulnerability Scanner.
+  [ 3 ] Stress Testing.
+  [ 4 ] Password Attacks.
+  [ 5 ] Web Hacking.
+  [ 6 ] Exploitation Tools.
+  [ 7 ] Sniffing & Spoofing.
+  [ 8 ] Wireless Testing.
+  [ 9 ] IP-Trackingtools.
   [ 10 ] Programming Languages.
-  [ 11 ] DDOS
-  [ 12 ] Web Server\033[00m
+  [ 11 ] DDOS Attacks.
+  [ 12 ] Web Server's.\033[00m
 """)
   b_logo()
 
@@ -254,13 +254,16 @@ def cat7_logo():
 def cat8_logo():
   hader()
   print ("""\033[01;32m
-  [ 1 ] wifite
-  [ 2 ] Fluxion
-  [ 3 ] Wifresti
-  [ 4 ] WiFi-Pumpkin
-  [ 5 ] WifiBruteCrack
-  [ 6 ] wirespy
-  [ 7 ] wifi-hacker\033[00m
+  [ 1 ] aircrack-ng
+  [ 2 ] wifite
+  [ 3 ] Fluxion
+  [ 4 ] Wifresti
+  [ 5 ] WiFi-Pumpkin
+  [ 6 ] WifiBruteCrack
+  [ 7 ] wirespy
+  [ 8 ] wifi-hacker
+  [ 9 ] airgeddon
+  [ 10 ] reaver\033[00m
 """)
   b_logo()
 
@@ -285,6 +288,7 @@ def cat10_logo():
   [ 5 ] Ruby
   [ 6 ] Golang
   [ 7 ] PHP
+  [ 8 ] node js
 \033[00m""")
   b_logo()
 
@@ -396,8 +400,8 @@ def menu():
   if system=="termux":
     hader()
     print ('''
-\033[1;33m  [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 215 tools\033[1;33m ]
-\033[1;33m  [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 215 tools\033[1;33m ]
+\033[1;33m  [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 220 tools\033[1;33m ]
+\033[1;33m  [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 220 tools\033[1;33m ]
 \033[1;33m  [ 2 ] \033[1;32mTools Category.
 \033[1;33m  [ 3 ] \033[1;32mTermux OS.
 \033[1;33m  [ 4 ] \033[1;32mUpdate Tool-X.
@@ -407,8 +411,8 @@ def menu():
   else:
     hader()
     print ('''
-\033[1;33m   [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 215 tools\033[1;33m ]
-\033[1;33m   [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 215 tools\033[1;33m ]
+\033[1;33m   [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 220 tools\033[1;33m ]
+\033[1;33m   [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 220 tools\033[1;33m ]
 \033[1;33m   [ 2 ] \033[1;32mTools Category.
 \033[1;33m   [ 3 ] \033[1;32mUpdate Tool-X.
 \033[1;33m   [ 4 ] \033[1;32mAbout Us.
