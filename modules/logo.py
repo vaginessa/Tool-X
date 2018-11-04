@@ -122,7 +122,7 @@ def cat_logo():
   [ 6 ] Exploitation Tools.
   [ 7 ] Sniffing & Spoofing.
   [ 8 ] Wireless Testing.
-  [ 9 ] IP-Trackingtools.
+  [ 9 ] IP-Tracking tools.
   [ 10 ] Programming Languages.
   [ 11 ] DDOS Attacks.
   [ 12 ] Web Server's.\033[00m
