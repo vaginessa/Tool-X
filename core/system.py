@@ -12,7 +12,7 @@ if os.path.exists("/usr/bin/yum"):
     system="fedora"
     home=os.getenv("HOME")+"/"
     bpath="/usr/bin/"
-    pack="yum"
+    pack="sudo yum"
   else:
     system="fedora"
     home=os.getenv("HOME")+"/"
@@ -24,7 +24,7 @@ elif os.path.exists("/usr/bin/apt"):
     system="ubuntu"
     home=os.getenv("HOME")+"/"
     bpath="/usr/bin/"
-    pack="apt-get"
+    pack="sudo apt-get"
   else:
     system="debian"
     home=os.getenv("HOME")+"/"
@@ -36,7 +36,7 @@ elif os.path.exists("/usr/bin/apt"):
     system="ubuntu"
     home=os.getenv("HOME")+"/"
     bpath="/usr/bin/"
-    pack="apt-get"
+    pack="sudo apt-get"
   else:
     system="debian"
     home=os.getenv("HOME")+"/"
@@ -48,6 +48,18 @@ elif os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
   home=os.getenv("HOME")+"/"
   bpath="/data/data/com.termux/files/usr/bin/"
   pack="pkg"
+
+elif os.path.exists("/usr/bin/brew"):
+  system="mac"
+  home=os.getenv("HOME")+"/"
+  bpath="/usr/bin/"
+  pack="brew"
+
+elif os.path.exists("/bin/brew"):
+  system="mac"
+  home=os.getenv("HOME")+"/"
+  bpath="/bin/"
+  pack="brew"
 
 def ex():
   ex=sys.exit()
