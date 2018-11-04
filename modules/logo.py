@@ -107,7 +107,6 @@ def a_logo():
 \033[1;33m              [+] Powered By :- \033[1;32mAex Software's.\033[1;m
 \033[1;33m              [+] Latest Update :- \033[1;32m04/11/2018.\033[1;m
 
-
 \033[1;33m   [+] \033[1;32mTool-x is automatic tool installer.
 \033[1;33m   [+] \033[1;32mMade for termux and GNURool Debian Terminal.
 \033[1;33m   [+] \033[1;32mIn the tool-x almost 220 tools available.
