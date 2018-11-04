@@ -253,15 +253,20 @@ def proce():
 	    os.system("sudo cp -r .tools core modules .Tool-X.py "+hpath+".Tool-X")
 	    os.system("cd "+hpath+".Tool-X/.tools && sudo chmod +x * .* *.* .*.*")
 	    os.system("cd "+hpath+".Tool-X/.tools && sudo cp -v Tool-X "+bpath)
+	    os.system("cd "+hpath+".Tool-X/.tools && sudo cp -v toolx "+bpath)
 	    
 	    print ('''\033[1;32mGiving permissiom level for enabling Tool-X execute from terminal\033[1;m''')
 	    os.system("cd "+bpath+" && sudo chmod +x Tool-X")
+	    os.system("cd "+bpath+" && sudo chmod +x toolx")
 
 	    print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
 	    os.system("cd "+hpath+" && sudo chmod +x .Tool-X")
 
 	    print ('''\033[1;32mGiving permission to files in Tool-X directory\033[1;m''')
 	    os.system("cd "+hpath+".Tool-X/modules && sudo chmod +x *.* .* .*.* *")
+
+	    print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
+	    os.system("cd "+hpath+".Tool-X && sudo chmod +x *.* .*.* * .*")
 	    Ux()
 	    insok()
 
@@ -272,14 +277,19 @@ def proce():
 	    os.system("cp -r .tools core modules .Tool-X.py "+hpath+".Tool-X")
 	    os.system("cd "+hpath+".Tool-X/.tools && chmod +x * .* *.* .*.*")
 	    os.system("cd "+hpath+".Tool-X/.tools && cp Tool-X "+bpath)
+	    os.system("cd "+hpath+".Tool-X/.tools && cp toolx "+bpath)
 	    
 	    print ('''\033[1;32mGiving permissiom level for enabling Tool-X execute from terminal\033[1;m''')
 	    os.system("cd "+bpath+" && chmod 777 Tool-X")
+	    os.system("cd "+bpath+" && chmod 777 toolx")
 	    print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
 	    os.system("cd "+hpath+" && chmod +x .Tool-X")
 
 	    print ('''\033[1;32mGiving permission to files in Tool-X directory\033[1;m''')
-	    os.system("cd "+hpath+".Tool-X/.Xecn/ && chmod +x *.* .*.* * .*")
+	    os.system("cd "+hpath+".Tool-X/modules && chmod +x *.* .*.* * .*")
+
+	    print ('''\033[1;32mGiving permission to Tool-X directory\033[1;m''')
+	    os.system("cd "+hpath+".Tool-X && chmod +x *.* .*.* * .*")
 	    Ux()
 	    insok()
 
