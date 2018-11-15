@@ -1,0 +1,6 @@
+# EagleEye {
+    $toolinstall ( https://github.com/ThoughtfulDev/EagleEye.git );
+    $scriptname ( install.sh );
+    $toollang ( sh );
+    $req ( py );
+}

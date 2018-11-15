@@ -1,0 +1,6 @@
+# shodanwave {
+    $toolinstall ( https://github.com/6IX7ine/shodanwave.git );
+    $scriptname ( shodanwave.py );
+    $toollang ( python );
+    $req ( py );
+}
