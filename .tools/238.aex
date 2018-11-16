@@ -1,0 +1,6 @@
+# smap {
+    $toolinstall ( https://github.com/s0cket7/smap );
+    $scriptname ( smap.py );
+    $toollang ( python );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# wifite2 {
+    $toolinstall ( https://github.com/derv82/wifite2.git );
+    $scriptname ( Wifite.py );
+    $toollang ( python2 );
+    $req ( py );
+}
