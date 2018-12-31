@@ -12,7 +12,7 @@ from time import sleep
 def show():
   #search=raw_input(" Tool name :")
 
-  for userinput in range(1,241):
+  for userinput in range(1,252):
     if os.path.exists(".tools/%d.aex"%userinput):
       opn=open(".tools/%d.aex"%userinput,"r")
       red=opn.read()
@@ -541,6 +541,28 @@ def tmn():
 	elif Toolo == "239":
 		inst()
 	elif Toolo == "240":
+		inst()
+	elif Toolo == "241":
+		inst()
+	elif Toolo == "242":
+		inst()
+	elif Toolo == "243":
+		inst()
+	elif Toolo == "244":
+		inst()
+	elif Toolo == "245":
+		inst()
+	elif Toolo == "246":
+		inst()
+	elif Toolo == "247":
+		inst()
+	elif Toolo == "248":
+		inst()
+	elif Toolo == "249":
+		inst()
+	elif Toolo == "250":
+		inst()
+	elif Toolo == "251":
 		inst()
 	elif Toolo == "00" or Toolo=="back":
 		pass
