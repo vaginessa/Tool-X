@@ -1,0 +1,6 @@
+# HT-WPS-Breaker {
+    $toolinstall ( https://github.com/SilentGhostX/HT-WPS-Breaker.git );
+    $scriptname ( HT-WB.sh );
+    $toollang ( ./ );
+    $req ( bash );
+}

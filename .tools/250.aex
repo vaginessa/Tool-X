@@ -1,0 +1,6 @@
+# WebXploiter {
+    $toolinstall ( https://github.com/a0xnirudh/WebXploiter.git );
+    $scriptname ( WebXploiter.py );
+    $toollang ( python );
+    $req ( py );
+}

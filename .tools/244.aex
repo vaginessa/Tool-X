@@ -1,0 +1,6 @@
+# BAF {
+    $toolinstall ( https://github.com/engMaher/BAF.git );
+    $scriptname ( BAF_0.2.0.py );
+    $toollang ( python );
+    $req ( py );
+}

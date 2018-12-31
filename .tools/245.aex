@@ -1,0 +1,6 @@
+# PwnSTAR {
+    $toolinstall ( https://github.com/SilverFoxx/PwnSTAR.git );
+    $scriptname ( installer.sh );
+    $toollang ( ./ );
+    $req ( py );
+}
