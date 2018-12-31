@@ -11,7 +11,7 @@ Tool-X is a kali linux hacking Tool installer. Tool-X is Developed By Rajkumar D
 <br/><br/><br/>
 
 <p align="center">
-<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Logo2.0.jpg"/>
+<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Logo.jpg"/>
 </p>
 
 <br/><br/><br/>
