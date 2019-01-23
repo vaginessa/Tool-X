@@ -60,7 +60,7 @@ elif os.path.exists("/bin/brew"):
   bpath="/bin/"
   pack="brew"
 
-for userinput in range(1,252):
+for userinput in range(1,262):
   if os.path.exists("%s.aex"%userinput):
     opn=open("%s.aex"%userinput,"r")
     red=opn.read()
