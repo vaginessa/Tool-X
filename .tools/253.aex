@@ -1,0 +1,6 @@
+# Remot3d {
+    $toolinstall ( https://github.com/KeepWannabe/Remot3d.git );
+    $scriptname ( Remot3d.sh );
+    $toollang ( bash );
+    $req ( bash );
+}

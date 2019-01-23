@@ -1,0 +1,6 @@
+# nodexp {
+    $toolinstall ( https://github.com/esmog/nodexp.git );
+    $scriptname ( nodexp.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# subscraper {
+    $toolinstall ( https://github.com/m8r0wn/subscraper.git );
+    $scriptname ( subscraper.py );
+    $toollang ( python3 );
+    $req ( py );
+}
