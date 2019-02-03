@@ -1,0 +1,6 @@
+# NMAP-Scanner {
+    $toolinstall ( https://github.com/ASHWIN990/NMAP-Scanner.git );
+    $scriptname ( install.sh );
+    $toollang ( ./ );
+    $req ( bash );
+}
