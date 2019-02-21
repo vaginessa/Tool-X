@@ -454,26 +454,34 @@ def Req():
 	ins_logo()
 	sleep(1)
 	if req=="py":
+		up()
 		git()
 		py()
 	elif req=="php":
+		up()
 		git()
 		php()
 	elif req=="perl":
+		up()
 		git()
 		perl()
 	elif req=="ruby":
+		up()
 		git()
 		ruby()
 	elif req=="clang":
+		up()
 		git()
 		clang()
 	elif req=="go":
+		up()
 		git()
 		go()
 	elif req=="curl":
+		up()
 		curl()
 	elif req=="wget":
+		up()
 		wget()
 
 
