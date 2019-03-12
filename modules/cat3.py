@@ -49,7 +49,7 @@ def cat3():
 		usr=open(".tools/uip.aex","w")
 		usr.write("20")
 		usr.close()
-		inst()
+		inst1()
 	elif Toolo == "7":
 		usr=open(".tools/uip.aex","w")
 		usr.write("97")
