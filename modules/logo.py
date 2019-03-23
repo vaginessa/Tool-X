@@ -11,13 +11,13 @@ def all_logo():
   if system=="termux":
     hader()
     print ('''
-\033[1;33m  [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 262 tools\033[1;33m ]
+\033[1;33m  [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 263 tools\033[1;33m ]
 \033[1;33m  [ 0 ] \033[1;32mFor Back.\033[00m''')
     footer()
   else:
     hader()
     print ('''
-\033[1;33m   [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 262 tools\033[1;33m ]
+\033[1;33m   [ 1 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 263 tools\033[1;33m ]
 \033[1;33m   [ 0 ] \033[1;32mFor Back.\033[00m''')
     footer()
 
@@ -92,11 +92,11 @@ def a_logo():
 \033[1;33m       [+] Tool Name :- \033[1;32mTool-X
 \033[1;33m       [+] Author :- \033[1;32mRajkumar Dusad
 \033[1;33m       [+] Powered By :- \033[1;32mAex Software's.\033[1;m
-\033[1;33m       [+] Latest Update :- \033[1;32m3/2/2019.\033[1;m
+\033[1;33m       [+] Latest Update :- \033[1;32m23/3/2019.\033[1;m
 
 \033[1;33m [+] \033[1;32mTool-x is automatic tool installer.
 \033[1;33m [+] \033[1;32mMade for termux and GNURool Debian Terminal.
-\033[1;33m [+] \033[1;32mIn the tool-x almost 262 tools available.
+\033[1;33m [+] \033[1;32mIn the tool-x almost 263 tools available.
 \033[1;31m [+] Note :- Use this tool at your own risk.''')
     footer()
   else:
@@ -105,11 +105,11 @@ def a_logo():
 \033[1;33m              [+] Tool Name :- \033[1;32mTool-X
 \033[1;33m              [+] Author :- \033[1;32mRajkumar Dusad
 \033[1;33m              [+] Powered By :- \033[1;32mAex Software's.\033[1;m
-\033[1;33m              [+] Latest Update :- \033[1;32m3/2/2019.\033[1;m
+\033[1;33m              [+] Latest Update :- \033[1;32m23/3/2019.\033[1;m
 
 \033[1;33m   [+] \033[1;32mTool-x is automatic tool installer.
 \033[1;33m   [+] \033[1;32mMade for termux and GNURool Debian Terminal.
-\033[1;33m   [+] \033[1;32mIn the tool-x almost 262 tools available.
+\033[1;33m   [+] \033[1;32mIn the tool-x almost 263 tools available.
 \033[1;31m   [+] Note :- Use this tool at your own risk.''')
     footer()
 
@@ -402,8 +402,8 @@ def menu():
   if system=="termux":
     hader()
     print ('''
-\033[1;33m  [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 262 tools\033[1;33m ]
-\033[1;33m  [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 262 tools\033[1;33m ]
+\033[1;33m  [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 263 tools\033[1;33m ]
+\033[1;33m  [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 263 tools\033[1;33m ]
 \033[1;33m  [ 2 ] \033[1;32mTools Category.
 \033[1;33m  [ 3 ] \033[1;32mTermux OS.
 \033[1;33m  [ 4 ] \033[1;32mUpdate Tool-X.
@@ -413,8 +413,8 @@ def menu():
   else:
     hader()
     print ('''
-\033[1;33m   [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 262 tools\033[1;33m ]
-\033[1;33m   [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 262 tools\033[1;33m ]
+\033[1;33m   [ 0 ] \033[1;32mInstall all tools.\033[1;33m [ \033[1;91mTotal 263 tools\033[1;33m ]
+\033[1;33m   [ 1 ] \033[1;32mShow all tools.\033[1;33m [ \033[1;91mAlmost 263 tools\033[1;33m ]
 \033[1;33m   [ 2 ] \033[1;32mTools Category.
 \033[1;33m   [ 3 ] \033[1;32mUpdate Tool-X.
 \033[1;33m   [ 4 ] \033[1;32mAbout Us.
