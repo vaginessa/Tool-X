@@ -12,7 +12,7 @@ from time import sleep
 def show():
   #search=raw_input(" Tool name :")
 
-  for userinput in range(1,263):
+  for userinput in range(1,264):
     if os.path.exists(".tools/%d.aex"%userinput):
       opn=open(".tools/%d.aex"%userinput,"r")
       red=opn.read()
