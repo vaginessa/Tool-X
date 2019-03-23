@@ -1,0 +1,6 @@
+# ADB-Toolkit {
+    $toolinstall ( https://github.com/ASHWIN990/ADB-Toolkit.git );
+    $scriptname ( install.sh );
+    $toollang ( bash );
+    $req ( bash );
+}
