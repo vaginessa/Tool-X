@@ -1,5 +1,5 @@
 # nWatch {
-    $toolinstall  ( https://github.com/s0cket7/nWatch.git );
+    $toolinstall  ( https://github.com/Cyber-Forensic/nWatch.git );
     $scriptname ( nwatch.py );
     $toollang ( python );
     $req ( py );
