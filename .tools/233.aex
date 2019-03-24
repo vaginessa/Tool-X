@@ -1,6 +1,6 @@
-# TorStat {
-    $toolinstall ( https://github.com/s0cket7/TorStat.git );
-    $scriptname ( TorStat.py );
+# torstats {
+    $toolinstall ( https://github.com/mono-man/torstats.git );
+    $scriptname ( torstats.py );
     $toollang ( python );
     $req ( py );
 }
