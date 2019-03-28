@@ -65,7 +65,7 @@ def cat4():
 		usr.write("148")
 		usr.close()
 		inst()
-	elif Toolo == "00":
+	elif Toolo == "00" or Toolo=="back":
 		pass
 	else:
 		print ("\033[01;34m\007\n error : \033[01;37m\'"+Toolo+"\' \033[01;31minvalid option !!!")
