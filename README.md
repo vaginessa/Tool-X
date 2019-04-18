@@ -60,7 +60,7 @@ Open the terminal and type following commands.
 
 Type Tool-X from anywhare in your terminal to open Tool-X.
 
-<br/><br/>
+<br/>
 
 ## Warning
 
