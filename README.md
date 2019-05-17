@@ -3,6 +3,15 @@
 
 # Tool-X v2.0
 
+[![Build Status](https://img.shields.io/github/forks/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
+[![Build Status](https://img.shields.io/github/stars/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
+[![License](https://img.shields.io/github/license/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
+[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#Tool-X)
+
+<p align="center">
+<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Logo.jpg"/>
+</p>
+
 ------------------------------------------------------------------------
 
 :warning: &nbsp; **Warning** &nbsp; :warning:
@@ -16,15 +25,6 @@ I am ***NOT*** expert, so use this tool at your own risk!
 *Tool-X is a program installer for Kali Linux tools.*
 
 Tool-X was developed for termux and other android terminals. Using Tool-X, you can install almost 263 hacking tools in Termux and other Linux based distributions. Now Tool-X is available for Ubuntu, Debian etc.
-
-[![Build Status](https://img.shields.io/github/forks/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
-[![Build Status](https://img.shields.io/github/stars/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
-[![License](https://img.shields.io/github/license/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
-[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#Tool-X)
-
-<p align="center">
-<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Logo.jpg"/>
-</p>
 
 ------------------------------------------------------------------------
 
