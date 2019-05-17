@@ -9,12 +9,11 @@
 
 I am ***NOT*** expert, so use this tool at your own risk!
 
-
-*Tool-X is a program installer for Kali Linux tools.*
-
 ------------------------------------------------------------------------
 
 ### :book: &nbsp; Introduction &nbsp; :book:
+
+*Tool-X is a program installer for Kali Linux tools.*
 
 Tool-X is a kali linux hacking Tool installer. Tool-X developed for termux and other android terminals. using Tool-X you can install almost 263 hacking tools in termux app and other linux based distributions. Now Tool-X is available for ubuntu, debian etc.
 
