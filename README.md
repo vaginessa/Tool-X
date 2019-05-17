@@ -60,7 +60,7 @@ Enter a Number for a specific output:
 - (0) : To install all tools.
 - (1) : To show all available tools and type the number of a tool which you want to install.
 - (2) : To show tools category.
-- (3) : For the install of the operating system in termux
+- (3) : For the install of the operating system in Termux
 - (4) : If you want to update Tool-X.
 - (5) : If you want to know About Us.
 - (x) : To exit the tool.
