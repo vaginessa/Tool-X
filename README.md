@@ -63,14 +63,14 @@ Enter a Number for a specific output:
 - [2] : To show tools category.
 - [3] : For the install of the operating system in termux
 - [4] : If you want to update Tool-X.
-- [5] : If you know About us.
+- [5] : If you want to know About Us.
 - [x] : To exit the tool.
 
 <br/>
 
 ***Now Tool-X is installed successfully. To run Tool-X Type Tool-X in your terminal.***
 
-Type Tool-X from anywhare in your terminal to open Tool-X.
+Type Tool-X from anywhere in your terminal to open Tool-X.
 
 ------------------------------------------------------------------------
 
