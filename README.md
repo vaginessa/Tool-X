@@ -31,9 +31,9 @@ Tool-X is a kali linux hacking Tool installer. Tool-X developed for termux and o
 
 ### :cyclone: &nbsp; Operating System Requirements &nbsp; :cyclone:
 
-Tool-X works on any of the following operating systems:
-• Android
-• Ubuntu
+Tool-X works on any of the following operating systems:<br>
+• Android <br>
+• Ubuntu <br>
 
 ------------------------------------------------------------------------
 
