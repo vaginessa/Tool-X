@@ -120,7 +120,12 @@ def term():
     elif Tool == "5":
       about()
     elif Tool == "rm -T" or Tool == "Uninstall Tool-X" or Tool == "uninstall tool-x" or Tool == "uninstall Tool-X" or Tool == "Uninstall tool-x":
-      os.system("python2 .Uni.aex")
+      if systm=="ubuntu":
+        os.system("cd "+home+" && sudo rm -rf .Tool-X")
+        os.system("cd "+bpath+" && sudo rm -rf Tool-X toolx")
+      else:
+        os.system("cd "+home+" && rm -rf .Tool-X")
+        os.system("cd "+bpath+" && rm -rf Tool-X toolx")
       exit()
     elif Tool == "exit":
       exit()
@@ -157,7 +162,12 @@ def ubu():
     elif Tool == "4":
       about()
     elif Tool == "rm -T" or Tool == "Uninstall Tool-X" or Tool == "uninstall tool-x" or Tool == "uninstall Tool-X" or Tool == "Uninstall tool-x":
-      os.system("python2 .Uni.aex")
+      if systm=="ubuntu":
+        os.system("cd "+home+" && sudo rm -rf .Tool-X")
+        os.system("cd "+bpath+" && sudo rm -rf Tool-X toolx")
+      else:
+        os.system("cd "+home+" && rm -rf .Tool-X")
+        os.system("cd "+bpath+" && rm -rf Tool-X toolx")
       exit()
     elif Tool == "exit":
       exit()
