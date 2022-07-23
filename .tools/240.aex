@@ -1,0 +1,6 @@
+# CrawlBox {
+    $toolinstall ( https://github.com/abaykan/CrawlBox.git );
+    $scriptname ( crawlbox.py );
+    $toollang ( python );
+    $req ( py );
+}

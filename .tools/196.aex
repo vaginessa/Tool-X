@@ -1,0 +1,6 @@
+# Meterpreter_Paranoid_Mode-SSL {
+    $toolinstall  ( https://github.com/r00t-3xp10it/Meterpreter_Paranoid_Mode-SSL.git );
+    $scriptname ( Meterpreter_Paranoid_Mode.sh );
+    $toollang ( ./ );
+    $req ( bash );
+}

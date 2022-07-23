@@ -1,0 +1,6 @@
+# Infoga {
+    $toolinstall  ( https://github.com/m4ll0k/Infoga.git );
+    $scriptname ( Infoga.py );
+    $toollang ( python2 );
+    $req ( py );
+}

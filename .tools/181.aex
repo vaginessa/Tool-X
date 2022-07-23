@@ -1,0 +1,6 @@
+# KatanaFramework {
+    $toolinstall  ( https://github.com/PowerScript/KatanaFramework.git );
+    $scriptname ( install );
+    $toollang ( python );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# leviathan {
+    $toolinstall  ( https://github.com/tearsecurity/leviathan.git );
+    $scriptname ( leviathan.py );
+    $toollang ( python );
+    $req ( py );
+}

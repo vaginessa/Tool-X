@@ -1,0 +1,6 @@
+# Blazy {
+    $toolinstall  ( https://github.com/UltimateHackers/Blazy.git );
+    $scriptname ( blazy.py );
+    $toollang ( python2 );
+    $req ( py );
+}

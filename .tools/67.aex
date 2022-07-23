@@ -1,0 +1,6 @@
+# termux-ubuntu {
+    $toolinstall ( https://github.com/Neo-Oli/termux-ubuntu.git );
+    $scriptname ( ubuntu.sh );
+    $toollang ( bash );
+    $req ( bash );
+}

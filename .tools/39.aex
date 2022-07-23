@@ -1,0 +1,6 @@
+# Pybelt {
+    $toolinstall  ( https://github.com/Ekultek/Pybelt.git );
+    $scriptname ( pybelt.py );
+    $toollang ( python2 );
+    $req ( py );
+}

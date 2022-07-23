@@ -1,0 +1,6 @@
+# A-Rat {
+    $toolinstall  ( https://github.com/Xi4u7/A-Rat.git );
+    $scriptname ( A-Rat.py );
+    $toollang ( python2 );
+    $req ( py );
+}

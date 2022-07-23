@@ -1,0 +1,6 @@
+# Crips {
+    $toolinstall  ( https://github.com/Manisso/Crips.git );
+    $scriptname ( crips.py );
+    $toollang ( python2 );
+    $req ( py );
+}

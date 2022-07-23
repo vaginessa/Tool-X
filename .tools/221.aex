@@ -1,0 +1,6 @@
+# djangohunter {
+    $toolinstall ( https://github.com/6IX7ine/djangohunter.git );
+    $scriptname ( djangohunter.py );
+    $toollang ( python3 );
+    $req ( py );
+}

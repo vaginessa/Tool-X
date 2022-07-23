@@ -1,0 +1,6 @@
+# nikto {
+    $toolinstall  ( https://github.com/sullo/nikto.git );
+    $scriptname ( nikto.pl );
+    $toollang ( perl );
+    $req ( perl );
+}

@@ -1,0 +1,6 @@
+# Nethunter-In-Termux {
+    $toolinstall ( https://github.com/Hax4us/Nethunter-In-Termux.git );
+    $scriptname ( kalinethunter );
+    $toollang ( ./ );
+    $req ( bash );
+}

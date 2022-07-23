@@ -1,0 +1,6 @@
+# slowloris {
+    $toolinstall  ( https://github.com/gkbrk/slowloris.git );
+    $scriptname ( slowloris.py );
+    $toollang ( python2 );
+    $req ( py );
+}

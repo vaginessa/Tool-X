@@ -1,0 +1,6 @@
+# WifiBruteCrack {
+    $toolinstall  ( https://github.com/cinquemb/WifiBruteCrack.git );
+    $scriptname ( wifi_brute_crack.py );
+    $toollang ( python2 );
+    $req ( py );
+}

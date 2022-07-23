@@ -1,0 +1,6 @@
+# Leaked {
+    $toolinstall ( https://github.com/GitHackTools/Leaked.git );
+    $scriptname ( leaked.py );
+    $toollang ( python3 );
+    $req ( py );
+}

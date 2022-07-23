@@ -1,0 +1,6 @@
+# termux-fedora {
+    $toolinstall ( https://github.com/nmilosev/termux-fedora.git );
+    $scriptname ( termux-fedora.sh );
+    $toollang ( sh );
+    $req ( git );
+}

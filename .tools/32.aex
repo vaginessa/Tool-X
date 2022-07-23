@@ -1,0 +1,6 @@
+# pydictor {
+    $toolinstall  ( https://github.com/LandGrey/pydictor.git );
+    $scriptname ( pydictor.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,43 +1,40 @@
 
-# What is Tool-X ?
 
-Tool-X is a kali linux hacking Tool installer for android. Tool-X is Developed By Rajkumar Dusad. with the help of Tool-X you can install best tools in termux app on android. In the Tool-X there are almost 70 hacking tools available for termux app and GNURoot Debian terminal. you can install any tool by single click. Tool-X is Specially made for Termux and GNURoot Debian Terminal.
-<br/><br/><br/>
+# Tool-X v2.0
 
-# Features
+[![Build Status](https://img.shields.io/github/forks/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
+[![Build Status](https://img.shields.io/github/stars/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
+[![License](https://img.shields.io/github/license/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
+[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#Tool-X)
 
-Install any tools by single click. You can install almost 70 tools in termux and GNURoot Debian Terminal.
-<br/></br>
+------------------------------------------------------------------------
+
+### Introduction
+
+*Tool-X is a program installer for Kali Linux tools.*
+Tool-X was developed for Termux and other android terminals. Using Tool-X, you can install almost 263 hacking tools in Termux and other Linux based distributions. Now Tool-X is available for Ubuntu, Debian etc.
 
 <p align="center">
-<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Tool-X.jpg"/>
+<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Logo.jpg"/>
 </p>
 
-<br/><br/><br/>
+------------------------------------------------------------------------
 
-# How to use ?
+### :cyclone: &nbsp; Operating System Requirements &nbsp; :cyclone:
 
-- Type 0 : To install all tools.
-- Type 1 : to sow all available tools and type the number of a tool which you want to install.
-- Type 2 : if you want to update Tool-X.
-- Type 3 : if you know About us.
-- Type x : for exit.
+Tool-X works on any of the following operating systems:<br>
+• Android (Using the Termux App) <br>
+• Linux (Debian Based Systems) <br>
 
-<br/><br/><br/>
+------------------------------------------------------------------------
 
-# Warning
+### :inbox_tray: &nbsp; How to Install &nbsp; :inbox_tray:
 
-## I am not expert so use this tool at your own risk.
-
-<br/><br/><br/>
-
-# How to Install in termux ?
-
-Open the termux app and type following commands.
+Open the terminal and type following commands.
 
 * `apt update`
 
-* `pkg install git`
+* `apt install git`
 
 * `git clone https://github.com/Rajkumrdusad/Tool-X.git`
 
@@ -45,39 +42,30 @@ Open the termux app and type following commands.
 
 * `chmod +x install.aex`
 
-* `sh install.aex` if not work than type `./install.aex`
+* `sh install.aex` if not work than use `./install.aex`
+
+------------------------------------------------------------------------
+
+### :fire: &nbsp; How to Use &nbsp; :fire:
+
+Enter a Number for a specific output:
+- (0) : To install all tools.
+- (1) : To show all available tools and type the number of a tool which you want to install.
+- (2) : To show tools category.
+- (3) : For the install of the operating system in Termux
+- (4) : If you want to update Tool-X.
+- (5) : If you want to know About Us.
+- (x) : To exit the tool.
 
 <br/>
 
-## Now Tool-X is installed successfully. To run Tool-X Type
+***Now Tool-X is installed successfully. To run Tool-X Type Tool-X in your terminal.***
 
-Now type Tool-X from anywhare in your terminl to open Tool-X.
+Type Tool-X from anywhere in your terminal to open Tool-X.
 
-<br/><br/><br/>
+------------------------------------------------------------------------
 
-# How to Install in GNURoot Debian Terminal ?
+:warning: &nbsp; **Warning** &nbsp; :warning:
 
-Open the GNURoot Debian app and type following commands.
-
-* `cd`
-
-* `apt update`
-
-* `apt upgrade`
-
-* `apt install git`
-
-* `cd && git clone https://github.com/Rajkumrdusad/Tool-X.git`
-
-* `cd Tool-X`
-
-* `chmod +x install.aex`
-
-* `sh install.aex` if not work than type `./install.aex`
-
-<br/>
-
-## Now Tool-X is installed successfully. To run Tool-X Type
-
-Now type Tool-X from anywhare in your terminl to open Tool-X. But use this tool only for legal purpose.
+I am ***NOT*** expert, so use this tool at your own risk!
 

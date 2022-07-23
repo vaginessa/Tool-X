@@ -1,0 +1,6 @@
+# shimit {
+    $toolinstall ( https://github.com/cyberark/shimit.git );
+    $scriptname ( shimit.py );
+    $toollang ( python );
+    $req ( py );
+}

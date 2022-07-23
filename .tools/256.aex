@@ -1,0 +1,6 @@
+# Hatch {
+    $toolinstall ( https://github.com/MetaChar/Hatch.git );
+    $scriptname ( main.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# OSIF {
+    $toolinstall  ( https://github.com/ciku370/OSIF.git );
+    $scriptname ( osif.py );
+    $toollang ( python2 );
+    $req ( py );
+}

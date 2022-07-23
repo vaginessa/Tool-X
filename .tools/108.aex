@@ -1,0 +1,6 @@
+# theHarvester {
+    $toolinstall  ( https://github.com/laramies/theHarvester.git );
+    $scriptname ( theHarvester.py );
+    $toollang ( python2 );
+    $req ( py );
+}

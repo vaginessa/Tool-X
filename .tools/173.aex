@@ -1,0 +1,6 @@
+# Clickjacking-Tester {
+    $toolinstall  ( https://github.com/D4Vinci/Clickjacking-Tester.git );
+    $scriptname ( Clickjacking_Tester.py );
+    $toollang ( python3 );
+    $req ( py );
+}

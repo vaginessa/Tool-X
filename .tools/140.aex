@@ -1,0 +1,6 @@
+# Striker {
+    $toolinstall  ( https://github.com/s0md3v/Striker.git );
+    $scriptname ( striker.py );
+    $toollang ( python );
+    $req ( py );
+}

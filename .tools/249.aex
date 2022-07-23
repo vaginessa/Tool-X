@@ -1,0 +1,6 @@
+# Gemail-Hack {
+    $toolinstall ( https://github.com/Ha3MrX/Gemail-Hack.git );
+    $scriptname ( gemailhack.py );
+    $toollang ( python );
+    $req ( py );
+}

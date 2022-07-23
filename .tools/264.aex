@@ -1,0 +1,6 @@
+# HiddenEye {
+    $toolinstall ( https://github.com/DarkSecDevelopers/HiddenEye.git );
+    $scriptname ( HiddenEye.py );
+    $toollang ( python );
+    $req ( py );
+}

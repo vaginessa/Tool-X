@@ -1,0 +1,6 @@
+# WiFi-Pumpkin {
+    $toolinstall  ( https://github.com/P0cL4bs/WiFi-Pumpkin.git );
+    $scriptname ( installer.sh );
+    $toollang ( sh );
+    $req ( py );
+}

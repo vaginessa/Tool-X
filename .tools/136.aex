@@ -1,0 +1,6 @@
+# doork {
+    $toolinstall  ( https://github.com/AeonDave/doork.git );
+    $scriptname ( doork.py );
+    $toollang ( python2 );
+    $req ( py );
+}

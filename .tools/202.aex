@@ -1,0 +1,6 @@
+# demiguise {
+    $toolinstall  ( https://github.com/nccgroup/demiguise.git );
+    $scriptname ( demiguise.py );
+    $toollang ( python );
+    $req ( py );
+}

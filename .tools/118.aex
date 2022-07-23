@@ -1,0 +1,6 @@
+# Zerodoor {
+    $toolinstall  ( https://github.com/Souhardya/Zerodoor.git );
+    $scriptname ( zerodoor.py );
+    $toollang ( python );
+    $req ( py );
+}

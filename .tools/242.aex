@@ -1,0 +1,6 @@
+# gcat {
+    $toolinstall ( https://github.com/byt3bl33d3r/gcat.git );
+    $scriptname ( gcat.py );
+    $toollang ( python );
+    $req ( py );
+}

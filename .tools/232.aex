@@ -1,0 +1,6 @@
+# PiDense {
+    $toolinstall ( https://github.com/WiPi-Hunter/PiDense.git );
+    $scriptname ( pidense.py );
+    $toollang ( python );
+    $req ( py );
+}

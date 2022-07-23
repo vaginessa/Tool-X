@@ -1,0 +1,6 @@
+# Findsploit {
+    $toolinstall  ( https://github.com/1N3/Findsploit.git );
+    $scriptname ( install.sh );
+    $toollang ( ./ );
+    $req ( bash );
+}

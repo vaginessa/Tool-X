@@ -1,0 +1,6 @@
+# LITEDDOS {
+    $toolinstall  ( https://github.com/4L13199/LITEDDOS.git );
+    $scriptname ( LITEDDOS.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# SMBrute {
+    $toolinstall ( https://github.com/m4ll0k/SMBrute.git );
+    $scriptname ( smbrute.py );
+    $toollang ( python3 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# fluxion {
+    $toolinstall  ( https://github.com/FluxionNetwork/fluxion.git );
+    $scriptname ( fluxion.sh );
+    $toollang ( ./ );
+    $req ( bash );
+}

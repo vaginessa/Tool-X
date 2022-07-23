@@ -1,0 +1,6 @@
+# WPSeku {
+    $toolinstall  ( https://github.com/m4ll0k/WPSeku.git );
+    $scriptname ( wpseku.py );
+    $toollang ( python2 );
+    $req ( py );
+}

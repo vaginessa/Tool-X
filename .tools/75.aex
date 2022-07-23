@@ -1,0 +1,6 @@
+# curl {
+    $toolinstall  ( curl );
+    $scriptname ( Null );
+    $toollang ( Null );
+    $req ( Null );
+}

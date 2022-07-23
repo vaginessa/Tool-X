@@ -1,0 +1,6 @@
+# Empire {
+    $toolinstall  ( https://github.com/EmpireProject/Empire.git );
+    $scriptname ( setup/install.sh );
+    $toollang ( ./ );
+    $req ( bash );
+}

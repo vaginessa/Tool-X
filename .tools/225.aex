@@ -1,0 +1,6 @@
+# BadMod {
+    $toolinstall ( https://github.com/MrSqar-Ye/BadMod.git );
+    $scriptname ( INSTALL );
+    $toollang ( ./ );
+    $req ( php );
+}

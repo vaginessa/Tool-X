@@ -1,0 +1,6 @@
+# Termux-Squad {
+    $toolinstall  ( https://github.com/manish002000/Termux-Squad.git );
+    $scriptname ( squad.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# Alien-Host {
+    $toolinstall  ( https://github.com/Bhai4You/Alien-Host.git );
+    $scriptname ( requirement.sh );
+    $toollang ( sh );
+    $req ( sh );
+}

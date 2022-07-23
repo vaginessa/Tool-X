@@ -1,0 +1,6 @@
+# Black-Hydra {
+    $toolinstall  ( https://github.com/Gameye98/Black-Hydra.git );
+    $scriptname ( blackhydra.py );
+    $toollang ( python2 );
+    $req ( py );
+}

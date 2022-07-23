@@ -1,0 +1,6 @@
+# WAScan {
+    $toolinstall  ( https://github.com/m4ll0k/WAScan.git );
+    $scriptname ( wascan.py );
+    $toollang ( python );
+    $req ( py );
+}

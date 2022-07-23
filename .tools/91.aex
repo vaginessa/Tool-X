@@ -1,0 +1,6 @@
+# SocialFish {
+    $toolinstall  ( https://github.com/UndeadSec/SocialFish.git );
+    $scriptname ( SocialFish.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# wrechuests {
+    $toolinstall ( https://github.com/JamesJGoodwin/wreckuests.git );
+    $scriptname ( install.sh );
+    $toollang ( ./ );
+    $req ( py );
+}

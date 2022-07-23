@@ -1,0 +1,6 @@
+# qark {
+    $toolinstall ( https://github.com/linkedin/qark.git );
+    $scriptname ( install );
+    $toollang ( pip );
+    $req ( py );
+}

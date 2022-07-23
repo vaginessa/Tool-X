@@ -1,0 +1,6 @@
+# hammer {
+    $toolinstall  ( https://github.com/cyweb/hammer.git );
+    $scriptname ( hammer.py );
+    $toollang ( python2 );
+    $req ( py );
+}

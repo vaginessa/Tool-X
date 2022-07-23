@@ -1,0 +1,6 @@
+# onioff {
+    $toolinstall  ( https://github.com/k4m4/onioff.git );
+    $scriptname ( onioff.py );
+    $toollang ( python2 );
+    $req ( py );
+}

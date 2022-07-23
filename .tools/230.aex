@@ -1,0 +1,6 @@
+# Stitch {
+    $toolinstall ( https://github.com/nathanlopez/Stitch.git );
+    $scriptname ( main.py );
+    $toollang ( python );
+    $req ( py );
+}

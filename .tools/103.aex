@@ -1,0 +1,6 @@
+# Cookie-stealer {
+    $toolinstall  ( https://github.com/Xyl2k/Cookie-stealer.git );
+    $scriptname ( admin.php );
+    $toollang ( php );
+    $req ( php );
+}

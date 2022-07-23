@@ -1,0 +1,6 @@
+# Hunner {
+    $toolinstall  ( https://github.com/b3-v3r/Hunner.git );
+    $scriptname ( hunner.py );
+    $toollang ( python2 );
+    $req ( py );
+}

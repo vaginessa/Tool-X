@@ -1,0 +1,6 @@
+# pybluez {
+    $toolinstall  ( https://github.com/karulis/pybluez.git );
+    $scriptname ( setup.py );
+    $toollang ( python2 );
+    $req ( py );
+}

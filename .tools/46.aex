@@ -1,0 +1,6 @@
+# SCANNER-INURLBR {
+    $toolinstall  ( https://github.com/googleinurl/SCANNER-INURLBR.git );
+    $scriptname ( inurlbr.php );
+    $toollang ( php );
+    $req ( php );
+}

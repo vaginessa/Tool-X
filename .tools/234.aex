@@ -1,0 +1,6 @@
+# wifigod {
+    $toolinstall ( https://github.com/blackholesec/wifigod.git );
+    $scriptname ( wifigod.py );
+    $toollang ( python );
+    $req ( py );
+}

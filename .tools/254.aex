@@ -1,0 +1,6 @@
+# killshot {
+    $toolinstall ( https://github.com/bahaabdelwahed/killshot.git );
+    $scriptname ( setup.rb );
+    $toollang ( ruby );
+    $req ( ruby );
+}

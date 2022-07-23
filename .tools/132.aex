@@ -1,0 +1,6 @@
+# EvilURL {
+    $toolinstall  ( https://github.com/UndeadSec/EvilURL.git );
+    $scriptname ( evilurl.py );
+    $toollang ( python3 );
+    $req ( py );
+}

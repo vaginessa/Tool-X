@@ -1,0 +1,6 @@
+# ReverseAPK {
+    $toolinstall ( https://github.com/1N3/ReverseAPK.git );
+    $scriptname ( install );
+    $toollang ( ./ );
+    $req ( shell );
+}

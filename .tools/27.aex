@@ -1,0 +1,6 @@
+# Trity-1 {
+    $toolinstall  ( https://github.com/samyoyo/Trity-1.git );
+    $scriptname ( install.py );
+    $toollang ( python2 );
+    $req ( py );
+}

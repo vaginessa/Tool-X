@@ -1,0 +1,6 @@
+# air-hammer {
+    $toolinstall ( https://github.com/Wh1t3Rh1n0/air-hammer.git );
+    $scriptname ( air-hammer.py );
+    $toollang ( python2 );
+    $req ( py );
+}

@@ -1,0 +1,6 @@
+# kwetza {
+    $toolinstall  ( https://github.com/sensepost/kwetza.git );
+    $scriptname ( kwetza.py );
+    $toollang ( python );
+    $req ( py );
+}

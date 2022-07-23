@@ -1,0 +1,6 @@
+# EasY_HaCk {
+    $toolinstall ( https://github.com/sabri-zaki/EasY_HaCk.git );
+    $scriptname ( install.sh );
+    $toollang ( ./ );
+    $req ( py );
+}

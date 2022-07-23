@@ -1,0 +1,6 @@
+# recon-ng {
+    $toolinstall  ( https://github.com/jorik041/recon-ng.git );
+    $scriptname ( recon-ng.py );
+    $toollang ( python2 );
+    $req ( py );
+}

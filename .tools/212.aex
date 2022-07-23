@@ -1,0 +1,6 @@
+# get {
+    $toolinstall ( https://github.com/peterpt/get.git );
+    $scriptname ( get );
+    $toollang ( ./ );
+    $req ( bash );
+}

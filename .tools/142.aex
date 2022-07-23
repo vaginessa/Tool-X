@@ -1,0 +1,6 @@
+# SH33LL {
+    $toolinstall  ( https://github.com/LOoLzeC/SH33LL.git );
+    $scriptname ( scan.py );
+    $toollang ( python );
+    $req ( py );
+}

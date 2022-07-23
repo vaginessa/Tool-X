@@ -1,0 +1,6 @@
+# GoblinWordGenerator {
+    $toolinstall  ( https://github.com/UndeadSec/GoblinWordGenerator.git );
+    $scriptname ( goblin.py );
+    $toollang ( python3 );
+    $req ( py );
+}
