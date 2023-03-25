@@ -12,7 +12,7 @@ Install any tools by single click. You can install almost 70 tools in termux and
 <br/></br>
 
 <p align="center">
-<img src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Tool-X.jpg"/>
+<img src="https://github.com/vaginessa/Tool-X/blob/master/.sc/Tool-X%20Logo.jpg"/>
 </p>
 
 <br/><br/><br/>
@@ -41,7 +41,7 @@ Open the termux app and type following commands.
 
 * `pkg install git`
 
-* `git clone https://github.com/Rajkumrdusad/Tool-X.git`
+* `git clone https://github.com/vaginessa/Tool-X.git`
 
 * `cd Tool-X`
 
@@ -69,7 +69,7 @@ Open the GNURoot Debian app and type following commands.
 
 * `apt install git`
 
-* `cd && git clone https://github.com/Rajkumrdusad/Tool-X.git`
+* `cd && git clone https://github.com/vaginessa/Tool-X.git`
 
 * `cd Tool-X`
 
